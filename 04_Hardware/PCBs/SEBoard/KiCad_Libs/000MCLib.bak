@@ -86569,7 +86569,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:XCVR_SE250B4-NA"
-			(at 0.254 3.556 0)
+			(at 61.722 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86588,7 +86588,7 @@
 			)
 		)
 		(property "Description" "Telit Smart Module QCM2290"
-			(at 0.254 3.556 0)
+			(at 61.722 -14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86597,7 +86597,7 @@
 			)
 		)
 		(property "Manufacturer" "Telit"
-			(at 0.762 9.906 0)
+			(at 2.032 -51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86607,7 +86607,7 @@
 			)
 		)
 		(property "Part Number" "SE250B4-EU"
-			(at 0.762 9.906 0)
+			(at 2.032 -51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
