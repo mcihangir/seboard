@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMC3630KJ
+D Board Mount Hall Effect/Magnetic Sensors High Performance, Ultra-small, 3-axis AMR Magnetic Sensor
+K
+F https://www.mouser.es/datasheet/2/821/Memsic_02032020_MMC3630KJ-B_User_Guide-1759765.pdf
+$ENDCMP
+#
+#End Doc Library

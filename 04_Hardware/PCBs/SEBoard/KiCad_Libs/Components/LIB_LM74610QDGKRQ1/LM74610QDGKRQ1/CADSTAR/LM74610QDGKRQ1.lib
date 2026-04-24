@@ -1,0 +1,16 @@
+.LM74610QDGKRQ1 :1 ;Zero Iq Reverse Polarity Protection Smart Diode Controller
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="VCAPL" 2="GATE PULL DOWN" 3="NC_1" 4="ANODE" 5="NC_2" 6="GATE DRIVE" 7="VCAPH" 8="CATHODE"
+*MXP 8
+*DFN LM74610QDGKRQ1
+~!Mouser Part Number (595-LM74610QDGKRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM74610QDGKRQ1?qs=3jdCaFhktOQTVpuuubgDqg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM74610QDGKRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lm74610-q1)
+~!Height (1.1mm)
+~!3D_Model (LM74610QDGKRQ1)
+LM74610QDGKRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

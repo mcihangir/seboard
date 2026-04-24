@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_799595"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-01-03:33:37)
+    (utime 2023-04-01-06:25:46)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SMBJ48A")
+)
+
+
+(pinAssign "ECS_799595"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-01-03:33:37)
+    (utime 2023-04-01-06:25:46)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_799595")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SMBJ48A")
+)
+
+
+(part "SMBJ48A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-04-01-03:33:37)
+    (utime 2023-04-01-06:25:46)
+    (packageRef "SMBJ48A")
+    (pinAssignRef "ECS_799595")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Diode TVS Single Uni-Dir 48V 600W 2-Pin SMB T/R")
+    (property "Mouser_Part_Number" "576-SMBJ48A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ48A?qs=HR2RnyOI4E5oJjzUW5oszQ%3D%3D")
+    (property "Manufacturer_Name" "LITTELFUSE")
+    (property "Manufacturer_Part_Number" "SMBJ48A")
+    (property "Datasheet_Link" "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf")
+    (property "compAreaTopHeight" 2.61)
+)
+
+

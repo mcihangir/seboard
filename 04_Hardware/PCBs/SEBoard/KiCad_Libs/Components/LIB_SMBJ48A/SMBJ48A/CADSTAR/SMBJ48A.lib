@@ -1,0 +1,16 @@
+.SMBJ48A :1 ;Diode TVS Single Uni-Dir 48V 600W 2-Pin SMB T/R
+DIOM5436X261N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMBJ48A
+~!Mouser Part Number (576-SMBJ48A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ48A?qs=HR2RnyOI4E5oJjzUW5oszQ%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SMBJ48A)
+~!Link Datasheet (https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf)
+~!Height (2.61mm)
+~!3D_Model (SMBJ48A)
+SMBJ48A
+1.1!U 2.1!U 

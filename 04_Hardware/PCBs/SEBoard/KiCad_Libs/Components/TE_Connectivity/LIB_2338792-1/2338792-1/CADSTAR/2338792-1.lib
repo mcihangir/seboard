@@ -1,0 +1,17 @@
+.2338792-1 :1 ;USB Connectors, C, 3.1 Gen 1, Standard Profile, Receptacle, 1 Port, Top, Right Angle, Reel, Through Hole - Solder / Surface Mount, Cable-to-Board 
+"23387921"
+*STM J
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=A5 6=A6 7=A7 8=A8 9=A9 10=A10 11=A11 12=A12 13=B1 14=B2 15=B3 16=B4 17=B5 18=B6 19=B7 20=B8 21=B9 22=B10 23=B11 24=B12 25=G1 26=G2 27=G3 28=G4 29=G5 30=G6
+*PLB 1="GND_1" 2="SSTXP1" 3="SSTXN1" 4="VBUS_1" 5="CC1" 6="DP1" 7="DN1" 8="SBU1" 9="VBUS_2" 10="SSRXN2" 11="SSRXP2" 12="GND_2" 13="GND_3" 14="SSTXP2" 15="SSTXN2" 16="VBUS_3" 17="CC2" 18="DP2" 19="DN2" 20="SBU2" 21="VBUS_4" 22="SSRXN1" 23="SSRXP1" 24="GND_4" 25="GND_5" 26="GND_6" 27="GND_7" 28="GND_8" 29="GND_9" 30="GND_10"
+*MXP 32
+*DFN 2338792-1
+~!Mouser Part Number (571-2338792-1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2338792-1?qs=P1JMDcb91o48A7J0Lklrxw%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (2338792-1)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2338792&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2338792-1.html)
+~!Height (3.55mm)
+~!3D_Model (2338792-1)
+"2338792-1"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 

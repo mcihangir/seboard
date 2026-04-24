@@ -1,0 +1,9 @@
+Manufacturer=Rosenberger
+PartNumber=59S20X-400T5-Z
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=4.2
+Released=2020-05-26 08:11:52
+Downloaded=2026-01-01 13:22:52
+3D=Y

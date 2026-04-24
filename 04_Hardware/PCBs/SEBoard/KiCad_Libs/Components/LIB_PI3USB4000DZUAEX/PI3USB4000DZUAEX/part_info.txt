@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=PI3USB4000DZUAEX
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=10
+Version=5.1
+Released=2021-10-30 09:15:01
+Downloaded=2025-10-16 17:18:27
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2204K-5.0TRG1
+D 0.2A 5V Low Dropout Regulator SOT-23 DiodesZetex AP2204K-5.0TRG1, LDO Voltage Regulator, 200mA, 5 V, 2.3  24 Vin, 5-Pin SOT-23
+K
+F https://componentsearchengine.com/Datasheets/1/AP2204K-5.0TRG1.pdf
+$ENDCMP
+#
+#End Doc Library

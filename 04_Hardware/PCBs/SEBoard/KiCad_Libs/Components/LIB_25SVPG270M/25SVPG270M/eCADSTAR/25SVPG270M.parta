@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_20292456"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-12-15:35:49)
+    (utime 2025-01-28-14:59:21)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "25SVPG270M")
+)
+
+
+(pinAssign "ECS_20292456"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-12-15:35:49)
+    (utime 2025-01-28-14:59:21)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_20292456")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "25SVPG270M")
+)
+
+
+(part "25SVPG270M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2025-01-12-15:35:49)
+    (utime 2025-01-28-14:59:21)
+    (packageRef "25SVPG270M")
+    (pinAssignRef "ECS_20292456")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Low ESR High ripple current 105  5000 h")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "25SVPG270M")
+    (property "Datasheet_Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C175.pdf")
+    (property "compAreaTopHeight" 12)
+)
+
+

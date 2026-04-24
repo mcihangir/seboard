@@ -1,0 +1,261 @@
+(footprint "PI3USB4000DZUAEX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PI3USB4000DZUAEX")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0.23 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "f1d0d483-a8fe-4c48-a0a0-3b0475e5b058")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PI3USB4000DZUAEX"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dfa12b62-9891-43d3-ba8f-3dab09fcfa65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e340262-f718-4caa-98c9-88bf82524a98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e95b648f-b29c-4264-be0f-ce3df9434d41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.14 -0.74)
+		(end -1.14 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52c6e433-acd1-4f6d-9a47-a4d1ae163549")
+	)
+	(fp_line
+		(start -1.04 -0.74)
+		(end -1.04 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22a64f52-4212-490e-8698-5ae599b69960")
+	)
+	(fp_arc
+		(start -1.14 -0.74)
+		(mid -1.09 -0.79)
+		(end -1.04 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3f85fb5-268a-4e08-94a9-df5287356ebe")
+	)
+	(fp_arc
+		(start -1.04 -0.74)
+		(mid -1.09 -0.69)
+		(end -1.14 -0.74)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1f302ee-c350-4837-a3f3-62f570fe206d")
+	)
+	(fp_line
+		(start -0.93 -1.16)
+		(end 0.97 -1.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8043125-5f5f-41d4-86ae-e97282d7387f")
+	)
+	(fp_line
+		(start -0.93 1.21)
+		(end -0.93 -1.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cadcfc9-6655-4d3d-bb55-2c601c38dcb9")
+	)
+	(fp_line
+		(start 0.96 1.21)
+		(end -0.93 1.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fdb7046-a9fa-4a34-b20b-e860d9798826")
+	)
+	(fp_line
+		(start 0.97 -1.16)
+		(end 0.97 1.21)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb1f9a0b-4665-4256-a4d6-6149df00f3fc")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8969f40a-5317-40fc-b854-d8b54d0e41a1")
+	)
+	(fp_line
+		(start -0.75 1)
+		(end -0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79b85094-d226-4c5c-b5ec-30a40370a9e7")
+	)
+	(fp_line
+		(start 0.75 -1)
+		(end 0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ba5b6c1-1643-4b1b-bba5-beb7819ea101")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end -0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbf48522-afcd-47e9-9c57-64722d3272ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "36c64df6-a382-4d01-aecb-918964ae46b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.64 -0.75 90)
+		(size 0.3 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2f596024-a137-43d0-84cc-30c6c5739d3e")
+	)
+	(pad "2" smd rect
+		(at -0.64 -0.25 90)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a588fef9-4ffe-4759-afde-3f6c698ecb91")
+	)
+	(pad "3" smd rect
+		(at -0.64 0.25 90)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29660a16-f144-481b-a8d1-ad7b118748a9")
+	)
+	(pad "4" smd rect
+		(at -0.64 0.75 90)
+		(size 0.3 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94fc82d0-d71e-4b32-8900-a16bb31478f1")
+	)
+	(pad "5" smd rect
+		(at 0 0.84)
+		(size 0.35 0.63)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c353223c-e7ef-4cef-be00-eb7077bf6198")
+	)
+	(pad "6" smd rect
+		(at 0.64 0.75 90)
+		(size 0.3 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "94c1db5b-e90f-456a-b3d3-459753f2d45c")
+	)
+	(pad "7" smd rect
+		(at 0.64 0.25 90)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "227d212a-e560-43d2-96b2-ec54d0b48633")
+	)
+	(pad "8" smd rect
+		(at 0.64 -0.25 90)
+		(size 0.25 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "12b292dd-a732-4304-b198-0df860bb66d4")
+	)
+	(pad "9" smd rect
+		(at 0.64 -0.75 90)
+		(size 0.3 0.53)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c04c90f6-5610-43ee-b429-fc1a92f96e93")
+	)
+	(pad "10" smd rect
+		(at 0 -0.84)
+		(size 0.35 0.63)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d531142-8213-495f-9dfa-7778d7c45188")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/LIB_PI3USB4000DZUAEX/PI3USB4000DZUAEX/3D/PI3USB4000DZUAEX.stp"
+		(offset
+			(xyz 0 0 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

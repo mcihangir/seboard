@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP64502QSP-13
+D Switching Voltage Regulators DCDC Conv HV Buck SO-8EP T&R 4K
+K
+F https://www.diodes.com/assets/Datasheets/AP64502Q.pdf
+$ENDCMP
+#
+#End Doc Library

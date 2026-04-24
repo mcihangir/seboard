@@ -1,0 +1,16 @@
+.B520C-13-F :1 ;Schottky Diodes & Rectifiers 20V 5A
+DIOM7959X250N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN B520C-13-F
+~!Mouser Part Number (621-B520C-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B520C-13-F?qs=M9x7oF%252BgWA8vHz6ClNP3LA%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (B520C-13-F)
+~!Link Datasheet (-)
+~!Height (2.5mm)
+~!3D_Model (B520C-13-F)
+B520C-13-F
+1.1!U 2.1!U 

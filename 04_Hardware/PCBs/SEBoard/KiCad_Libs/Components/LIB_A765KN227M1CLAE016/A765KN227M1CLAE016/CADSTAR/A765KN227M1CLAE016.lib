@@ -1,0 +1,16 @@
+.A765KN227M1CLAE016 :1 ;A765, Aluminum, Polymer Aluminum, 220 uF, 20%, 16 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 16 mOhms, 704 uA, 8mm, 9.7mm, 500
+CAPAE830X1000N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN A765KN227M1CLAE016
+~!Mouser Part Number (80-A765KN227M1CLAE16)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/A765KN227M1CLAE016?qs=M6jHmRuQorVv0fT1Kt4HIQ%3D%3D)
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (A765KN227M1CLAE016)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_A4070_A765.pdf)
+~!Height (10mm)
+~!3D_Model (A765KN227M1CLAE016)
+A765KN227M1CLAE016
+1.1!U 2.1!U 

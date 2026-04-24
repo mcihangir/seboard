@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FL2500188'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "FL2500188" (!) = "", "FL2500188", "Other", "", "", "25 MHz +/-10ppm Crystal 8pF 40 Ohms 4-SMD, No Lead", "https://www.diodes.com/assets/Datasheets/FL.pdf", "0.78 mm"
+END_PART
+
+END.

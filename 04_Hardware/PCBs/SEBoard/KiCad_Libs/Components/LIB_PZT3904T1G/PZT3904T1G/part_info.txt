@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=PZT3904T1G
+PartCategory=Transistor BJT NPN
+PackageCategory=SOT223 (3-Pin)
+PinCount=4
+Version=2.1
+Released=2019-05-20 13:16:37
+Downloaded=2025-10-09 09:14:05
+3D=Y

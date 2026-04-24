@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FH19C-20S-0.5SH_10_
+D FFC & FPC Connectors 20P SMT HORZ .5MM PITCH REEL OF 5000
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/FH19C_FH19SC_Series.pdf
+$ENDCMP
+#
+#End Doc Library

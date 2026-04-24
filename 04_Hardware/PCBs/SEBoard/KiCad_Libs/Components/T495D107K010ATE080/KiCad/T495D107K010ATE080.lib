@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model T495D107K010ATE080
+#/15918074/941407/2.50/2/2/Capacitor Polarised
+DEF T495D107K010ATE080 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "T495D107K010ATE080" 350 150 50 H V L CNN
+F2 "T495D" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_T2009_T495.pdf" 350 -50 50 H I L CNN
+F4 "T495, Tantalum, MnO2 Tantalum, Commercial Grade, 100 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, Low ESR, 8 % , 80 mOhms, 10 uA, 446.84 mg, 7343, 2.8mm, Height Max = 3.1mm, 500, 156  Weeks" 350 -150 50 H I L CNN "Description"
+F5 "3.1" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "T495D107K010ATE080" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

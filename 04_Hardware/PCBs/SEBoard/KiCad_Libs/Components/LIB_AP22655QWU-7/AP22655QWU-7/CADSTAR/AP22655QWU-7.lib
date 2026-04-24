@@ -1,0 +1,16 @@
+.AP22655QWU-7 :1 ;Power Switch ICs - Power Distribution Load Switch TSOT26 T&R 3K
+SOT95P280X82-6N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="GND" 3="'FAULT'" 4="EN/'EN'" 5="ILIM" 6="IN"
+*MXP 6
+*DFN AP22655QWU-7
+~!Mouser Part Number (621-AP22655QWU-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22655QWU-7?qs=ulEaXIWI0c9S0Nhcy0ljbQ%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP22655QWU-7)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AP22654Q_AP22655Q.pdf)
+~!Height (0.825mm)
+~!3D_Model (AP22655QWU-7)
+AP22655QWU-7
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 2336582-1
+#/18444783/941407/2.50/11/2/Connector
+DEF 2336582-1 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "2336582-1" 850 200 50 H V L CNN
+F2 "23365821" 850 100 50 H I L CNN
+F3 "https://www.te.com/en/product-2336582-1.html" 850 0 50 H I L CNN
+F4 "4FF SIM, Push-Push Type, 7 Position, 7 Loaded Positions, Signal, -40  80 C [-40  185 F], SIM Card Connectors" 850 -100 50 H I L CNN "Description"
+F5 "1.62" 850 -200 50 H I L CNN "Height"
+F6 "" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2336582-1" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VCC C1 0 0 200 R 50 50 0 0 P
+X RST C2 0 -100 200 R 50 50 0 0 P
+X CLK C3 0 -200 200 R 50 50 0 0 P
+X GND C5 0 -300 200 R 50 50 0 0 P
+X VPP C6 0 -400 200 R 50 50 0 0 P
+X I/O C7 0 -500 200 R 50 50 0 0 P
+X CD1 CD1 1000 0 200 L 50 50 0 0 P
+X MP1 MP1 1000 -100 200 L 50 50 0 0 P
+X MP2 MP2 1000 -200 200 L 50 50 0 0 P
+X MP3 MP3 1000 -300 200 L 50 50 0 0 P
+X MP4 MP4 1000 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

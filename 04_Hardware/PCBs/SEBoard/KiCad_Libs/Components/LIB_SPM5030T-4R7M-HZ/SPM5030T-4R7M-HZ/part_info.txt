@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=SPM5030T-4R7M-HZ
+PartCategory=Inductor (FeSi Core)
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2019-06-15 11:36:19
+Downloaded=2025-12-24 11:01:51
+3D=Y

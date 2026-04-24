@@ -1,0 +1,16 @@
+.SMBJ20A :1 ;ESD Suppressors / TVS Diodes 20volts 5uA 18.5 Amps Uni-Dir
+DIOM5436X244N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMBJ20A
+~!Mouser Part Number (652-SMBJ20A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ20A?qs=%252Bf8Cd6aE5bx0luBLnSoXTg%3D%3D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SMBJ20A)
+~!Link Datasheet (https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17)
+~!Height (2.44mm)
+~!3D_Model (SMBJ20A)
+SMBJ20A
+1.1!U 2.1!U 

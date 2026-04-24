@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SML-P11VTT86R
+D ROHM - SML-P11VTT86R - LED, PICOLED, Red, 626 nm, 1.8 V, 1 mA, 4 mcd
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11vtt86(r)-e.pdf
+$ENDCMP
+#
+#End Doc Library

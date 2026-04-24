@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '59S20X_400T5_Z'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Rosenberger", "59S20X-400T5-Z" (!) = "", "59S20X400T5Z", "Other", "476-59S20X-400T5-Z", "https://www.mouser.co.uk/ProductDetail/Rosenberger/59S20X-400T5-Z?qs=vvQtp7zwQdPV7Wq24wX2xA%3D%3D", "RIGHT ANGLE PLUG PCB WITH HOUSING  + 105 C  - 40 C", "https://products.rosenberger.com/_ocassets/db/59S20X-400T5-Y.pdf", "13.05 mm"
+END_PART
+
+END.

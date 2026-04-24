@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=VLS5045EX-6R8M
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=4.2
+Released=2018-09-11 07:45:54
+Downloaded=2025-12-25 07:30:11
+3D=Y

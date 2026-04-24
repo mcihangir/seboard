@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/266417/941407/2.50/2/2/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c210_h140" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="55.11811023622">
+    <padshape layer="TOP" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="90.551181102361" height="90.551181102361" />
+    <padshape layer="INNER" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="90.551181102361" height="90.551181102361" />
+  </padstyle>
+  <padstyle name="s210_h140" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="55.11811023622">
+    <padshape layer="TOP" shape="square" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="90.551181102361" height="90.551181102361" />
+    <padshape layer="INNER" shape="round" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM" shape="square" width="82.67716535433" height="82.67716535433" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="90.551181102361" height="90.551181102361" />
+  </padstyle>
+  <footprint name="1754436" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s210_h140" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c210_h140" originx="196.85039370078" originy="0" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="78.740157480314" endx="295.27559055118" endy="78.740157480314" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="295.27559055118" originy="78.740157480314" endx="295.27559055118" endy="-393.70078740157" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="295.27559055118" originy="-393.70078740157" endx="-98.425196850392" endy="-393.70078740157" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-98.425196850392" originy="-393.70078740157" endx="-98.425196850392" endy="78.740157480314" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="78.740157480314" endx="295.27559055118" endy="78.740157480314" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="295.27559055118" originy="78.740157480314" endx="295.27559055118" endy="-393.70078740157" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="295.27559055118" originy="-393.70078740157" endx="-98.425196850392" endy="-393.70078740157" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-98.425196850392" originy="-393.70078740157" endx="-98.425196850392" endy="78.740157480314" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-131.88976377953" originy="0" startangle="180" sweepangle="180" radius="1.9685039370079" width="7.8740157480314" />
+    <arc layer="TOP_SILKSCREEN" originx="-131.88976377953" originy="0" startangle="180" sweepangle="-180" radius="1.9685039370079" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-167.32283464567" originy="118.11023622047" endx="334.64566929133" endy="118.11023622047" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="334.64566929133" originy="118.11023622047" endx="334.64566929133" endy="-433.07086614173" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="334.64566929133" originy="-433.07086614173" endx="-167.32283464567" endy="-433.07086614173" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-167.32283464567" originy="-433.07086614173" endx="-167.32283464567" endy="118.11023622047" width="1.9685039370079" />
+  </footprint>
+  <symbol name="1754436" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-200" endx="200" endy="-200" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-200" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+  </symbol>
+  <component name="1754436" designatorprefix="J" height="343.30708661417" footprint="1754436">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <attached_symbol gate="1" name="1754436" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="http://www.phoenixcontact.com/de/produkte/1754436/pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTB 2,5/..-G, pitch: 5 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="651-1754436" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1754436?qs=MsGczSnP6fXpE7KHB4%252B8Gw%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Phoenix Contact" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1754436" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74AXC8T245QPWRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2021-09-20 08:37:28
+Downloaded=2025-12-30 09:55:39
+3D=Y

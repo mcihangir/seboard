@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PESD5V0S1BSF_315"
+   (description "PESD5V0S1BSF - Ultra low profile bidirectional low capacitance ESD protection diode")
+   (family "ANA")
+   (package "PMEG3005AESFYL")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BSF.pdf")
+   (attribute "Mouser Part Number" "771-PESD5V0S1BSF315")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0S1BSF315?qs=5eMHoInnifTy2yfigppkSQ%3D%3D")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "PESD5V0S1BSF,315")
+   (gate
+    (symbol "PESD5V0S1BSF_315")
+    (pin "K1" 1 PS)
+    (pin "K2" 2 PS)
+   )
+  )
+  (symbol "PESD5V0S1BSF_315"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 200 -100) (pt 200 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 600 -100) (pt 600 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -180) (pt 400 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 440 200) (pt 400 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -180) (pt 360 -200))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PMEG3005AESFYL"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.15)
+     (path
+      (closed true)
+      (pt -0.15 0.15)
+      (pt 0.45 0.15)
+      (pt 0.45 -0.15)
+      (pt -0.15 -0.15)
+      (pt -0.15 0.15))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.75 0.45)
+      (pt 0.75 0.45)
+      (pt 0.75 -0.45)
+      (pt -0.75 -0.45)
+      (pt -0.75 0.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.4 0.05)
+      (arc (pt -0.400 0.050) (pt -0.450 -0.050) (pt -0.350 0.050) (start -180.0) (sweep 90.0))
+      (pt -0.4 -0.05)
+      (arc (pt -0.400 -0.050) (pt -0.450 -0.050) (pt -0.350 0.050) (start -180.0) (sweep -90.0))
+      (pt -0.4 0.05))))
+   (leg 1 (pt -0.050 0.000) (padstack 0))
+   (leg 2 (pt 0.350 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.280 0 0 90.000))
+   )
+   (model "PESD5V0S1BSF,315.stp"
+    (euler 90 0 0)
+    (offset 0.15000000596046448 0 0.029999999329447746)
+   )
+  )
+ )
+)

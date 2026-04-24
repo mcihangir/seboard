@@ -1,0 +1,279 @@
+
+(EDIF
+  (rename &MUN5233T1G "MUN5233T1G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 12 28 10 05 44)
+      (dataOrigin "613486/941407/2.50/3/2/Transistor RET NPN")
+      (program "SamacSys ECAD Model MUN5233T1G"
+        (version "4.1"))))
+  (library
+  (rename &MUN5233T1G "MUN5233T1G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &MUN5233T1G "MUN5233T1G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "MUN5233T1G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOT65P220X100-3N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "863-MUN5233T1G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/onsemi/MUN5233T1G?qs=ZpPixqFcBtzWrnINWZxoIA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "MUN5233T1G"))
+          (property (rename &Description "Description") (string "Simplifies Circuit Design; Reduces Component Count; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.onsemi.com/pub/Collateral/DTC143Z-D.PDF"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "MUN5233T1G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &B "B")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &E "E")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &C "C")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &B)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -300))))
+            )
+            (portImplementation
+              (name &E)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -700) (pt 700 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -700))))
+            )
+            (portImplementation
+              (name &C)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 600 -100) (pt 700 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 600 0)
+                  (pt 600 -800)
+                  (pt 0 -800)
+                  (pt 0 0)
+                  (pt 600 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 200))
+              (path
+                (pointList
+                  (pt 450 -220)
+                  (pt 450 -370)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 450 -270)
+                  (pt 550 -170)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 450 -320)
+                  (pt 550 -420)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 50 -340)
+                  (pt 50 -260)
+                  (pt 250 -260)
+                  (pt 250 -340)
+                  (pt 50 -340)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 390 -600)
+                  (pt 310 -600)
+                  (pt 310 -400)
+                  (pt 390 -400)
+                  (pt 390 -600)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 350 -400)
+                  (pt 350 -300)
+                  (pt 250 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 350 -300)
+                  (pt 450 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 550 -170)
+                  (pt 550 -100)
+                  (pt 600 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 550 -420)
+                  (pt 550 -700)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 350 -600)
+                  (pt 350 -700)
+                  (pt 600 -700)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -300)
+                  (pt 50 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 15))
+              (circle
+                (pt 340 -300)
+                (pt 360 -300)
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 15))
+              (circle
+                (pt 540 -700)
+                (pt 560 -700)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 480 -370)
+                  (pt 500 -350)
+                  (pt 520 -390)
+                  (pt 480 -370)
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "R1"
+                (display COMMENT
+                  (justify LOWERCENTER)
+                  (origin
+                    (pt 160 -5200)
+                  )
+                )
+              )
+            )
+            (annotate
+              (stringDisplay "R2"
+                (display COMMENT
+                  (justify LOWERLEFT)
+                  (origin
+                    (pt 410 -5500)
+                  )
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 230))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 650 130))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ETQ-P4M6R8KVC
+D Power Choke Shielded Wirewound 6.8uH 20% 100KHz Metal 8.9A 20.35mOhm DCR Automotive T/R
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C63.pdf
+$ENDCMP
+#
+#End Doc Library

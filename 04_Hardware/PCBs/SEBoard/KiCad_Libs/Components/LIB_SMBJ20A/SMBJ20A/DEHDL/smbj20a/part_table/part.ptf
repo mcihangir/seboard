@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMBJ20A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "SMBJ20A" (!) = "", "DIOM5436X244N", "Diodes Moulded", "652-SMBJ20A", "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ20A?qs=%252Bf8Cd6aE5bx0luBLnSoXTg%3D%3D", "ESD Suppressors / TVS Diodes 20volts 5uA 18.5 Amps Uni-Dir", "https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17", "2.44 mm"
+END_PART
+
+END.

@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ABM8-40.000MHz-10-D1G-T"
+   (description "CERAMIC SMD CRYSTAL")
+   (family "OSC")
+   (package "ABM810000MHZ12D2W")
+   (attribute "Datasheet Link" "https://abracon.com/Resonators/abm8.pdf")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "815-M840000MHZ10D1GT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-40.000MHZ-10-D1G-T?qs=vLWxofP3U2ziONa1hNg0FA%3D%3D")
+   (attribute "Manufacturer_Name" "ABRACON")
+   (attribute "Manufacturer_Part_Number" "ABM8-40.000MHz-10-D1G-T")
+   (gate
+    (symbol "ABM8-40.000MHz-10-D1G-T")
+    (pin "X1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "X2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ABM8-40.000MHz-10-D1G-T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ABM810000MHZ12D2W"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.45)
+      (pt 2.8 2.45)
+      (pt 2.8 -2.887)
+      (pt -2.8 -2.887)
+      (pt -2.8 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.25 -1.854)
+      (arc (pt -1.250 -1.854) (pt -1.250 -1.954) (pt -1.050 -1.754) (start 180.0) (sweep 180.0))
+      (pt -1.05 -1.854)
+      (arc (pt -1.050 -1.854) (pt -1.250 -1.954) (pt -1.050 -1.754) (start 180.0) (sweep .0))
+      (pt -1.25 -1.854))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.2 1.25)
+      (pt 0.2 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.2 -1.25)
+      (pt 0.2 -1.25))))
+   (leg 1 (pt -1.150 -0.925) (padstack 0))
+   (leg 2 (pt 1.150 -0.925) (padstack 0))
+   (leg 3 (pt 1.150 0.925) (padstack 0))
+   (leg 4 (pt -1.150 0.925) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.050 1.300 0 0 0.000))
+   )
+   (model "ABM8-40.000MHz-10-D1G-T.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

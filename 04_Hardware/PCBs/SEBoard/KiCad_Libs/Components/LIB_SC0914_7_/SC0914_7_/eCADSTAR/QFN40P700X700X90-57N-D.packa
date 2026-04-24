@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SC0914_7_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-01-26-11:09:15)
+    (mountForm default
+        (footprintRef "QFN40P700X700X90-57N-D")
+        (spec "System")
+    )
+)

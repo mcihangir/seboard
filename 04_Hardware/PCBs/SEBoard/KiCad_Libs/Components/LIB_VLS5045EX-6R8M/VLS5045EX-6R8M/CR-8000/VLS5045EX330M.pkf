@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "VLS5045EX330M"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "VLS5045EX330M")
+        (spec "default")
+    )
+)

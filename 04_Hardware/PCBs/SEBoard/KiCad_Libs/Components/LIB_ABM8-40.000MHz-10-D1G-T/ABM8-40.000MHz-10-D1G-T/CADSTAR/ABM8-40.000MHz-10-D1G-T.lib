@@ -1,0 +1,16 @@
+.ABM8-40.000MHz-10-D1G-T :1 ;CERAMIC SMD CRYSTAL
+ABM810000MHZ12D2W
+*STM Y
+*NGS
+*PLB 1="X1" 2="GND_1" 3="X2" 4="GND_2"
+*MXP 4
+*DFN ABM8-40.000MHz-10-D1G-T
+~!Mouser Part Number (815-M840000MHZ10D1GT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-40.000MHZ-10-D1G-T?qs=vLWxofP3U2ziONa1hNg0FA%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABM8-40.000MHz-10-D1G-T)
+~!Link Datasheet (https://abracon.com/Resonators/abm8.pdf)
+~!Height (0.8mm)
+~!3D_Model (ABM8-40.000MHz-10-D1G-T)
+ABM8-40.000MHz-10-D1G-T
+1.1!U 2.1!U 3.1!U 4.1!U 

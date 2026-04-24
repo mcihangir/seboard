@@ -1,0 +1,16 @@
+.AP2204K-5.0TRG1 :1 ;0.2A 5V Low Dropout Regulator SOT-23 DiodesZetex AP2204K-5.0TRG1, LDO Voltage Regulator, 200mA, 5 V, 2.3  24 Vin, 5-Pin SOT-23
+SOT95P282X145-5N
+*STM PS
+*NGS
+*PLB 1="VIN" 2="GND" 3="EN" 4="ADJ/NC" 5="VOUT"
+*MXP 5
+*DFN AP2204K-5.0TRG1
+~!Mouser Part Number (621-AP2204K-5.0TRG1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2204K-5.0TRG1?qs=x6A8l6qLYDBM5Z%2F7Sw%252BT6g%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP2204K-5.0TRG1)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/AP2204K-5.0TRG1.pdf)
+~!Height (1.45mm)
+~!3D_Model (AP2204K-5.0TRG1)
+AP2204K-5.0TRG1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

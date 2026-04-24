@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MPZ1608S102ATA00'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "MPZ1608S102ATA00" (!) = "", "BEADC1608X95N", "Ferrite Bead Chip", "810-MPZ1608S102ATA00", "https://www.mouser.co.uk/ProductDetail/TDK/MPZ1608S102ATA00?qs=8Kz9Wu9QwqXjw56MUD5REw%3D%3D", "1 kOhms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 800mA 300mOhm", "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf", "0.95 mm"
+END_PART
+
+END.

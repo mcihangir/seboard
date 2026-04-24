@@ -1,0 +1,16 @@
+.PI3USB4000DZUAEX :1 ;USB Switch ICs USB2 Switch U-QFN1520-10 T&R 3K 
+PI3USB4000DZUAEX
+*STM IC
+*NGS
+*PLB 1="L0+" 2="L0-" 3="L1+" 4="L1-" 5="GND" 6="REF" 7="C0-" 8="C0+" 9="SEL" 10="VDD"
+*MXP 10
+*DFN PI3USB4000DZUAEX
+~!Mouser Part Number (621-PI3USB4000D)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PI3USB4000DZUAEX?qs=DPoM0jnrROWMqM4Usw1VHA%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (PI3USB4000DZUAEX)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/PI3USB4000D.pdf)
+~!Height (0.65mm)
+~!3D_Model (PI3USB4000DZUAEX)
+PI3USB4000DZUAEX
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

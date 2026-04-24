@@ -1,0 +1,160 @@
+
+(EDIF
+  (rename &RQ7E100ATTCR "RQ7E100ATTCR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 11 15 14 03 56)
+      (dataOrigin "2139024/941407/2.50/8/2/MOSFET (P-Channel)")
+      (program "SamacSys ECAD Model RQ7E100ATTCR"
+        (version "4.2"))))
+  (library
+  (rename &RQ7E100ATTCR "RQ7E100ATTCR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &RQ7E100ATTCR "RQ7E100ATTCR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "RQ7E100ATTCR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "RQ7E100ATTCR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "755-RQ7E100ATTCR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ7E100ATTCR?qs=2WXlatMagcEGRiOPPzGC4A%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "ROHM Semiconductor"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "RQ7E100ATTCR"))
+          (property (rename &Description "Description") (string "RQ7E100ATTCR P-Channel MOSFET, 10 A, 30 V RQ7E100AT, 8-Pin TSMT ROHM"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq7e100attcr-e.pdf"))
+          (property (rename &Height "Height") (string "0.85 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "RQ7E100ATTCR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &SOURCE_1 "SOURCE_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &SOURCE_2 "SOURCE_2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &SOURCE_3 "SOURCE_3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &GATE "GATE")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &DRAIN_1 "DRAIN_1")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &DRAIN_2 "DRAIN_2")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &DRAIN_3 "DRAIN_3")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &DRAIN_4 "DRAIN_4")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &SOURCE_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &SOURCE_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &SOURCE_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &GATE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &DRAIN_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1100 -400) (pt 1300 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 1300 -400))))
+            )
+            (portImplementation
+              (name &DRAIN_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1100 -300) (pt 1300 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1300 -300))))
+            )
+            (portImplementation
+              (name &DRAIN_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1100 -200) (pt 1300 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1300 -200))))
+            )
+            (portImplementation
+              (name &DRAIN_4 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1100 -100) (pt 1300 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1300 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1100 0)
+                  (pt 1100 -500)
+                  (pt 0 -500)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1150 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1150 30))))
+          )
+        )
+      )
+    )
+  )
+)

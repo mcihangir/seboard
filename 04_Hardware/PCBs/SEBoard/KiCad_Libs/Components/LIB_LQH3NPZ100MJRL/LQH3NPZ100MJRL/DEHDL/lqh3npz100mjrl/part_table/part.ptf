@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LQH3NPZ100MJRL'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "LQH3NPZ100MJRL" (!) = "", "LQH3NPN100MJRL", "Other", "81-LQH3NPZ100MJRL", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQH3NPZ100MJRL?qs=Ey7%2FXF42M3e2EdJiitgVwQ%3D%3D", "LQH3NPZ_JR Series Inductor 10uH +/-20% 1212 (3030)", "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9131.pdf", "1.2 mm"
+END_PART
+
+END.

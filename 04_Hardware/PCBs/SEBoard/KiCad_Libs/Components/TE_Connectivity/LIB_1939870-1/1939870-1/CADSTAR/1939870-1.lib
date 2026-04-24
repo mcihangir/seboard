@@ -1,0 +1,17 @@
+.1939870-1 :1 ;Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | PCB Mount Orientation Right Angle | Number of Positions 9 | Contact Features: Contact Mating Area Plating Material Thickness .2  .5 MICM | Contact Layout Inline | Contact Current Rating (Max) .5 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Gold | Contact Base Material Copper Alloy | PCB Contact Termination Area Plating Material Tin | Dimensions: Profile Height from PCB .116 INCH | 
+"19398701"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=MP1 11=MP2 12=MP3 13=MP4 14=MP5
+*PLB 1="CD/DAT3" 2="CMD" 3="VSS1" 4="VDD" 5="CLK" 6="VSS2" 7="DAT0" 8="DAT1" 9="DAT2" 10="MP1" 11="MP2" 12="MP3" 13="MP4" 14="MP5"
+*MXP 16
+*DFN 1939870-1
+~!Mouser Part Number (571-1939870-1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1939870-1?qs=TL6PIybY3BOt2514n%2FsFbQ%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (1939870-1)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1939870%7FD%7Fpdf%7FJapanese%7FJPN_CD_1939870_D.pdf%7F1939870-1)
+~!Height (3.7mm)
+~!3D_Model (1939870-1)
+"1939870-1"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

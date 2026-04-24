@@ -1,0 +1,16 @@
+.ETQ-P4M6R8KVC :1 ;Power Choke Shielded Wirewound 6.8uH 20% 100KHz Metal 8.9A 20.35mOhm DCR Automotive T/R
+ETQ-P4M_KVC
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ETQ-P4M6R8KVC
+~!Mouser Part Number (667-ETQ-P4M6R8KVC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/ETQ-P4M6R8KVC?qs=DddhjTRTMKyv8pOR56PhQg%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ETQ-P4M6R8KVC)
+~!Link Datasheet (http://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C63.pdf)
+~!Height (4mm)
+~!3D_Model (ETQ-P4M6R8KVC)
+ETQ-P4M6R8KVC
+1.1!U 2.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ABM8272T3"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ABM8272T3")
+        (spec "default")
+    )
+)

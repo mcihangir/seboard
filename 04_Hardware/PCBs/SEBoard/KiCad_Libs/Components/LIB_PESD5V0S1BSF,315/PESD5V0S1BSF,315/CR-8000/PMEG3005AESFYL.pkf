@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PMEG3005AESFYL"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PMEG3005AESFYL")
+        (spec "default")
+    )
+)

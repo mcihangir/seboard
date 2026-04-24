@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_360796"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-04-06:14:55)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SMBJ20A")
+)
+
+
+(pinAssign "ECS_360796"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-04-06:14:55)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_360796")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SMBJ20A")
+)
+
+
+(part "SMBJ20A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-01-04-06:14:55)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "SMBJ20A")
+    (pinAssignRef "ECS_360796")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "ESD Suppressors / TVS Diodes 20volts 5uA 18.5 Amps Uni-Dir")
+    (property "Mouser_Part_Number" "652-SMBJ20A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SMBJ20A?qs=%252Bf8Cd6aE5bx0luBLnSoXTg%3D%3D")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "SMBJ20A")
+    (property "Datasheet_Link" "https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17")
+    (property "compAreaTopHeight" 2.44)
+)
+
+

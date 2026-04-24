@@ -1,0 +1,239 @@
+(footprint "ERJ3EKF1000V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ERJ3G(0603)")
+	(tags "Resistor")
+	(property "Reference" "R143"
+		(at 0 -1 0)
+		(layer "F.SilkS")
+		(uuid "61fdfedc-79bb-4e43-8122-048e3124373c")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "1K5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a2e5a7b8-67d5-49cc-b18c-f01cbb72e178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dc10efa-a97e-4bd0-814c-c0a66be14614")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor 1.5K Ohms 0603 +/- 5% 0.1W"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07416d3b-8129-4b39-bc05-07d7e6aeea1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "015ba5d7-59e3-4a60-ace4-e042725c2da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ERJ-3GEYJ222V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afd6d0ec-07c1-45e1-8165-d68824cefd35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.32 -0.02)
+		(end -1.32 -0.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bb94d05-538a-4601-9d30-171f4eeb5491")
+	)
+	(fp_line
+		(start -1.32 -0.01)
+		(end -1.32 -0.01)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03000bd2-49a4-4f3c-acf3-47cd0e339a05")
+	)
+	(fp_arc
+		(start -1.32 -0.06099)
+		(mid -1.269258 -0.015024)
+		(end -1.31 0.04)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96d6af31-8098-44ca-a293-33e915f71355")
+	)
+	(fp_arc
+		(start -1.31 0.039999)
+		(mid -1.370741 -0.004976)
+		(end -1.32 -0.060989)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4842fc7a-ac04-4295-a793-56dcd645ac55")
+	)
+	(fp_line
+		(start -1.6 -1)
+		(end 1.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ba482f3-1f33-40ab-9af5-a20d5f1e3288")
+	)
+	(fp_line
+		(start -1.6 1)
+		(end -1.6 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c12db949-b75a-4fbb-984b-8e564dc2e81a")
+	)
+	(fp_line
+		(start 1.5 -1)
+		(end 1.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16b9771e-a0a3-40b9-ade4-c5121d75e0e5")
+	)
+	(fp_line
+		(start 1.5 1)
+		(end -1.6 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8052efca-bcc1-4b52-8f2f-ce4ef6625801")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df4d70b2-511e-4208-985e-b2fd0d6099a3")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6235d0ee-6437-4862-acff-327d5b96d5ef")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7dc3fbf-42ed-4ad5-9333-98c19d7dac80")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0b92289-1b59-4b49-ab58-3d6e1920d7e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "09957eac-26c5-4272-bf78-2476d4cc4df6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 0)
+		(size 0.65 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86896491-22d7-4a45-9a25-13abb6ff66b3")
+	)
+	(pad "2" smd rect
+		(at 0.725 0)
+		(size 0.65 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b92c32b-c16e-4a4e-b06f-3948abbe7fda")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/ERJ-3GEYJ222V/3D/ERJ-3GEYJ222V.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

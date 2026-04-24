@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_16333205"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-10-01-03:17:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "A765KN227M1CLAE016")
+)
+
+
+(pinAssign "ECS_16333205"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-10-01-03:17:40)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_16333205")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "A765KN227M1CLAE016")
+)
+
+
+(part "A765KN227M1CLAE016"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-10-01-03:17:40)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "A765KN227M1CLAE016")
+    (pinAssignRef "ECS_16333205")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "A765, Aluminum, Polymer Aluminum, 220 uF, 20%, 16 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 16 mOhms, 704 uA, 8mm, 9.7mm, 500")
+    (property "Mouser_Part_Number" "80-A765KN227M1CLAE16")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/A765KN227M1CLAE016?qs=M6jHmRuQorVv0fT1Kt4HIQ%3D%3D")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "A765KN227M1CLAE016")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_A4070_A765.pdf")
+    (property "compAreaTopHeight" 10)
+)
+
+

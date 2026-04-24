@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS138PW,115
+D BSS138PW,115 N-Channel MOSFET, 320 mA, 60 V, 3-Pin SOT-323 Nexperia
+K
+F https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf
+$ENDCMP
+#
+#End Doc Library

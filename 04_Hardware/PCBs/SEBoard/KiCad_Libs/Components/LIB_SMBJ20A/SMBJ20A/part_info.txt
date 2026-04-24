@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=SMBJ20A
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2022-01-04 06:14:55
+Downloaded=2025-10-09 19:26:30
+3D=Y

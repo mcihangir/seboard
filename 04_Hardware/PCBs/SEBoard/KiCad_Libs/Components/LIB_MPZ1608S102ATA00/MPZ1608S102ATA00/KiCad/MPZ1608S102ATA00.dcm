@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPZ1608S102ATA00
+D 1 kOhms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 800mA 300mOhm
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf
+$ENDCMP
+#
+#End Doc Library

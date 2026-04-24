@@ -1,0 +1,16 @@
+.MPZ1608S102ATA00 :1 ;1 kOhms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 800mA 300mOhm
+BEADC1608X95N
+*STM FB
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MPZ1608S102ATA00
+~!Mouser Part Number (810-MPZ1608S102ATA00)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/MPZ1608S102ATA00?qs=8Kz9Wu9QwqXjw56MUD5REw%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (MPZ1608S102ATA00)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf)
+~!Height (0.95mm)
+~!3D_Model (MPZ1608S102ATA00)
+MPZ1608S102ATA00
+1.1!U 2.1!U 

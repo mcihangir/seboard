@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=2336582-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=11
+Version=3.6
+Released=2024-03-30 09:45:43
+Downloaded=2025-11-30 08:58:52
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP2204K_5.0TRG1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP2204K-5.0TRG1" (!) = "", "SOT95P282X145-5N", "SOT23 (5-Pin)", "621-AP2204K-5.0TRG1", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2204K-5.0TRG1?qs=x6A8l6qLYDBM5Z%2F7Sw%252BT6g%3D%3D", "0.2A 5V Low Dropout Regulator SOT-23 DiodesZetex AP2204K-5.0TRG1, LDO Voltage Regulator, 200mA, 5 V, 2.3  24 Vin, 5-Pin SOT-23", "https://componentsearchengine.com/Datasheets/1/AP2204K-5.0TRG1.pdf", "1.45 mm"
+END_PART
+
+END.

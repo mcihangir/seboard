@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 25SVPG270M
+D Low ESR High ripple current 105  5000 h
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C175.pdf
+$ENDCMP
+#
+#End Doc Library

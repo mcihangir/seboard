@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B140WS-7
+D Schottky Diodes & Rectifiers 1A 40V SMT
+K
+F https://www.diodes.com//assets/Datasheets/ds31543.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WSL2010R0200FEA
+D RESISTOR, 2010 0.02 Ohm +/-1% 0.5 W
+K
+F http://componentsearchengine.com/Datasheets/1/WSL2010R0200FEA.pdf
+$ENDCMP
+#
+#End Doc Library

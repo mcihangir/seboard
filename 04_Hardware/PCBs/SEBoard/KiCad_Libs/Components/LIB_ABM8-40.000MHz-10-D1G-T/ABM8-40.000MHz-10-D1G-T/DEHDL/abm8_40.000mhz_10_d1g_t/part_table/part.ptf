@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ABM8_40.000MHz_10_D1G_T'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ABRACON", "ABM8-40.000MHz-10-D1G-T" (!) = "", "ABM810000MHZ12D2W", "Other", "815-M840000MHZ10D1GT", "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-40.000MHZ-10-D1G-T?qs=vLWxofP3U2ziONa1hNg0FA%3D%3D", "CERAMIC SMD CRYSTAL", "https://abracon.com/Resonators/abm8.pdf", "0.8 mm"
+END_PART
+
+END.

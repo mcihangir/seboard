@@ -1,0 +1,16 @@
+.1N4148W-7-F :1 ;Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123
+SOD3716X145N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN 1N4148W-7-F
+~!Mouser Part Number (621-1N4148W-F)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (1N4148W-7-F)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/BAV16W_1N4148W.pdf)
+~!Height (1.45mm)
+~!3D_Model (1N4148W-7-F)
+"1N4148W-7-F"
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1754436
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2020-10-15 16:36:49
+Downloaded=2025-10-26 07:25:48
+3D=Y

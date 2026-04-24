@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EEHZS1H151P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EEHZS1H151P")
+        (spec "default")
+    )
+)

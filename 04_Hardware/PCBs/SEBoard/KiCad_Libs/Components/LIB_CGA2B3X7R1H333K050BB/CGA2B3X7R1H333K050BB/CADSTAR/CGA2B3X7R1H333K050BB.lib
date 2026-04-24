@@ -1,0 +1,16 @@
+.CGA2B3X7R1H333K050BB :1 ;Multilayer Ceramic Chip Capacitors, Capacitance=33nF, LxWxT:1x0.5x0.5mm
+CAPC1005X55N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CGA2B3X7R1H333K050BB
+~!Mouser Part Number (810-CGA2B3X7R1H333K)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=810-CGA2B3X7R1H333K)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (CGA2B3X7R1H333K050BB)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/CGA2B3X7R1H333K050BB.pdf)
+~!Height (0.55mm)
+~!3D_Model (CGA2B3X7R1H333K050BB)
+CGA2B3X7R1H333K050BB
+1.1!U 2.1!U 

@@ -1,0 +1,285 @@
+
+(EDIF
+  (rename &CM2021Y330R_10 "CM2021Y330R_10")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 12 31 06 32 24)
+      (dataOrigin "257175/941407/2.50/4/3/Common Mode Noise Filter (4-Pin)")
+      (program "SamacSys ECAD Model CM2021Y330R_10"
+        (version "2.6"))))
+  (library
+  (rename &CM2021Y330R_10 "CM2021Y330R_10")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &CM2021Y330R_10 "CM2021Y330R_10")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "FL")
+          (property (rename PACKAGENAME "PackageName") (string "CM2021Y330R_10"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "CM2021Y330R10"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "N/A"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Laird/CM2021Y330R-10?qs=PzGy0jfpSMsuvW4RfkrirA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Laird Technologies"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "CM2021Y330R-10"))
+          (property (rename &Description "Description") (string "2 Line Common Mode Choke Surface Mount 33 Ohms @ 100 MHz 15A DCR 0.75mOhm 2322 (5956 Metric), 4 Lead  -40C ~ 125C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.laird.com/sites/default/files/cm2021y330r-10-datasheet.pdf"))
+          (property (rename &Height "Height") (string "3.8 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "CM2021Y330R_10"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &1 "1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &2 "2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &3 "3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &4 "4")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &1)
+              (figure PIN (path (pointList (pt -20 -740) (pt -20 -540))))
+              (connectLocation (figure GRAPHIC (dot (pt -20 -740))))
+            )
+            (portImplementation
+              (name &2)
+              (figure PIN (path (pointList (pt 200 -740) (pt 200 -540))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -740))))
+            )
+            (portImplementation
+              (name &3)
+              (figure PIN (path (pointList (pt 200 240) (pt 200 40))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 240))))
+            )
+            (portImplementation
+              (name &4)
+              (figure PIN (path (pointList (pt -20 240) (pt -20 40))))
+              (connectLocation (figure GRAPHIC (dot (pt -20 240))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 80 -50)
+                  (pt 80 -450)
+                  (pt 80 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 110 -50)
+                  (pt 110 -450)
+                  (pt 110 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt -20 -50)
+                  (pt -20 40)
+                  (pt -20 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -50)
+                  (pt 200 40)
+                  (pt 200 -50)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt -20 -450)
+                  (pt -20 -540)
+                  (pt -20 -450)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -450)
+                  (pt 200 -540)
+                  (pt 200 -450)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 200 -350)
+                    (pt 202 -350)
+                    (pt 200 -450)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 200 -250)
+                    (pt 202 -250)
+                    (pt 200 -350)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 200 -150)
+                    (pt 202 -150)
+                    (pt 200 -250)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt 200 -50)
+                    (pt 202 -50)
+                    (pt 200 -150)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt -20 -350)
+                    (pt -22 -350)
+                    (pt -20 -450)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt -20 -250)
+                    (pt -22 -250)
+                    (pt -20 -350)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt -20 -150)
+                    (pt -22 -150)
+                    (pt -20 -250)))))
+            (figure GRAPHIC
+              (openShape
+                (curve
+                  (arc
+                    (pt -20 -50)
+                    (pt -22 -50)
+                    (pt -20 -150)))))
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt -80 -260))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt -80 -360))))
+          )
+        )
+      )
+    )
+  )
+)

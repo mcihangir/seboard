@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '25SVPG270M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "25SVPG270M" (!) = "", "16SVPT560M", "Other", "", "", "Low ESR High ripple current 105  5000 h", "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C175.pdf", "12 mm"
+END_PART
+
+END.

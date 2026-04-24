@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1754436
+#/266417/941407/2.50/2/2/Connector
+DEF 1754436 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1754436" 650 200 50 H V L CNN
+F2 "1754436" 650 100 50 H I L CNN
+F3 "http://www.phoenixcontact.com/de/produkte/1754436/pdf" 650 0 50 H I L CNN
+F4 "PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTB 2,5/..-G, pitch: 5 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard" 650 -100 50 H I L CNN "Description"
+F5 "8.72" 650 -200 50 H I L CNN "Height"
+F6 "651-1754436" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1754436?qs=MsGczSnP6fXpE7KHB4%252B8Gw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1754436" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

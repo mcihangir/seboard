@@ -1,0 +1,16 @@
+.SZNUP2105LT3G :1 ;Low Capacitance High-Speed CAN Data Rates; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; SOT-23 pacakage allows two separate bi-directional configurations; 350 W Peak Power Dissipation per line (8x20 us waveform); Low reverse leakage current (< 100 nA); IEC-61000-4-2: Level 4 Compatible.; IEC-61000-4-4: 5/50 ns 50 A Max.; IEC-61000-4-5: 8.0 A (8x20 us); ISO 76372 Pulse 2a: Repetitive Load Switch Disconnect, 9.5 A;
+SOT96P237X111-3N
+*STM D
+*NGS
+*PLB 1="K_1" 2="K_2" 3="K_3"
+*MXP 3
+*DFN SZNUP2105LT3G
+~!Mouser Part Number (863-SZNUP2105LT3G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/SZNUP2105LT3G?qs=PJJcWtbOkNXrvSZpB7E7mw%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (SZNUP2105LT3G)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/NUP2105L-D.PDF)
+~!Height (1.11mm)
+~!3D_Model (SZNUP2105LT3G)
+SZNUP2105LT3G
+1.1!U 2.1!U 3.1!U 

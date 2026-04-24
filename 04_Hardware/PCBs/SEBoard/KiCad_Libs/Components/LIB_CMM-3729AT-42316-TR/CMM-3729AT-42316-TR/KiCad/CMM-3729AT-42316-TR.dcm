@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMM-3729AT-42316-TR
+D 3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB, MEMS Microphone
+K
+F https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf
+$ENDCMP
+#
+#End Doc Library

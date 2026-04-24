@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CM2021Y330R-10"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-12-04-13:17:37)
+    (mountForm default
+        (footprintRef "CM2021Y330R10")
+        (spec "System")
+    )
+)

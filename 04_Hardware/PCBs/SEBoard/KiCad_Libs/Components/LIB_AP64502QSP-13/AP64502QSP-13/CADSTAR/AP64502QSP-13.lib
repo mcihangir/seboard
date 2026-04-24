@@ -1,0 +1,16 @@
+.AP64502QSP-13 :1 ;Switching Voltage Regulators DCDC Conv HV Buck SO-8EP T&R 4K
+SOIC127P600X163-9N
+*STM IC
+*NGS
+*PLB 1="BST" 2="VIN" 3="EN" 4="RT/CLK" 5="FB" 6="SS" 7="GND" 8="SW" 9="EP"
+*MXP 9
+*DFN AP64502QSP-13
+~!Mouser Part Number (621-AP64502QSP-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64502QSP-13?qs=IS%252B4QmGtzzowUaGiBacWLA%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP64502QSP-13)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/AP64502Q.pdf)
+~!Height (1.63mm)
+~!3D_Model (AP64502QSP-13)
+AP64502QSP-13
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

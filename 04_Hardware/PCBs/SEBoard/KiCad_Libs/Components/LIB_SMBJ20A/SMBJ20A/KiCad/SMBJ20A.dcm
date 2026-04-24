@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMBJ20A
+D ESD Suppressors / TVS Diodes 20volts 5uA 18.5 Amps Uni-Dir
+K
+F https://www.bourns.com/docs/product-datasheets/smbj.pdf?sfvrsn=34552159_17
+$ENDCMP
+#
+#End Doc Library

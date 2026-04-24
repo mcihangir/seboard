@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP2204R-5.0TRG1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2021-01-28 10:05:01
+Downloaded=2025-12-25 16:34:42
+3D=Y

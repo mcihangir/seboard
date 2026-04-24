@@ -1,0 +1,16 @@
+.CS12ANW03 :1 ;NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH
+CS12ANW03
+*STM S
+*NGS
+*PLB 1="NC" 2="COM" 3="NO"
+*MXP 3
+*DFN CS12ANW03
+~!Mouser Part Number (633-CS12ANW03)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D)
+~!Manufacturer_Name (NKK Switches)
+~!Manufacturer_Part_Number (CS12ANW03)
+~!Link Datasheet (https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/)
+~!Height (13.6mm)
+~!3D_Model (CS12ANW03)
+CS12ANW03
+1.1!U 2.1!U 3.1!U 

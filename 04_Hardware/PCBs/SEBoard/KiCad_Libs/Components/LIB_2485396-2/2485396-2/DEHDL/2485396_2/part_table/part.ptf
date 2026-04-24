@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2485396_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "2485396-2" (!) = "", "24853962", "Other", "", "", "HDMI Connector Receptacle, Standard Profile, 1 Port, Top, Right Angle, Surface Mount, Cable-to-Board, 19 Position, .5 mm [.019 in] Centerline", "https://www.te.com/en/product-2485396-2.html", "6.33 mm"
+END_PART
+
+END.

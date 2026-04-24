@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CM2021Y330R-10
+D 2 Line Common Mode Choke Surface Mount 33 Ohms @ 100 MHz 15A DCR 0.75mOhm 2322 (5956 Metric), 4 Lead  -40C ~ 125C
+K
+F https://www.laird.com/sites/default/files/cm2021y330r-10-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

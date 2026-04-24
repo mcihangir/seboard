@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP2204R_5.0TRG1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP2204R-5.0TRG1" (!) = "", "AP2204R50TRG1", "Other", "621-AP2204R-5.0TRG1", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2204R-5.0TRG1?qs=x6A8l6qLYDB4wt14AgubAw%3D%3D", "LDO Voltage Regulators 150mA CMOS LDO 5.0V", "https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP2204R-5-0TRG1_C156388.pdf", "1.6 mm"
+END_PART
+
+END.

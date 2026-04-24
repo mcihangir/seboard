@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=FL2500188
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2025-06-21 04:02:02
+Downloaded=2025-10-19 13:30:26
+3D=Y

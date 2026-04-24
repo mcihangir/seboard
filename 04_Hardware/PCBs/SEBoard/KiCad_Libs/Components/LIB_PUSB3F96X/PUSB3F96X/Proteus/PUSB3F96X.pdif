@@ -1,0 +1,142 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PUSB3F96X"
+   (description "4.6V (Typ) Clamp 5.2A (8/20s) Ipp Tvs Diode Surface Mount DFN2510A-10")
+   (family "DIO")
+   (package "PUSB3F96X")
+   (attribute "Datasheet Link" "https://www.nexperia.com/product/PUSB3F96")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Mouser Part Number" "771-PUSB3F96X")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3F96X?qs=y2kkmE52mdOojYwbWuCCFg%3D%3D")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "PUSB3F96X")
+   (gate
+    (symbol "PUSB3F96X")
+    (pin "CH1" 1 PS)
+    (pin "CH2" 2 PS)
+    (pin "GND_1" 3 PS)
+    (pin "CH3" 4 PS)
+    (pin "CH4" 5 PS)
+    (pin "N.C._1" 6 PS)
+    (pin "N.C._2" 7 PS)
+    (pin "GND_2" 8 PS)
+    (pin "N.C._3" 9 PS)
+    (pin "N.C._4" 10 PS)
+   )
+  )
+  (symbol "PUSB3F96X"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PUSB3F96X"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.25 -0.5)
+      (pt 1.25 -0.5)
+      (pt 1.25 0.5)
+      (pt -1.25 0.5)
+      (pt -1.25 -0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.25 -1.625)
+      (pt 2.25 -1.625)
+      (pt 2.25 1.625)
+      (pt -2.25 1.625)
+      (pt -2.25 -1.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 -1)
+      (arc (pt -1.000 -1.000) (pt -1.050 -1.100) (pt -0.950 -1.000) (start 180.0) (sweep 90.0))
+      (pt -1 -1.1)
+      (arc (pt -1.000 -1.100) (pt -1.050 -1.100) (pt -0.950 -1.000) (start 180.0) (sweep -90.0))
+      (pt -1 -1))))
+   (leg 1 (pt -1.000 -0.388) (padstack 0))
+   (leg 2 (pt -0.500 -0.388) (padstack 0))
+   (leg 3 (pt 0.000 -0.388) (padstack 0))
+   (leg 4 (pt 0.500 -0.388) (padstack 0))
+   (leg 5 (pt 1.000 -0.388) (padstack 0))
+   (leg 6 (pt 1.000 0.388) (padstack 0))
+   (leg 7 (pt 0.500 0.388) (padstack 0))
+   (leg 8 (pt 0.000 0.388) (padstack 0))
+   (leg 9 (pt -0.500 0.388) (padstack 0))
+   (leg 10 (pt -1.000 0.388) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.200 0.475 0 0 90.000))
+   )
+   (model "PUSB3F96X.stp"
+    (euler 0 0 0)
+    (offset 0 0 0.49000000953674316)
+   )
+  )
+ )
+)

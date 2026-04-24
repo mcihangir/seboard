@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CS12ANW03"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-08-22-09:22:53)
+    (mountForm default
+        (footprintRef "CS12ANW03")
+        (spec "System")
+    )
+)

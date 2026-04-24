@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1-2199230-4
+PartCategory=Connector
+PackageCategory=Other
+PinCount=69
+Version=6.4
+Released=2022-02-04 06:19:49
+Downloaded=2025-10-16 19:07:43
+3D=Y

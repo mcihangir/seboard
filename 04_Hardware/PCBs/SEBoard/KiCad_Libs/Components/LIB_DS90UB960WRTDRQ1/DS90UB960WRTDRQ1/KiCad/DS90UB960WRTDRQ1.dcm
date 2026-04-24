@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS90UB960WRTDRQ1
+D LVDS Deserializer 4160Mbps Automotive 64-Pin VQFN EP T/R
+K
+F https://www.ti.com/lit/ds/symlink/ds90ub960-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_u
+$ENDCMP
+#
+#End Doc Library

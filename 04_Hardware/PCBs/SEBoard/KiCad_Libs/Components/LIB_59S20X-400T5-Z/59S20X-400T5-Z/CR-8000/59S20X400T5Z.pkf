@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "59S20X400T5Z"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "59S20X400T5Z")
+        (spec "default")
+    )
+)

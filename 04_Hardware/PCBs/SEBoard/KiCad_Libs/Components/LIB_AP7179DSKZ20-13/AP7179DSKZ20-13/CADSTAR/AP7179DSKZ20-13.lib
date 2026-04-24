@@ -1,0 +1,16 @@
+.AP7179DSKZ20-13 :1 ;LDO Voltage Regulators LDO CMOS HiCurr W-QFN3535-20 T&R 5K
+QFN50P350X350X80-21N-D
+*STM IC
+*NGS
+*PLB 1="OUT_1" 2="SNS" 3="FB" 4="PG" 5="50MV" 6="100MV" 7="200MV" 8="GND_1" 9="400MV" 10="800MV" 11="1.6V" 12="NC" 13="NR/SS" 14="EN" 15="IN_1" 16="IN_2" 17="IN_3" 18="GND_2" 19="OUT_2" 20="OUT_3" 21="EP"
+*MXP 21
+*DFN AP7179DSKZ20-13
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP7179DSKZ20-13)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/AP7179D.pdf)
+~!Height (0.8mm)
+~!3D_Model (AP7179DSKZ20-13)
+AP7179DSKZ20-13
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 

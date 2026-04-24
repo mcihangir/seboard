@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD3V3L5UF,115
+D NXP PESD3V3L5UF,115, Quint Uni-Directional ESD Protection Diode, 25W, 6-Pin SOT-886
+K
+F https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf
+$ENDCMP
+#
+#End Doc Library

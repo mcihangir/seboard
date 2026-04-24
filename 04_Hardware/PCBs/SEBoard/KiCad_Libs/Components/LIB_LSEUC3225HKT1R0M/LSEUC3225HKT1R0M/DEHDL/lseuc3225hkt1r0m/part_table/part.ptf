@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSEUC3225HKT1R0M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TAIYO YUDEN", "LSEUC3225HKT1R0M" (!) = "", "LSEUC3225HKT1R0M", "Other", "", "", "Wire-wound Metal Power Inductors MCOIL LSEU series for General Electronic Equipment, 1.0uH+/-20%, 4.2A, 1210/3225 (EIA/JIS)", "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=LSEUC3225HKT1R0M", "0.8 mm"
+END_PART
+
+END.

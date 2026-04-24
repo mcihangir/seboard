@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP2204K-5_0TRG1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-04-04:30:21)
+    (mountForm default
+        (footprintRef "SOT95P282X145-5N")
+        (spec "System")
+    )
+)

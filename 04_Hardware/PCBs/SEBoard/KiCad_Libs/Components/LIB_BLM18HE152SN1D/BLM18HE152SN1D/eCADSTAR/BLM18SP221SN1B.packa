@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BLM18HE152SN1D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-11-13-09:09:06)
+    (mountForm default
+        (footprintRef "BLM18SP221SN1B")
+        (spec "System")
+    )
+)

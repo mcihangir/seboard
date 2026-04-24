@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "25SVPG270M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-05-12-10:49:38)
+    (mountForm default
+        (footprintRef "16SVPT560M")
+        (spec "System")
+    )
+)

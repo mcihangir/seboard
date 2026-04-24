@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'A765KN227M1CLAE016'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "A765KN227M1CLAE016" (!) = "", "CAPAE830X1000N", "Capacitor Al Electrolytic", "80-A765KN227M1CLAE16", "https://www.mouser.co.uk/ProductDetail/KEMET/A765KN227M1CLAE016?qs=M6jHmRuQorVv0fT1Kt4HIQ%3D%3D", "A765, Aluminum, Polymer Aluminum, 220 uF, 20%, 16 VDC, -55/+105C, 105C, -55C, 105C, 2,000 Hrs, 16 mOhms, 704 uA, 8mm, 9.7mm, 500", "https://content.kemet.com/datasheets/KEM_A4070_A765.pdf", "10 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=A765KN227M1CLAE016
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=3.1
+Released=2022-10-01 03:17:40
+Downloaded=2025-10-27 19:06:00
+3D=Y

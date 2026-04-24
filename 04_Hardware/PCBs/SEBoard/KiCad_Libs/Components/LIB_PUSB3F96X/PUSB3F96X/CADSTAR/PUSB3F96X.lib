@@ -1,0 +1,16 @@
+.PUSB3F96X :1 ;4.6V (Typ) Clamp 5.2A (8/20s) Ipp Tvs Diode Surface Mount DFN2510A-10
+PUSB3F96X
+*STM D
+*NGS
+*PLB 1="CH1" 2="CH2" 3="GND_1" 4="CH3" 5="CH4" 6="N.C._1" 7="N.C._2" 8="GND_2" 9="N.C._3" 10="N.C._4"
+*MXP 10
+*DFN PUSB3F96X
+~!Mouser Part Number (771-PUSB3F96X)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PUSB3F96X?qs=y2kkmE52mdOojYwbWuCCFg%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PUSB3F96X)
+~!Link Datasheet (https://www.nexperia.com/product/PUSB3F96)
+~!Height (0.5mm)
+~!3D_Model (PUSB3F96X)
+PUSB3F96X
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 

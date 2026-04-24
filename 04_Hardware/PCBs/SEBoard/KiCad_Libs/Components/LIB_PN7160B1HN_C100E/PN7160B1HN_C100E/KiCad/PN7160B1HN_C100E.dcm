@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PN7160B1HN_C100E
+D NFC/RFID Tags & Transponders NFC Plug and Play Controller with Integrated Firmware and NCI Interface
+K
+F https://www.mouser.es/datasheet/2/302/PN7160_PN7161-2634640.pdf
+$ENDCMP
+#
+#End Doc Library

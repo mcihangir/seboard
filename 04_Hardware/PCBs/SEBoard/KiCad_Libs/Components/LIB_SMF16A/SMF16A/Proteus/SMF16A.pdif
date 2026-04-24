@@ -1,0 +1,117 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SMF16A"
+   (description "ESD Suppressors / TVS Diodes 200W 16V 5% Uni-directional")
+   (family "DIO")
+   (package "SODFL3618X110N")
+   (attribute "Datasheet Link" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "576-SMF16A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMF16A?qs=IP%252BaFeBnnar8T%2Ffm%252BJ%2Flrw%3D%3D")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "SMF16A")
+   (gate
+    (symbol "SMF16A")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SMF16A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 240 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -80) (pt 200 80))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 160 100) (pt 200 80))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SODFL3618X110N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.3 1.15)
+      (pt 2.3 1.15)
+      (pt 2.3 -1.15)
+      (pt -2.3 -1.15)
+      (pt -2.3 1.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.35 0.875)
+      (pt 1.35 0.875)
+      (pt 1.35 -0.875)
+      (pt -1.35 -0.875)
+      (pt -1.35 0.875))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.35 0.275)
+      (pt -0.75 0.875))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.15 0.875)
+      (pt 1.35 0.875))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.35 -0.875)
+      (pt 1.35 -0.875))))
+   (leg 1 (pt -1.55 0) (padstack 0))
+   (leg 2 (pt 1.55 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.2 1.22 0 0 90))
+   )
+   (model "SMF16A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

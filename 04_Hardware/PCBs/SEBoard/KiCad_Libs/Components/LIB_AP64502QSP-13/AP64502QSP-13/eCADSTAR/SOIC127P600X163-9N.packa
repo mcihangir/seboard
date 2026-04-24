@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP64502QSP-13"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-03-28-04:56:34)
+    (mountForm default
+        (footprintRef "SOIC127P600X163-9N")
+        (spec "System")
+    )
+)

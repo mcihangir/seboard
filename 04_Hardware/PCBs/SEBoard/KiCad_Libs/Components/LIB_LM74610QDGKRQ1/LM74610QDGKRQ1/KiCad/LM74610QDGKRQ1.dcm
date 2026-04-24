@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM74610QDGKRQ1
+D Zero Iq Reverse Polarity Protection Smart Diode Controller
+K
+F http://www.ti.com/lit/gpn/lm74610-q1
+$ENDCMP
+#
+#End Doc Library

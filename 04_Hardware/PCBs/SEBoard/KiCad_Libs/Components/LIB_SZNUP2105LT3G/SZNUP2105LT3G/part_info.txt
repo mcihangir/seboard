@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=SZNUP2105LT3G
+PartCategory=Diode
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2015-09-16 07:27:06
+Downloaded=2025-12-31 06:42:31
+3D=Y

@@ -1,0 +1,208 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "2336582-1"
+   (description "4FF SIM, Push-Push Type, 7 Position, 7 Loaded Positions, Signal, -40  80 C [-40  185 F], SIM Card Connectors")
+   (family "CON")
+   (package "23365821")
+   (attribute "Datasheet Link" "https://www.te.com/en/product-2336582-1.html")
+   (attribute "Geometry.Height" "1.62mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "2336582-1")
+   (gate
+    (symbol "2336582-1")
+    (pin "VCC" C1 PS)
+    (pin "RST" C2 PS)
+    (pin "CLK" C3 PS)
+    (pin "GND" C5 PS)
+    (pin "VPP" C6 PS)
+    (pin "I/O" C7 PS)
+    (pin "CD1" CD1 PS)
+    (pin "MP1" MP1 PS)
+    (pin "MP2" MP2 PS)
+    (pin "MP3" MP3 PS)
+    (pin "MP4" MP4 PS)
+   )
+  )
+  (symbol "2336582-1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "23365821"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.145 6.47)
+      (pt 6.145 6.47)
+      (pt 6.145 -7.25)
+      (pt -6.145 -7.25)
+      (pt -6.145 6.47))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.85 8.55)
+      (pt 7.85 8.55)
+      (pt 7.85 -8.55)
+      (pt -7.85 -8.55)
+      (pt -7.85 8.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0.25 8)
+      (arc (pt 0.250 8.000) (pt 0.200 8.000) (pt 0.300 8.100) (start 180.0) (sweep -90.0))
+      (pt 0.25 8.1)
+      (arc (pt 0.250 8.100) (pt 0.200 8.000) (pt 0.300 8.100) (start 180.0) (sweep 90.0))
+      (pt 0.25 8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.25 6.47)
+      (pt 5.75 6.47))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 6.145 4)
+      (pt 6.145 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 5.75 -7.25)
+      (pt -5.75 -7.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6.145 -5)
+      (pt -6.145 4.2))))
+   (leg C1 (pt 0.250 6.980) (padstack 0))
+   (leg C2 (pt -2.290 6.980) (padstack 0))
+   (leg C3 (pt -4.830 6.980) (padstack 0))
+   (leg C5 (pt 1.520 6.980) (padstack 0))
+   (leg C6 (pt -1.020 6.980) (padstack 0))
+   (leg C7 (pt -3.560 6.980) (padstack 0))
+   (leg CD1 (pt 2.470 6.980) (padstack 0))
+   (leg MH1 (pt 3.500 -5.250) (padstack 8))
+   (leg MH2 (pt -5.000 -5.250) (padstack 9))
+   (leg MP1 (pt 6.500 5.500) (padstack 10))
+   (leg MP2 (pt -6.500 5.500) (padstack 11))
+   (leg MP3 (pt -6.500 -6.500) (padstack 12))
+   (leg MP4 (pt 6.500 -6.500) (padstack 13))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.800 1.140 0 0 90.000))
+   )
+   (padstack 8
+    (hole 0.75)
+    (plated false)
+    (pad (layer TCOP) (round 0.375))
+    (pad (layer INNER) (round 0.375))
+    (pad (layer BCOP) (round 0.375))
+   )
+   (padstack 9
+    (hole 0.75)
+    (plated false)
+    (pad (layer TCOP) (round 0.375))
+    (pad (layer INNER) (round 0.375))
+    (pad (layer BCOP) (round 0.375))
+   )
+   (padstack 10
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 2.100 0 0 90.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 2.100 0 0 90.000))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 2.100 0 0 90.000))
+   )
+   (padstack 13
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 2.100 0 0 90.000))
+   )
+   (model "2336582-1.stp"
+    (euler 90 0 0)
+    (offset 0.03999999910593033 -7.230000019073486 0.6399999856948853)
+   )
+  )
+ )
+)

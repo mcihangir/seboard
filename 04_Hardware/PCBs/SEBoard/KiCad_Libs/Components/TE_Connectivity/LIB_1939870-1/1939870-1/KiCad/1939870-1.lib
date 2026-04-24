@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1939870-1
+#/1151801/941407/2.50/14/2/Connector
+DEF 1939870-1 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "1939870-1" 1150 200 50 H V L CNN
+F2 "19398701" 1150 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1939870%7FD%7Fpdf%7FJapanese%7FJPN_CD_1939870_D.pdf%7F1939870-1" 1150 0 50 H I L CNN
+F4 "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | PCB Mount Orientation Right Angle | Number of Positions 9 | Contact Features: Contact Mating Area Plating Material Thickness .2  .5 MICM | Contact Layout Inline | Contact Current Rating (Max) .5 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Gold | Contact Base Material Copper Alloy | PCB Contact Termination Area Plating Material Tin | Dimensions: Profile Height from PCB .116 INCH | " 1150 -100 50 H I L CNN "Description"
+F5 "3.7" 1150 -200 50 H I L CNN "Height"
+F6 "571-1939870-1" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1939870-1?qs=TL6PIybY3BOt2514n%2FsFbQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1939870-1" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X CD/DAT3 1 0 0 200 R 50 50 0 0 P
+X CMD 2 0 -100 200 R 50 50 0 0 P
+X VSS1 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS2 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 0 -600 200 R 50 50 0 0 P
+X DAT1 8 1300 0 200 L 50 50 0 0 P
+X DAT2 9 1300 -100 200 L 50 50 0 0 P
+X MP1 MP1 1300 -200 200 L 50 50 0 0 P
+X MP2 MP2 1300 -300 200 L 50 50 0 0 P
+X MP3 MP3 1300 -400 200 L 50 50 0 0 P
+X MP4 MP4 1300 -500 200 L 50 50 0 0 P
+X MP5 MP5 1300 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "BLM18AG102BH1D"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "BLM18AG102BH1D")
+        (spec "default")
+    )
+)

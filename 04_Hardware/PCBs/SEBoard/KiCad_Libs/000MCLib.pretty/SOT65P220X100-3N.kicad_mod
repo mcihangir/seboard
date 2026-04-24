@@ -1,0 +1,237 @@
+(footprint "SOT65P220X100-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SC-70 (SOT-323) CASE419-04")
+	(tags "Transistor RET NPN")
+	(property "Reference" "Q**"
+		(at -0.24 -1.84 0)
+		(layer "F.SilkS")
+		(uuid "7a0ab457-0596-4995-a6d4-5b5908558416")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT65P220X100-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "563f40d4-f4d2-4158-a102-9e22575606c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d635853e-5b7b-40e8-81fb-a6293e284723")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4efc4f2b-9e3e-4685-bd80-58c43a710737")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.575 -1.175)
+		(end -0.425 -1.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a7051bc-a6b7-4a87-8b7a-9422b106e68c")
+	)
+	(fp_line
+		(start -0.075 -1)
+		(end 0.075 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65c52eda-dcdd-436f-894a-b9cc20819f09")
+	)
+	(fp_line
+		(start -0.075 1)
+		(end -0.075 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b0cf7a1-2f62-4683-86c4-22741d4c0188")
+	)
+	(fp_line
+		(start 0.075 -1)
+		(end 0.075 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0899661b-1680-42c1-90f4-1d95ff390fd6")
+	)
+	(fp_line
+		(start 0.075 1)
+		(end -0.075 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a5b0899-6a95-4081-aca7-7e9773acbad2")
+	)
+	(fp_line
+		(start -1.825 -1.35)
+		(end 1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "228e81b8-1c72-4651-aba3-6d585f9fa10f")
+	)
+	(fp_line
+		(start -1.825 1.35)
+		(end -1.825 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2920d29d-fe2b-4395-9fc4-4cff1185cd55")
+	)
+	(fp_line
+		(start 1.825 -1.35)
+		(end 1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b17df890-2eb8-4c8b-9d8e-a909dc33fec4")
+	)
+	(fp_line
+		(start 1.825 1.35)
+		(end -1.825 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e6bbfb3-5f1f-4beb-8f01-3dca72ee33b7")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b54df9b-66fd-49ce-bb1d-69f0eb9eb320")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84e5081a-e491-46bf-8f1b-a4ed9d45c6b0")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d39ccd52-f7e1-48a1-9741-d5e4970ae84b")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d7030cf-aa39-4ddc-a7f9-1ca31470103d")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e50a77bc-b9b6-4dc5-ae3e-2ef089305012")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "67dc9326-97ee-43bb-97b8-0cb64294b35e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -0.65 90)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b1f59485-bc7d-45e9-8581-ee6ebd388fe5")
+	)
+	(pad "2" smd rect
+		(at -1 0.65 90)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1a88c26a-c697-4796-b34b-88f2b711b919")
+	)
+	(pad "3" smd rect
+		(at 1 0 90)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bd5ed5d-2659-44ef-9bd4-9dad49616ce9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/LIB_MUN5233T1G/MUN5233T1G/3D/MUN5233T1G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

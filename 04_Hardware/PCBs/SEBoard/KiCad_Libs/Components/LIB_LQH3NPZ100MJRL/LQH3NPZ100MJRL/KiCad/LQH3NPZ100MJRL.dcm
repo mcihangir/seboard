@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQH3NPZ100MJRL
+D LQH3NPZ_JR Series Inductor 10uH +/-20% 1212 (3030)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-9131.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CS12ANW03
+#/622393/941407/2.50/3/3/Switch
+DEF CS12ANW03 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "CS12ANW03" 750 200 50 H V L CNN
+F2 "CS12ANW03" 750 100 50 H I L CNN
+F3 "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/" 750 0 50 H I L CNN
+F4 "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH" 750 -100 50 H I L CNN "Description"
+F5 "13.6" 750 -200 50 H I L CNN "Height"
+F6 "633-CS12ANW03" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "NKK Switches" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CS12ANW03" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC 1 0 -200 200 R 50 50 0 0 N
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NO 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FH12S-30S-0.5SH_55_
+D FFC,0.5mm Pitch,Bottom Contact,3 way Hirose FH12 Series 0.5mm Pitch 30 Way Right Angle SMT Female FPC Connector, ZIF Bottom Contact
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023459.pdf
+$ENDCMP
+#
+#End Doc Library

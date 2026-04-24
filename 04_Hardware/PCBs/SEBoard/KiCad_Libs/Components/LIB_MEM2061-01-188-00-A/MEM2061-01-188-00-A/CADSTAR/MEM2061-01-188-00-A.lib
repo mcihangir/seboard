@@ -1,0 +1,17 @@
+.MEM2061-01-188-00-A :1 ;MEM2061 Series 8 Position 1.1 mm Pitch Push-Push MicroSD SMT Memory Card Connector
+MEM20610118800A
+*STM J
+*NGS
+*PNM 1=G1 2=G2 3=P1 4=P2 5=P3 6=P4 7=P5 8=P6 9=P7 10=P8 11=CD1 12=CD2
+*PLB 1="GND_1" 2="GND_2" 3="DAT2" 4="CD/DAT3" 5="CMD" 6="VDD" 7="CLK" 8="VSS" 9="DAT0" 10="DAT1" 11="CARD DETECT_1" 12="CARD DETECT_2"
+*MXP 12
+*DFN MEM2061-01-188-00-A
+~!Mouser Part Number (640-MEM20610118800A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/GCT/MEM2061-01-188-00-A?qs=KUoIvG%2F9IlYc25USp0M1eQ%3D%3D)
+~!Manufacturer_Name (GCT (GLOBAL CONNECTOR TECHNOLOGY))
+~!Manufacturer_Part_Number (MEM2061-01-188-00-A)
+~!Link Datasheet (https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2)
+~!Height (2.13mm)
+~!3D_Model (MEM2061-01-188-00-A)
+MEM2061-01-188-00-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

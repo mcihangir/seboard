@@ -1,0 +1,16 @@
+.FL2500188 :1 ;25 MHz +/-10ppm Crystal 8pF 40 Ohms 4-SMD, No Lead
+FL2500188
+*STM Y
+*NGS
+*PLB 1="XTAL_1" 2="CASE_1" 3="XTAL_2" 4="CASE_2"
+*MXP 4
+*DFN FL2500188
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (FL2500188)
+~!Link Datasheet (https://www.diodes.com/assets/Datasheets/FL.pdf)
+~!Height (0.78mm)
+~!3D_Model (FL2500188)
+FL2500188
+1.1!U 2.1!U 3.1!U 4.1!U 

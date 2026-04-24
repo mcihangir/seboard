@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DS90UB960WRTDRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DS90UB960WRTDRQ1" (!) = "", "QFN50P900X900X90-65N-D", "Quad Flat No-Lead", "595-DS90UB960WRTDRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DS90UB960WRTDRQ1?qs=EU6FO9ffTwdY8goEJWiHUg%3D%3D", "LVDS Deserializer 4160Mbps Automotive 64-Pin VQFN EP T/R", "https://www.ti.com/lit/ds/symlink/ds90ub960-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&DCM=yes&ref_u", "0.9 mm"
+END_PART
+
+END.

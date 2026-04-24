@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LSEUC3225HKT1R0M"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LSEUC3225HKT1R0M")
+        (spec "default")
+    )
+)

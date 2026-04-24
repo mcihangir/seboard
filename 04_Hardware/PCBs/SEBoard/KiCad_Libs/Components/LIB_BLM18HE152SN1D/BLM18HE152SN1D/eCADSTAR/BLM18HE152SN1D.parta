@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12902885"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:18:05)
+    (utime 2023-03-07-11:18:05)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BLM18HE152SN1D")
+)
+
+
+(pinAssign "ECS_12902885"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:18:05)
+    (utime 2023-03-07-11:18:05)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12902885")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BLM18HE152SN1D")
+)
+
+
+(part "BLM18HE152SN1D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-07-11:18:05)
+    (utime 2023-03-07-11:18:05)
+    (packageRef "BLM18HE152SN1D")
+    (pinAssignRef "ECS_12902885")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "FB")
+    (property "description" "Ferrite Beads 0603 1500ohms")
+    (property "Mouser_Part_Number" "81-BLM18HE152SN1D")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18HE152SN1D?qs=vNc2DXHODiLhczkT1FKS1Q%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "BLM18HE152SN1D")
+    (property "Datasheet_Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb")
+    (property "compAreaTopHeight" 0.95)
+)
+
+

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RQ7E100ATTCR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-14-08:31:45)
+    (mountForm default
+        (footprintRef "RQ7E100ATTCR")
+        (spec "System")
+    )
+)

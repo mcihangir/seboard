@@ -1,0 +1,9 @@
+Manufacturer=SAMSUNG
+PartNumber=CL31B106KBK6PJE
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2025-01-26 13:17:35
+Downloaded=2025-10-09 15:47:45
+3D=Y

@@ -1,0 +1,19 @@
+{ Using PSTWRITER 17.4.0 d001Jun-11-2024 at 15:37:42 }
+
+#1 WARNING(ORCAP-36049): Ignoring following Component Definition properties since they also exists as Component Instance properties in Q:\Data\CDS_SITE\allegro.cfg.
+              ASSY_OPT , BOM_IGNORE
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "J31.6" ignored for J31: PNEV7220BP1, 05 NFC Antenna (15.10, 8.10). Connecting pin to net "NFC_RXN".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "J63.A5" ignored for J63: PNEV7220BP1, 03 POWER (3.80, 5.20). Connecting pin to net "USB_CC1".
+#4 WARNING(ORCAP-36038): "No_connect" property on Pin "J63.B5" ignored for J63: PNEV7220BP1, 03 POWER (3.80, 5.20). Connecting pin to net "USB_CC2".
+#5 WARNING(ORCAP-36038): "No_connect" property on Pin "P1.24" ignored for P1: PNEV7220BP1, 04 NFCC Interface (21.20, 16.00). Connecting pin to net "N28179177".
+#6 WARNING(ORCAP-36038): "No_connect" property on Pin "P1.25" ignored for P1: PNEV7220BP1, 04 NFCC Interface (21.20, 15.40). Connecting pin to net "JTAG_TMS_SWDIO".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\^LOCAL\EDABUFFER\PNEV7220BP1\allegro\pstchip.dat
+
+Loading... C:\^LOCAL\EDABUFFER\PNEV7220BP1\allegro\pstchip.dat
+
+Loading... C:\^LOCAL\EDABUFFER\PNEV7220BP1\allegro\pstxprt.dat
+
+Loading... C:\^LOCAL\EDABUFFER\PNEV7220BP1\allegro\pstxnet.dat
+packaging the design view...

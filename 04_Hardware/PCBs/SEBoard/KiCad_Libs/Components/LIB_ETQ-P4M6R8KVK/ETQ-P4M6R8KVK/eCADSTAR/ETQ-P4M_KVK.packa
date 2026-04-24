@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ETQ-P4M6R8KVK"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-21-13:06:12)
+    (mountForm default
+        (footprintRef "ETQ-P4M_KVK")
+        (spec "System")
+    )
+)

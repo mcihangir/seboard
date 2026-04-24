@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=B520C-13-F
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=1.1
+Released=2020-01-17 06:21:59
+Downloaded=2025-10-09 15:26:52
+3D=Y

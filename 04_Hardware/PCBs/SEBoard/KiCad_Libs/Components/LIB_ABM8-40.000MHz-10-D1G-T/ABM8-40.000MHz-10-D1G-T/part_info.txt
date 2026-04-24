@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABM8-40.000MHz-10-D1G-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=4.2
+Released=2023-03-29 11:06:25
+Downloaded=2025-12-30 11:55:05
+3D=Y

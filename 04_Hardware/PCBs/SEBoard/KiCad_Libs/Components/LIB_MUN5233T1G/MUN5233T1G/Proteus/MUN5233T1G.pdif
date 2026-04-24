@@ -1,0 +1,170 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MUN5233T1G"
+   (description "Simplifies Circuit Design; Reduces Component Count; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant")
+   (family "TRX")
+   (package "SOT65P220X100-3N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/DTC143Z-D.PDF")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "863-MUN5233T1G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MUN5233T1G?qs=ZpPixqFcBtzWrnINWZxoIA%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "MUN5233T1G")
+   (gate
+    (symbol "MUN5233T1G")
+    (pin "B" 1 PS)
+    (pin "E" 2 PS)
+    (pin "C" 3 PS)
+   )
+  )
+  (symbol "MUN5233T1G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 15)
+    (circle (pt 460 0) (pt 440 0))
+   )
+   (graphic
+    (stroke 15)
+    (circle (pt 660 -400) (pt 640 -400))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 700 300) (pt 700 -500) (pt 100 -500) (pt 100 300) (pt 700 300) (closed))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 550 80) (pt 550 -70))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 550 30) (pt 650 130))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 550 -20) (pt 650 -120))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 150 -40) (pt 150 40) (pt 350 40) (pt 350 -40) (pt 150 -40) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 490 -300) (pt 410 -300) (pt 410 -100) (pt 490 -100) (pt 490 -300) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 450 -100) (pt 450 0) (pt 350 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 450 0) (pt 550 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 650 130) (pt 650 200) (pt 700 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 650 -120) (pt 650 -400))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 450 -300) (pt 450 -400) (pt 700 -400))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 150 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 580 -70) (pt 600 -50) (pt 620 -90) (pt 580 -70))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 80 -20) (rot 0) (just TOP RIGHT) (visible false))
+    (number (pt 80 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 800 -400) (rot 0) (mir X) (visible true))
+    (name (pt 80 -20) (rot 0) (just TOP RIGHT) (visible false))
+    (number (pt 80 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 800 200) (rot 0) (mir X) (visible true))
+    (name (pt 80 -20) (rot 0) (just TOP RIGHT) (visible false))
+    (number (pt 80 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT65P220X100-3N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.825 1.35)
+      (pt 1.825 1.35)
+      (pt 1.825 -1.35)
+      (pt -1.825 -1.35)
+      (pt -1.825 1.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.625 1)
+      (pt 0.625 1)
+      (pt 0.625 -1)
+      (pt -0.625 -1)
+      (pt -0.625 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.625 0.35)
+      (pt 0.025 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.075 1)
+      (pt 0.075 1)
+      (pt 0.075 -1)
+      (pt -0.075 -1)
+      (pt -0.075 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.575 1.175)
+      (pt -0.425 1.175))))
+   (leg 1 (pt -1 0.65) (padstack 0))
+   (leg 2 (pt -1 -0.65) (padstack 0))
+   (leg 3 (pt 1 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.55 1.15 0 0 0))
+   )
+   (model "MUN5233T1G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

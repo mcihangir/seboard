@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EEH_ZU1V471UP'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Panasonic", "EEH-ZU1V471UP" (!) = "", "EEHZS1H151P", "Other", "667-EEH-ZU1V471UP", "https://www.mouser.co.uk/ProductDetail/Panasonic/EEH-ZU1V471UP?qs=HoCaDK9Nz5cz0HnbxgPFpg%3D%3D", "Conductive Polymer Hybrid Aluminum Electrolytic Capacitor", "https://industrial.panasonic.com/cdbs/www-data/pdf/RDD0000/ast-ind-280898.pdf"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP7179DSKZ20_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP7179DSKZ20-13" (!) = "", "QFN50P350X350X80-21N-D", "Quad Flat No-Lead", "", "", "LDO Voltage Regulators LDO CMOS HiCurr W-QFN3535-20 T&R 5K", "https://www.diodes.com//assets/Datasheets/AP7179D.pdf", "0.8 mm"
+END_PART
+
+END.

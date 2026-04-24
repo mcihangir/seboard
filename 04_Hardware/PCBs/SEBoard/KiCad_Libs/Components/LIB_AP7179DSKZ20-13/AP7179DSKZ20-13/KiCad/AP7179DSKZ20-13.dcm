@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7179DSKZ20-13
+D LDO Voltage Regulators LDO CMOS HiCurr W-QFN3535-20 T&R 5K
+K
+F https://www.diodes.com//assets/Datasheets/AP7179D.pdf
+$ENDCMP
+#
+#End Doc Library

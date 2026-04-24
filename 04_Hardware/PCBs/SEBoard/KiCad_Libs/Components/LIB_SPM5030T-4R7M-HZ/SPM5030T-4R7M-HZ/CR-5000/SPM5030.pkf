@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SPM5030"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SPM5030")
+        (spec "default")
+    )
+)

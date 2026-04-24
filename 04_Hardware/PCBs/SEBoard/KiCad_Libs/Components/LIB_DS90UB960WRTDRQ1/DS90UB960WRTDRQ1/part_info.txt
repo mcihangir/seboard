@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DS90UB960WRTDRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=65
+Version=1.1
+Released=2021-01-15 08:24:15
+Downloaded=2025-12-31 14:35:26
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MUN5233T1G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MUN5233T1G" (!) = "", "SOT65P220X100-3N", "SOT23 (3-Pin)", "863-MUN5233T1G", "https://www.mouser.co.uk/ProductDetail/onsemi/MUN5233T1G?qs=ZpPixqFcBtzWrnINWZxoIA%3D%3D", "Simplifies Circuit Design; Reduces Component Count; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant", "https://www.onsemi.com/pub/Collateral/DTC143Z-D.PDF", "1 mm"
+END_PART
+
+END.

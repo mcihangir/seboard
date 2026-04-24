@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP7361E-33FGE-7
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=2.1
+Released=2025-09-05 08:44:14
+Downloaded=2025-10-20 13:35:26
+3D=Y

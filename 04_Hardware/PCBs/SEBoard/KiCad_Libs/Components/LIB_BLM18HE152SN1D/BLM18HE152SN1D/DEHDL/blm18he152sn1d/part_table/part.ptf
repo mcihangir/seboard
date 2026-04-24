@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BLM18HE152SN1D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "BLM18HE152SN1D" (!) = "", "BLM18SP221SN1B", "Other", "81-BLM18HE152SN1D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18HE152SN1D?qs=vNc2DXHODiLhczkT1FKS1Q%3D%3D", "Ferrite Beads 0603 1500ohms", "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb", "0.95 mm"
+END_PART
+
+END.

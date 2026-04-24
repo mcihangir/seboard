@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PUSB3F96X
+PartCategory=TVS Diode (Bi-directional)
+PackageCategory=Other
+PinCount=10
+Version=3.2
+Released=2018-12-21 07:17:52
+Downloaded=2026-02-14 10:44:15
+3D=Y

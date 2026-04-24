@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PN7221EV
+D RFID Reader/Transponder IC 13.56MHz FeliCa, ISO 14443A, ISO 14443B, ISO 15693, Mifare, NFC I2C, SPI, USB 2.4V ~ 5.5V 64-VFBGA
+K
+F https://www.nxp.com/docs/en/data-sheet/PN7220.pdf
+$ENDCMP
+#
+#End Doc Library

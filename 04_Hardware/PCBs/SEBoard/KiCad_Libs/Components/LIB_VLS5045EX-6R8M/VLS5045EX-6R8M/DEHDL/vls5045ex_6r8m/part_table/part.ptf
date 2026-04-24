@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VLS5045EX_6R8M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "VLS5045EX-6R8M" (!) = "", "VLS5045EX330M", "Other", "810-VLS5045EX-6R8M", "https://www.mouser.co.uk/ProductDetail/TDK/VLS5045EX-6R8M?qs=oF%2FSscNnLpDYBQmUJumR4g%3D%3D", "TDK VLS-EX Series Type 5045 Shielded Wire-wound SMD Inductor with a Ferrite Core, 6.8 uH +/-20% Wire-Wound 2.9A Idc", "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf", "4 mm"
+END_PART
+
+END.

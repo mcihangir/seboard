@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '662104231722'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "NEWARK_PART_NUMBER", "NEWARK_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "662104231722" (!) = "", "662104231722", "Other", "", "", "WR-MPC3 Micro Power Connectors 3.00 mm SMT Dual Row Male Header Right Angled with SMT Solder Tabs - Tin Plating - Glow-Wire, 04 Pins", "https://www.we-online.com/components/products/download/3D_662104231722+%28rev1%29.pdf", "8.91 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FL2500188
+D 25 MHz +/-10ppm Crystal 8pF 40 Ohms 4-SMD, No Lead
+K
+F https://www.diodes.com/assets/Datasheets/FL.pdf
+$ENDCMP
+#
+#End Doc Library

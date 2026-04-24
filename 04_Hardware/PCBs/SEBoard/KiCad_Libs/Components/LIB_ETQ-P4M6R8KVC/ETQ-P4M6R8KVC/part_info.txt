@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ETQ-P4M6R8KVC
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=4.1
+Released=2021-07-29 06:27:46
+Downloaded=2025-10-16 13:27:48
+3D=Y

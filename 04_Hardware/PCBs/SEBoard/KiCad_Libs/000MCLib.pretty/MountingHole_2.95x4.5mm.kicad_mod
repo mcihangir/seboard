@@ -1,0 +1,125 @@
+(footprint "MountingHole_2.95x4.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MountingHole_2.95x4.5mm")
+	(tags "MountingHole_2.95x4.5mm")
+	(property "Reference" "REF**"
+		(at 0.06 -3.07 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.95x4.5mm"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd00a64-0ad7-4134-9e20-451eedc76ac1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a133e317-3bd7-4ca7-93e3-03b03f97dc95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "MountingHole_2.95x4.5mm"
+		(at 0.06 -0.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b58c636a-defd-4b25-acbc-e5173531d88f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0.06 -0.02)
+		(end 2.31 -0.02)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "117990a6-a72a-4391-a9f1-cceb6d1e5461")
+	)
+	(fp_circle
+		(center 0.06 -0.02)
+		(end 2.61 -0.02)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "84085857-92b7-455f-b606-e2a76637319a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 -0.02 0)
+		(layer "F.Fab")
+		(uuid "4c4e506d-90db-4f34-915c-e9f5c144ea7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 0)
+		(layer "F.Fab")
+		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.04 -0.02)
+		(size 4.5 4.5)
+		(drill 2.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a450bc5-7d60-487e-8568-7e455ff3cd1d")
+	)
+	(embedded_fonts no)
+)

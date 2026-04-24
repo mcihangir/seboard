@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BLM18KG221BH1D
+D BLM18_H1D Series EMI Suppression Filter 220+/-25% at 100MHz 1.5A @85
+K
+F https://www.murata.com/en-us/products/productdetail?partno=BLM18KG221BH1%23
+$ENDCMP
+#
+#End Doc Library

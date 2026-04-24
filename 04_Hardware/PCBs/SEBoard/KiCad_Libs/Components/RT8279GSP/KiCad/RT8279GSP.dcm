@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT8279GSP
+D RICHTEK - RT8279GSP - IC, DC-DC CONVERTER, BUCK, 500KHZ, SOP-8
+K
+F https://www.richtek.com/assets/product_file/RT8279/DS8279-01.pdf
+$ENDCMP
+#
+#End Doc Library

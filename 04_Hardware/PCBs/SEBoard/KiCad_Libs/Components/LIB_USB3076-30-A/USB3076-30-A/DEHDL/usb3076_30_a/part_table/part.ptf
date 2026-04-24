@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'USB3076_30_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "GCT (GLOBAL CONNECTOR TECHNOLOGY)", "USB3076-30-A" (!) = "", "USB307630A", "Other", "640-USB3076-30-A", "https://www.mouser.co.uk/ProductDetail/GCT/USB3076-30-A?qs=KUoIvG%2F9IlZs3NcnVJVajg%3D%3D", "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole", "https://gct.co/connector/usb3076", "2.86 mm"
+END_PART
+
+END.

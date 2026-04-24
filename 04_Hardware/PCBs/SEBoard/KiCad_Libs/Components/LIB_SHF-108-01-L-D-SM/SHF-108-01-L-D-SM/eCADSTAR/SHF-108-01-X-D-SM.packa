@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SHF-108-01-L-D-SM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-09-15:48:54)
+    (mountForm default
+        (footprintRef "SHF-108-01-X-D-SM")
+        (spec "System")
+    )
+)

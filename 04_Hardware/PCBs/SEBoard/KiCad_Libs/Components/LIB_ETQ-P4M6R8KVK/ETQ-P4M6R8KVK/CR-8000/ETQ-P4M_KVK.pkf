@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ETQ-P4M_KVK"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ETQ-P4M_KVK")
+        (spec "default")
+    )
+)

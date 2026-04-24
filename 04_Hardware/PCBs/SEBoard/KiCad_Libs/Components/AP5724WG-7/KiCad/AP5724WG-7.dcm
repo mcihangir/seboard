@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP5724WG-7
+D LED DRVR 6Segment 3.3V/5V 6Pin SOT26 DiodesZetex AP5724WG-7, LED Display Driver
+K
+F https://www.diodes.com//assets/Datasheets/AP5724.pdf
+$ENDCMP
+#
+#End Doc Library

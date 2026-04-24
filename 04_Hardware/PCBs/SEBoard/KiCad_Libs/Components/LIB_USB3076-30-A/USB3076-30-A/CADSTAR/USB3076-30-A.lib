@@ -1,0 +1,17 @@
+.USB3076-30-A :1 ;USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole
+USB307630A
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MH1 7=MH2 8=MP1 9=MP2 10=MP3 11=MP4
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="MH1" 7="MH2" 8="MP1" 9="MP2" 10="MP3" 11="MP4"
+*MXP 11
+*DFN USB3076-30-A
+~!Mouser Part Number (640-USB3076-30-A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/GCT/USB3076-30-A?qs=KUoIvG%2F9IlZs3NcnVJVajg%3D%3D)
+~!Manufacturer_Name (GCT (GLOBAL CONNECTOR TECHNOLOGY))
+~!Manufacturer_Part_Number (USB3076-30-A)
+~!Link Datasheet (https://gct.co/connector/usb3076)
+~!Height (2.86mm)
+~!3D_Model (USB3076-30-A)
+USB3076-30-A
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

@@ -1,0 +1,42 @@
+PCBNEW-LibModule-V1  2025-12-24 11:01:52
+# encoding utf-8
+Units mm
+$INDEX
+SPM5030
+$EndINDEX
+$MODULE SPM5030
+Po 0 0 0 15 694bc820 00000000 ~~
+Li SPM5030
+Cd SPM5030
+Kw Inductor (FeSi Core)
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "L**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "SPM5030"
+DS -2.5 -2.5 2.5 -2.5 0.2 24
+DS 2.5 -2.5 2.5 2.5 0.2 24
+DS 2.5 2.5 -2.5 2.5 0.2 24
+DS -2.5 2.5 -2.5 -2.5 0.2 24
+DS -2.5 -2.5 2.5 -2.5 0.1 21
+DS 2.5 2.5 -2.5 2.5 0.1 21
+DS -4.05 -3.2 3.35 -3.2 0.05 24
+DS 3.35 -3.2 3.35 3.2 0.05 24
+DS 3.35 3.2 -4.05 3.2 0.05 24
+DS -4.05 3.2 -4.05 -3.2 0.05 24
+DC -3.45 0 -3.5 0 0.254 21
+$PAD
+Po -2.1 0
+Sh "1" R 1.5 2.2 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.1 0
+Sh "2" R 1.5 2.2 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE SPM5030
+$EndLIBRARY

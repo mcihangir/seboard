@@ -1,0 +1,9 @@
+Manufacturer=TAIYO YUDEN
+PartNumber=LSEUC3225HKT1R0M
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=2.3
+Released=2024-04-27 10:26:10
+Downloaded=2025-10-21 07:52:23
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRCW08050000Z0EA
+D CRCW0805 Surface Mount Resistor, 0R0 Vishay CRCW Series Thick Film Surface Mount Resistor 0805 Case 0 1% 0.1W
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+#End Doc Library

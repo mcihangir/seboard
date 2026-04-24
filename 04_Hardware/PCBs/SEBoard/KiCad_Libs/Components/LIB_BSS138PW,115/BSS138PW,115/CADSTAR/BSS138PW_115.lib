@@ -1,0 +1,16 @@
+.BSS138PW_115 :1 ;BSS138PW,115 N-Channel MOSFET, 320 mA, 60 V, 3-Pin SOT-323 Nexperia
+SOT65P210X110-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN BSS138PW_115
+~!Mouser Part Number (771-BSS138PW115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/BSS138PW115?qs=A1cBxND5mHKdv5mYHLzmBw%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (BSS138PW,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/BSS138PW.pdf)
+~!Height (1.1mm)
+~!3D_Model (BSS138PW,115)
+BSS138PW_115
+1.1!U 2.1!U 3.1!U 

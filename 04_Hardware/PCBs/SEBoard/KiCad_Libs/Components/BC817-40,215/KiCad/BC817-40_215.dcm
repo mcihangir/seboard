@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817-40,215
+D BC817; BC817W; BC337 - 45 V, 500 mA NPN general-purpose transistors
+K
+F https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf
+$ENDCMP
+#
+#End Doc Library

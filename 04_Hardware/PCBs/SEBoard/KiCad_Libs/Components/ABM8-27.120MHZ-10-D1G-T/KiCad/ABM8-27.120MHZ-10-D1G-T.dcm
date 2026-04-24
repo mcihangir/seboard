@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABM8-27.120MHZ-10-D1G-T
+D 27.12 MHz +/-10ppm Crystal 10pF 50 Ohms 4-SMD, No Lead
+K
+F https://abracon.com/Resonators/abm8.pdf
+$ENDCMP
+#
+#End Doc Library

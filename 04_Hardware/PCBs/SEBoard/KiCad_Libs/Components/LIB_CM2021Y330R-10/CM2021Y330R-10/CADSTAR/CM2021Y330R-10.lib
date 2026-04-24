@@ -1,0 +1,16 @@
+.CM2021Y330R-10 :1 ;2 Line Common Mode Choke Surface Mount 33 Ohms @ 100 MHz 15A DCR 0.75mOhm 2322 (5956 Metric), 4 Lead  -40C ~ 125C
+CM2021Y330R10
+*STM FL
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN CM2021Y330R-10
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Laird/CM2021Y330R-10?qs=PzGy0jfpSMsuvW4RfkrirA%3D%3D)
+~!Manufacturer_Name (Laird Technologies)
+~!Manufacturer_Part_Number (CM2021Y330R-10)
+~!Link Datasheet (https://www.laird.com/sites/default/files/cm2021y330r-10-datasheet.pdf)
+~!Height (3.8mm)
+~!3D_Model (CM2021Y330R-10)
+CM2021Y330R-10
+1.1!U 2.1!U 3.1!U 4.1!U 

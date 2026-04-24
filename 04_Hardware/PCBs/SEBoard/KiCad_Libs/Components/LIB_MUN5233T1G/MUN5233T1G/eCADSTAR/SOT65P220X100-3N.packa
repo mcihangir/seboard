@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MUN5233T1G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "SOT65P220X100-3N")
+        (spec "System")
+    )
+)

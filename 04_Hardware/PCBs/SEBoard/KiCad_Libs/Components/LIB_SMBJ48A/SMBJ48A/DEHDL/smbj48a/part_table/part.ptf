@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMBJ48A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SMBJ48A" (!) = "", "DIOM5436X261N", "Diodes Moulded", "576-SMBJ48A", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ48A?qs=HR2RnyOI4E5oJjzUW5oszQ%3D%3D", "Diode TVS Single Uni-Dir 48V 600W 2-Pin SMB T/R", "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf", "2.61 mm"
+END_PART
+
+END.

@@ -1,0 +1,17 @@
+.2174507-2 :1 ;Body Features: Shell Plating Material Reflowed Tin over Nickel | Offset 0 MM | Connector Profile Micro | Shell Plating Finish Bright | Configuration Features: Number of Ports 1 | Number of Positions 5 | Contact Features: Contact Mating Area Plating Material Thickness 29.52 MICIN | Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1.8 AMP | Contact Mating Area Plating Material Gold | Dimensions: PCB Thickness (Recommended) .8  1. MM | PCB Thickness (Recommended) .031 
+"21745072"
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=MP1 7=MP2 8=MP3 9=MP4 10=MP5 11=MP6
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="MP1" 7="MP2" 8="MP3" 9="MP4" 10="MP5" 11="MP6"
+*MXP 11
+*DFN 2174507-2
+~!Mouser Part Number (571-2174507-2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2174507-2?qs=kAqyOuzYGe%252BUWCFD1qNBLQ%3D%3D)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (2174507-2)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2174507-2&DocFormat=pdf)
+~!Height (2.86mm)
+~!3D_Model (2174507-2)
+"2174507-2"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

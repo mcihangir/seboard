@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=25SVPG270M
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=2
+Version=2.4
+Released=2025-01-12 15:35:49
+Downloaded=2025-12-15 10:48:03
+3D=Y

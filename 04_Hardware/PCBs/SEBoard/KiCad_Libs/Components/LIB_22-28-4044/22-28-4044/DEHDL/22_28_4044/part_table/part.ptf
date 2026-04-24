@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '22_28_4044'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "22-28-4044" (!) = "", "HDRV4W66P0X254_1X4_1016X249X1067P", "Header, Vertical", "538-22-28-4044", "https://www.mouser.com/Search/Refine.aspx?Keyword=538-22-28-4044", "Headers & Wire Housings 4P VERT HDR 15u Au", "https://componentsearchengine.com/Datasheets/1/22-28-4044.pdf", "10.67 mm"
+END_PART
+
+END.

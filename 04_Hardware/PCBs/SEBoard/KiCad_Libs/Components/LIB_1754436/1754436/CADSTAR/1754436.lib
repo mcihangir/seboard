@@ -1,0 +1,16 @@
+.1754436 :1 ;PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MSTB 2,5/..-G, pitch: 5 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.5 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard
+"1754436"
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1754436
+~!Mouser Part Number (651-1754436)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1754436?qs=MsGczSnP6fXpE7KHB4%252B8Gw%3D%3D)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1754436)
+~!Link Datasheet (http://www.phoenixcontact.com/de/produkte/1754436/pdf)
+~!Height (8.72mm)
+~!3D_Model (1754436)
+"1754436"
+1.1!U 2.1!U 

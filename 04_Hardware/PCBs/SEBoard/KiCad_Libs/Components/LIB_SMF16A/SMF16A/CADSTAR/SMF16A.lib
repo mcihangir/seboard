@@ -1,0 +1,16 @@
+.SMF16A :1 ;ESD Suppressors / TVS Diodes 200W 16V 5% Uni-directional
+SODFL3618X110N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMF16A
+~!Mouser Part Number (576-SMF16A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SMF16A?qs=IP%252BaFeBnnar8T%2Ffm%252BJ%2Flrw%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SMF16A)
+~!Link Datasheet (https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf)
+~!Height (1.1mm)
+~!3D_Model (SMF16A)
+SMF16A
+1.1!U 2.1!U 

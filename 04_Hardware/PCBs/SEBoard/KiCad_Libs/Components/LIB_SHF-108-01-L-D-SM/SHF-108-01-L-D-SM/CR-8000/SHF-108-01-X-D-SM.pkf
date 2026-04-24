@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SHF-108-01-X-D-SM"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SHF-108-01-X-D-SM")
+        (spec "default")
+    )
+)

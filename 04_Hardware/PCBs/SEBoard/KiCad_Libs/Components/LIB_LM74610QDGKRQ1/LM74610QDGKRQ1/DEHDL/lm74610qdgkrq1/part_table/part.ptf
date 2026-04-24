@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM74610QDGKRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM74610QDGKRQ1" (!) = "", "SOP65P490X110-8N", "Small Outline Packages", "595-LM74610QDGKRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM74610QDGKRQ1?qs=3jdCaFhktOQTVpuuubgDqg%3D%3D", "Zero Iq Reverse Polarity Protection Smart Diode Controller", "http://www.ti.com/lit/gpn/lm74610-q1", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PESD3V3L5UF,115
+#/944383/941407/2.50/6/2/Diode
+DEF PESD3V3L5UF,115 D 0 30 Y Y 1 F N
+F0 "D" 2250 300 50 H V L CNN
+F1 "PESD3V3L5UF,115" 2250 200 50 H V L CNN
+F2 "PESD3V3L5UF115" 2250 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" 2250 0 50 H I L CNN
+F4 "NXP PESD3V3L5UF,115, Quint Uni-Directional ESD Protection Diode, 25W, 6-Pin SOT-886" 2250 -100 50 H I L CNN "Description"
+F5 "0.5" 2250 -200 50 H I L CNN "Height"
+F6 "771-PESD3V3L5UFT/R" 2250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD3V3L5UF115?qs=LOCUfHb8d9sTpAr2mdrJhA%3D%3D" 2250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 2250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PESD3V3L5UF,115" 2250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X cathode_(diode_1) 1 0 0 200 R 50 50 0 0 P
+X common_anode 2 0 -100 200 R 50 50 0 0 P
+X cathode_(diode_2) 3 0 -200 200 R 50 50 0 0 P
+X cathode_(diode_3) 4 2400 -200 200 L 50 50 0 0 P
+X cathode_(diode_4) 5 2400 -100 200 L 50 50 0 0 P
+X cathode_(diode_5) 6 2400 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2200 100 2200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

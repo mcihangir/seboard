@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CS12ANW03"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CS12ANW03")
+        (spec "default")
+    )
+)

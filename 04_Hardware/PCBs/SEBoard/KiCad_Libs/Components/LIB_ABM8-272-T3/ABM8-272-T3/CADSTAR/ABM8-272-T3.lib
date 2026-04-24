@@ -1,0 +1,16 @@
+.ABM8-272-T3 :1 ;Crystal, 12 MHz, SMD, 3.2mm x 2.5mm, 30 ppm, 10 pF, 30 ppm, ABM8 Series
+ABM8272T3
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="GND_1" 3="CRYSTAL_2" 4="GND_2"
+*MXP 4
+*DFN ABM8-272-T3
+~!Mouser Part Number (815-ABM8-272-T3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ABM8-272-T3?qs=QpmGXVUTftEj6miOiJBMxQ%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ABM8-272-T3)
+~!Link Datasheet (https://abracon.com/datasheets/ABM8-272-T3.pdf)
+~!Height (0.8mm)
+~!3D_Model (ABM8-272-T3)
+ABM8-272-T3
+1.1!U 2.1!U 3.1!U 4.1!U 

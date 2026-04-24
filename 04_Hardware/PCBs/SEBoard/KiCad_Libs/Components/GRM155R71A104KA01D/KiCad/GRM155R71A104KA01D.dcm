@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM155R71A104KA01D
+D Ceramic  SMT capacitor 100nF 10Vdc Murata 0402 GRM 100nF Ceramic Multilayer Capacitor, 10 V dc X7R Dielectric ??10%
+K
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf
+$ENDCMP
+#
+#End Doc Library

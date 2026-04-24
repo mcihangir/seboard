@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP2204K-5.0TRG1
+PartCategory=Power Supply
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=2.1
+Released=2017-03-06 10:41:49
+Downloaded=2025-12-25 16:23:16
+3D=Y

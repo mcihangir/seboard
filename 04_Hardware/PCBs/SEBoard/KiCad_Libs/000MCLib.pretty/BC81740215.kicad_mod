@@ -1,0 +1,293 @@
+(footprint "BC81740215"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BC817-40,215-2")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "Q1"
+		(at 1 -1.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5673d8c-3b69-41b6-bdea-6fcd3d408f9d")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BC817-40,215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f4bb8c68-6196-437c-8078-5e1426085a5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SmartNFC:BC81740215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8e07c9d-64b3-483d-994e-a8aab9eab0cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a75957f4-aed8-46fb-8908-6a6af88e0c07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transistor BJT 500 mA NPN "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f1e2b1b-fcb9-4b24-8a3d-828d3f05cce3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Nexperia"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbdc3fcf-34c7-453e-95d1-8f28b6b748f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "BC817-40,215"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec91da38-e21c-4b35-94e1-107ca6845374")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 0.95)
+		(end -1.5 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1adf4aed-9d7b-43bd-a516-b640c708f684")
+	)
+	(fp_line
+		(start -1.5 1.05)
+		(end -1.5 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28bf093f-4468-4e21-ab52-24ca51f6b252")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end -1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa369acb-14df-4fb1-a830-6fc4211dc7fc")
+	)
+	(fp_line
+		(start -0.6 -0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "180fbea2-96a5-4a20-bacc-cf7472b8d3f5")
+	)
+	(fp_line
+		(start 0.6 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15e5e2a2-bf94-4b03-898f-3083551525cf")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a264942-f7db-459e-9571-7de53742e3cf")
+	)
+	(fp_arc
+		(start -1.5 0.95)
+		(mid -1.45 1)
+		(end -1.5 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "170e7ed2-3b9e-4bf9-82a9-f7ce9056c084")
+	)
+	(fp_arc
+		(start -1.5 1.05)
+		(mid -1.55 1)
+		(end -1.5 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d1cf6cd-4474-4008-aa69-96bd7376ac0b")
+	)
+	(fp_line
+		(start -2 -1.75)
+		(end 2 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "413c42c0-7f1b-4589-9acd-e43aa08a906e")
+	)
+	(fp_line
+		(start -2 1.75)
+		(end -2 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ddf529ab-3f5e-46f6-a48c-6841b430a2c1")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1b2af859-a39c-4cb4-a3bc-90ea627d5792")
+	)
+	(fp_line
+		(start -1.45 0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f060bdd2-ea9d-4d52-be43-e92c85625985")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e6a821d6-7a61-4e0d-b24f-f53285f7560c")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e74c2971-e80d-4d8b-8c9b-60cbceca7005")
+	)
+	(fp_line
+		(start 2 -1.75)
+		(end 2 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "31385ab0-ac54-40f2-84bc-3a56f8625923")
+	)
+	(fp_line
+		(start 2 1.75)
+		(end -2 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a1b18584-127b-4d0b-a941-0aa21be80de5")
+	)
+	(pad "1" smd rect
+		(at -0.95 1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8e1286d1-06ec-4318-a38b-1850720d57c6")
+	)
+	(pad "2" smd rect
+		(at 0.95 1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "5b7730f6-fd06-4621-ac50-3266328e1aee")
+	)
+	(pad "3" smd rect
+		(at 0 -1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "252ba378-2b8b-4078-ab4f-7e53ecdc9df9")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/BC817-40,215/3D/BC817-40,215.stp"
+		(offset
+			(xyz 1.3 -2 -1.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

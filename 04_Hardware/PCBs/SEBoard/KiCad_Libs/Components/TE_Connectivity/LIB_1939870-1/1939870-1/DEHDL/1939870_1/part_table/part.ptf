@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1939870_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1939870-1" (!) = "", "19398701", "Other", "571-1939870-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1939870-1?qs=TL6PIybY3BOt2514n%2FsFbQ%3D%3D", "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 1 | PCB Mount Orientation Right Angle | Number of Positions 9 | Contact Features: Contact Mating Area Plating Material Thickness .2  .5 MICM | Contact Layout Inline | Contact Current Rating (Max) .5 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Gold | Contact Base Material Copper Alloy | PCB Contact Termination Area Plating Material Tin | Dimensions: Profile Height from PCB .116 INCH | ", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1939870%7FD%7Fpdf%7FJapanese%7FJPN_CD_1939870_D.pdf%7F1939870-1", "3.7 mm"
+END_PART
+
+END.

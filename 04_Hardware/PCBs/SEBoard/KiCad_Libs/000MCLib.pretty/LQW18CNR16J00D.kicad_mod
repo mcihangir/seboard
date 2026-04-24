@@ -1,0 +1,311 @@
+(footprint "LQW18CNR16J00D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "LQW18CNR16J0HD ")
+	(property "Reference" "L15"
+		(at 0 -1 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6f28bf1-e0a5-4d69-922f-674ea77051d9")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "160nH 1A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41996c64-2ae4-4910-a517-69a936b663be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SmartNFC:LQW18CNR16J00D"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cff354d-1a05-4fbb-b223-1e6f29a4b4c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://psearch.en.murata.com/inductor/product/LQW18CNR16J00%23.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114a3e45-e53c-4ccf-95ae-83092bb81e64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor 160nH 1A 100mR"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2de1feb7-d167-4671-ba2e-71f97a97d383")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Murata Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de30ca66-b51f-4b65-a7e3-d2fdfa3487f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "LQW18CNR16J00D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5612b5a0-21d0-4d51-9d14-08feae558568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.5 0)
+		(end -1.4238 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4c91a575-5016-47c1-a15c-e0646aacaaf1")
+	)
+	(fp_line
+		(start -1.1303 -0.7239)
+		(end -1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "42ea2c78-f039-42f5-a282-a66209827c3e")
+	)
+	(fp_line
+		(start -1.1303 -0.7239)
+		(end -1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "887945c7-f67c-4d75-9e6a-b3b145a09b67")
+	)
+	(fp_line
+		(start -1.1303 -0.7239)
+		(end 1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c2e9bb4-6c85-4359-901d-346256c06a6f")
+	)
+	(fp_line
+		(start -1.1303 0.7239)
+		(end -1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cbc7b38b-a919-433d-87de-7187caa65c4e")
+	)
+	(fp_line
+		(start -1.1303 0.7239)
+		(end -1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ad2b175c-369f-425e-a8f9-4fe8ef9daf7d")
+	)
+	(fp_line
+		(start -1.1303 0.7239)
+		(end -1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b8d60887-0c34-4b22-9a96-4657b66c3a2c")
+	)
+	(fp_line
+		(start 1.1303 -0.7239)
+		(end 1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46828d33-dd5f-4f3d-9d88-7a15a1fce180")
+	)
+	(fp_line
+		(start 1.1303 -0.7239)
+		(end 1.1303 -0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5ed23b1-eda5-4479-ab3a-1e9082546dd5")
+	)
+	(fp_line
+		(start 1.1303 -0.7239)
+		(end 1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b6d78b6-e9c1-4b01-8872-6dc994cb8a65")
+	)
+	(fp_line
+		(start 1.1303 0.7239)
+		(end -1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66e4c4fb-32dc-4719-a8a4-713ca4e63b07")
+	)
+	(fp_line
+		(start 1.1303 0.7239)
+		(end 1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b7f4a9c-215d-42f3-8535-f7b2e4eb28a9")
+	)
+	(fp_line
+		(start 1.1303 0.7239)
+		(end 1.1303 0.7239)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "739e9e3a-dd44-4f5f-b718-4e86d493d723")
+	)
+	(fp_line
+		(start -0.8763 -0.4699)
+		(end -0.8763 0.4699)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b45c73e-1054-4c62-be8b-287aa580ccf6")
+	)
+	(fp_line
+		(start -0.8763 0.4699)
+		(end 0.8763 0.4699)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae2b52a8-9b9e-4439-882e-3f046a852de1")
+	)
+	(fp_line
+		(start 0.8763 -0.4699)
+		(end -0.8763 -0.4699)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d8c180c-140c-4516-8896-9aabd76afba8")
+	)
+	(fp_line
+		(start 0.8763 0.4699)
+		(end 0.8763 -0.4699)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56dc4860-0e28-458d-877d-1b69cbfa2241")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.0762 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0305084e-e4ed-4a21-a1b3-25b78f58a14a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a13c20ef-8c5e-4cd7-bd91-c67ac481199b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.6223 0)
+		(size 0.508 0.9398)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7358fa0d-d336-4308-974a-d0600fa9cdd3")
+	)
+	(pad "2" smd rect
+		(at 0.6223 0)
+		(size 0.508 0.9398)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "587a321b-02bd-4bcd-aa9b-10e9e635d7b1")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/LQW18CNR16J00D/KiCad/LQW18CNR16J00D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

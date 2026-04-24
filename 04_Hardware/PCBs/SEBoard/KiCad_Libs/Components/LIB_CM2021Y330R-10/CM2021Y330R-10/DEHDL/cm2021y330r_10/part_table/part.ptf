@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CM2021Y330R_10'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Laird Technologies", "CM2021Y330R-10" (!) = "", "CM2021Y330R10", "Other", "N/A", "https://www.mouser.co.uk/ProductDetail/Laird/CM2021Y330R-10?qs=PzGy0jfpSMsuvW4RfkrirA%3D%3D", "2 Line Common Mode Choke Surface Mount 33 Ohms @ 100 MHz 15A DCR 0.75mOhm 2322 (5956 Metric), 4 Lead  -40C ~ 125C", "https://www.laird.com/sites/default/files/cm2021y330r-10-datasheet.pdf", "3.8 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP22655QWU-7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=6.1
+Released=2023-09-09 05:08:41
+Downloaded=2025-10-16 17:14:47
+3D=Y

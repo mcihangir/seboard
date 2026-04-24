@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=PN7221EV
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=64
+Version=1.1
+Released=2024-12-30 15:00:14
+Downloaded=2025-02-02 17:50:27
+3D=Y

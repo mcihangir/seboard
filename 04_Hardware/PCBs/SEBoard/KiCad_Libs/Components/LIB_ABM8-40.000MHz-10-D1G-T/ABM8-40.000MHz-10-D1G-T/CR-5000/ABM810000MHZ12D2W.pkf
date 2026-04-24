@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ABM810000MHZ12D2W"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ABM810000MHZ12D2W")
+        (spec "default")
+    )
+)

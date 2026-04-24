@@ -1,0 +1,16 @@
+.THVD1439VDR :1 ;THVD1439VDR
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VIO" 2="R" 3="DE/'RE'" 4="D" 5="GND" 6="A" 7="B" 8="VCC"
+*MXP 8
+*DFN THVD1439VDR
+~!Mouser Part Number (595-THVD1439VDR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1439VDR?qs=A6eO%252BMLsxmTh8OKfR5%2FZSA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (THVD1439VDR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/thvd1439.pdf?ts=1633978341702&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTHVD1439)
+~!Height (1.75mm)
+~!3D_Model (THVD1439VDR)
+THVD1439VDR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

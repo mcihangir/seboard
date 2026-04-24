@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74AXC8T245QPWRQ1
+D Automotive 8-bit dual-supply bus transceiver w/ configurable voltage translation, 3-state output
+K
+F http://www.ti.com/lit/gpn/SN74AXC8T245-Q1
+$ENDCMP
+#
+#End Doc Library

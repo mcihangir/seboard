@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BSS138PW_115"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-24-07:10:10)
+    (mountForm default
+        (footprintRef "SOT65P210X110-3N")
+        (spec "System")
+    )
+)

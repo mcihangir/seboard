@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PESD5V0S1BSF,315
+PartCategory=Diode ESD (Bi-directional)
+PackageCategory=Other
+PinCount=2
+Version=2.9
+Released=2020-12-09 09:22:20
+Downloaded=2026-02-17 08:21:12
+3D=Y

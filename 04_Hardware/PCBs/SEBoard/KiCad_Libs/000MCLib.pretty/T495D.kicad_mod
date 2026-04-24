@@ -1,0 +1,242 @@
+(footprint "T495D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "T495D-1")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C11"
+		(at 4.25 1.75 -90)
+		(layer "F.SilkS")
+		(uuid "e4d2a507-3c57-45fc-a5d8-1a9e4f96e266")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "100uF 10V"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7bd046c1-5349-43a9-93d8-610208136112")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SmartNFC:T495D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54409964-dd47-4801-b873-ab502e2f2ce3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://content.kemet.com/datasheets/KEM_T2009_T495.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "954eeb2f-943e-4f99-b535-125d33d742f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Capacitor 100uF 10V Tantalum Capacitors ESR=80mOhms 10% "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58ffde15-58d9-4308-9f25-91757fc43b99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KEMET"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1914d6ac-9586-44fa-990e-78d0a34af282")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "T495D107K010ATE080"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dd6b639-8a4d-4f3b-984e-55778139a56f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3b382a3-6ea8-47f5-b172-35fc936c131a")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36a99485-e480-482f-90c6-8b46994450ce")
+	)
+	(fp_circle
+		(center -4.72 0)
+		(end -4.72 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "97db708f-9fbd-4d23-bd31-1202598bf1b5")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7696d78b-9410-46fb-9e9c-f5b58c8a30f6")
+	)
+	(fp_line
+		(start -5 2.5)
+		(end -5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "312ff0fa-70b5-466f-b9ad-834fd0f4d30d")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end 4.5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78ddab55-8868-4c56-9f37-c1219618744f")
+	)
+	(fp_line
+		(start 4.5 2.5)
+		(end -5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ff89615-b57a-4ca3-965f-1852586a2825")
+	)
+	(fp_line
+		(start -3.65 -2.15)
+		(end 3.65 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc1c0a55-f669-45f9-ba18-0a7a9b2c7412")
+	)
+	(fp_line
+		(start -3.65 2.15)
+		(end -3.65 -2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6890eb5d-ae3f-413e-966d-a2222ec3901b")
+	)
+	(fp_line
+		(start 3.65 -2.15)
+		(end 3.65 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f16158c-e460-416b-add2-dcf9497e7b68")
+	)
+	(fp_line
+		(start 3.65 2.15)
+		(end -3.65 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daff9a64-97c9-43e9-b18c-c42b98599059")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "189df624-a604-45ea-bd0d-432f25fc9cad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.12 0)
+		(size 2.37 2.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83865fbc-fb63-48c5-be8c-e937ab431088")
+	)
+	(pad "2" smd rect
+		(at 3.12 0)
+		(size 2.37 2.43)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f32a0e72-c5f4-44d6-8a2e-7b223ca2ada6")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/T495D107K010ATE080/3D/T495D107K010ATE080.stp"
+		(offset
+			(xyz -3.670000021 -2.299999918 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RQ7E100ATTCR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "RQ7E100ATTCR" (!) = "", "RQ7E100ATTCR", "Other", "755-RQ7E100ATTCR", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ7E100ATTCR?qs=2WXlatMagcEGRiOPPzGC4A%3D%3D", "RQ7E100ATTCR P-Channel MOSFET, 10 A, 30 V RQ7E100AT, 8-Pin TSMT ROHM", "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq7e100attcr-e.pdf", "0.85 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.RQ7E100ATTCR :1 ;RQ7E100ATTCR P-Channel MOSFET, 10 A, 30 V RQ7E100AT, 8-Pin TSMT ROHM
+RQ7E100ATTCR
+*STM Q
+*NGS
+*PLB 1="SOURCE_1" 2="SOURCE_2" 3="SOURCE_3" 4="GATE" 5="DRAIN_1" 6="DRAIN_2" 7="DRAIN_3" 8="DRAIN_4"
+*MXP 8
+*DFN RQ7E100ATTCR
+~!Mouser Part Number (755-RQ7E100ATTCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RQ7E100ATTCR?qs=2WXlatMagcEGRiOPPzGC4A%3D%3D)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (RQ7E100ATTCR)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq7e100attcr-e.pdf)
+~!Height (0.85mm)
+~!3D_Model (RQ7E100ATTCR)
+RQ7E100ATTCR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PN7221EV'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "PN7221EV" (!) = "", "BGA64C50P8X8_450X450X90", "BGA", "", "", "", "", "RFID Reader/Transponder IC 13.56MHz FeliCa, ISO 14443A, ISO 14443B, ISO 15693, Mifare, NFC I2C, SPI, USB 2.4V ~ 5.5V 64-VFBGA", "https://www.nxp.com/docs/en/data-sheet/PN7220.pdf", "0.9 mm"
+END_PART
+
+END.

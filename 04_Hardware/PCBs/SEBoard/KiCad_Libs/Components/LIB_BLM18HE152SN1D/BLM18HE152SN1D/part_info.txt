@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=BLM18HE152SN1D
+PartCategory=Ferrite Bead
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2023-03-07 11:18:05
+Downloaded=2026-01-01 13:51:30
+3D=Y

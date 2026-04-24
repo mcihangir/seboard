@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=SHF-108-01-L-D-SM
+PartCategory=Connector
+PackageCategory=Other
+PinCount=16
+Version=2.1
+Released=2020-06-09 15:48:54
+Downloaded=2025-11-14 07:35:38
+3D=N

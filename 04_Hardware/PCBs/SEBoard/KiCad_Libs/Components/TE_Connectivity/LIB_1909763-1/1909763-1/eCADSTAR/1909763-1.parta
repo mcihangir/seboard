@@ -1,0 +1,69 @@
+(Japanese_coding: sjis)
+(function "ECS_555981"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-17-14:35:12)
+    (utime 2024-12-15-21:56:12)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "1909763-1")
+)
+
+
+(pinAssign "ECS_555981"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-17-14:35:12)
+    (utime 2024-12-15-21:56:12)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_555981")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1909763-1")
+)
+
+
+(part "1909763-1"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-10-17-14:35:12)
+    (utime 2024-12-15-21:56:12)
+    (packageRef "1909763-1")
+    (pinAssignRef "ECS_555981")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Body Features: Cable Connector Orientation Straight | Body Material Finish Plated | Body Plating Material Gold Flash | Body Underplating Material Nickel | Body Material Copper Alloy | Configuration Features: Number of Positions 1 | Number of Coaxial Contacts 1 | PCB Mount Orientation Vertical | Contact Features: RF Connector Center Contact Material Copper Alloy | RF Connector Center Contact Plating Material Gold | Dimensions: RF Connector Mated Outer Diameter (Approximate) .078 INCH | Profile Height from PC")
+    (property "Mouser_Part_Number" "571-1909763-1")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1909763-1?qs=zR8VgEwoOb2%252BUqFkM9%2F6jQ%3D%3D")
+    (property "Manufacturer_Name" "TE Connectivity")
+    (property "Manufacturer_Part_Number" "1909763-1")
+    (property "Datasheet_Link" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English")
+)
+
+

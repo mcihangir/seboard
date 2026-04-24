@@ -1,0 +1,243 @@
+(footprint "530470210"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "53047-0210-3")
+	(tags "Connector")
+	(property "Reference" "J22"
+		(at 1.8625 0.05 90)
+		(layer "F.SilkS")
+		(uuid "f67ac8e3-4e08-44f2-9b9c-5a95720bdeeb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "53047-0210"
+		(at -0.087 0.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fe61a359-0a5b-4e91-ab66-5c813437eb8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/53047-0210.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d8f81ad-c399-47db-a772-0420856dc047")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Connector 2P 1.25mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "883a8260-12c8-45c9-8ae6-73700df09378")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Molex"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ffd5b80-40c8-4c45-99a4-64210b4c5662")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "53047-0210"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2881467-4c58-4485-886e-6f25d4d09762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.75 -1.15)
+		(end 1.5 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6fedbb0-9d31-426e-b76a-fda9c886eb7a")
+	)
+	(fp_line
+		(start -2.75 2.05)
+		(end -2.75 -1.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4766ee1e-98c8-4a39-84fa-8f587a7de109")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end 0.9 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e63cf403-1c8d-489e-b073-429852be91fd")
+	)
+	(fp_line
+		(start 1.1 -0.5)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6627e156-da7e-4102-9e0b-2517c321346b")
+	)
+	(fp_line
+		(start 1.5 -1.15)
+		(end 1.5 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2b0b93d-b8cc-4648-8bd8-aa3a5fd15e20")
+	)
+	(fp_line
+		(start 1.5 2.05)
+		(end -2.75 2.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f21508-6c4f-4aa3-b6b5-3ede6de9ea69")
+	)
+	(fp_arc
+		(start 0.9 -0.5)
+		(mid 1 -0.6)
+		(end 1.1 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d028e6b-eaad-4c40-beeb-65616c5bb83f")
+	)
+	(fp_arc
+		(start 1.1 -0.5)
+		(mid 1 -0.4)
+		(end 0.9 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d210ade5-9bed-444d-8785-053155881bbd")
+	)
+	(fp_line
+		(start -2.75 -1.15)
+		(end 1.5 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbcece2a-7168-4029-88ff-9449091a477a")
+	)
+	(fp_line
+		(start -2.75 2.05)
+		(end -2.75 -1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2decf1b3-0105-4630-bde7-01d71ed5cb9c")
+	)
+	(fp_line
+		(start 1.5 -1.15)
+		(end 1.5 2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36fcdf4b-12fd-4ef0-873b-190d4124609f")
+	)
+	(fp_line
+		(start 1.5 2.05)
+		(end -2.75 2.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fad20f1c-20e1-4c94-a683-d9dc743a694d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.087 0.45 0)
+		(layer "F.Fab")
+		(uuid "b4991a07-d2d1-4226-8040-5042610df4d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52e06da9-158f-45d6-9c13-31f85b807801")
+	)
+	(pad "2" thru_hole circle
+		(at -1.25 0)
+		(size 1 1)
+		(drill 0.55)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92dc7869-26f3-4777-850c-34d2a639caff")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/53047-0210/3D/53047-0210.stp"
+		(offset
+			(xyz -0.6000000148 -0.4499999813 3.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

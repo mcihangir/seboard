@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMF16A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SMF16A" (!) = "", "SODFL3618X110N", "Small Outline Diode Flat Lead", "576-SMF16A", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMF16A?qs=IP%252BaFeBnnar8T%2Ffm%252BJ%2Flrw%3D%3D", "ESD Suppressors / TVS Diodes 200W 16V 5% Uni-directional", "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smf_datasheet.pdf.pdf", "1.1 mm"
+END_PART
+
+END.

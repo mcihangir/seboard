@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B520C_13_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "B520C-13-F" (!) = "", "DIOM7959X250N", "Diodes Moulded", "621-B520C-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/B520C-13-F?qs=M9x7oF%252BgWA8vHz6ClNP3LA%3D%3D", "Schottky Diodes & Rectifiers 20V 5A", "", "2.5 mm"
+END_PART
+
+END.

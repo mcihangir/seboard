@@ -1,0 +1,230 @@
+(footprint "XPPAWTH00000000BU50CV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "XPPAWT-H0-0000-000BU50CV-2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "575865f8-259e-4052-8d04-4aa232d718ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XPPAWTH00000000BU50CV"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8204f369-8776-429d-8bdc-1da6ceedc507")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "XPPAWTH00000000BU50CV"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c34b9ea-7a62-4cc4-a633-1f43d96e8324")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f599ab7d-93cb-4e1b-8b2d-e0d55106c125")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0475aae2-a6d7-4c6b-b388-fcc7f8b1b2f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee62275a-54f4-4e0f-aea6-81d1c52d1036")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1b0559d-ca60-4313-92e5-ac696cb1532d")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.25 -0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc97511c-dae1-4247-8eb9-1cb676a387b7")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.25 0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f93bbfbe-d15d-41a3-969e-209fda802ecf")
+	)
+	(fp_line
+		(start -2.725 -2.725)
+		(end 2.725 -2.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fd72bce1-aa2d-494c-88a4-9e5050bf8192")
+	)
+	(fp_line
+		(start -2.725 2.725)
+		(end -2.725 -2.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cbd823f-3894-4992-a904-75bc491d26e2")
+	)
+	(fp_line
+		(start 2.725 -2.725)
+		(end 2.725 2.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57427ed0-6be0-4809-a6ec-2acbcfe5ada3")
+	)
+	(fp_line
+		(start 2.725 2.725)
+		(end -2.725 2.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaa593e7-39bd-44ca-a2a8-279d93b232a0")
+	)
+	(fp_line
+		(start -1.725 -1.725)
+		(end 1.725 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bda1a0d6-1d0b-4184-9ff1-cfbb59851a5b")
+	)
+	(fp_line
+		(start -1.725 1.725)
+		(end -1.725 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69a1d441-89a1-4e1c-a729-3fa714edc3b7")
+	)
+	(fp_line
+		(start 1.725 -1.725)
+		(end 1.725 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "416ca1e2-649f-4912-9b67-88f746b5bf7d")
+	)
+	(fp_line
+		(start 1.725 1.725)
+		(end -1.725 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8cd0db7-21ba-4140-8351-b743cdc8de7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "904763fd-d890-4c4c-9c25-a1f44f171912")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.4 0)
+		(size 0.5 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcdc6374-42b6-44e1-b654-d6983d2f0635")
+	)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 0.5 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1f89f65-b99e-4167-8a12-e5548bd2a1ea")
+	)
+	(pad "3" smd rect
+		(at 0 0)
+		(size 1.3 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc598cca-e28a-4079-ae3d-d682ae2e7876")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/XPPAWT-H0-0000-000BU50CV/3D/XPPAWT-H0-0000-000BU50CV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

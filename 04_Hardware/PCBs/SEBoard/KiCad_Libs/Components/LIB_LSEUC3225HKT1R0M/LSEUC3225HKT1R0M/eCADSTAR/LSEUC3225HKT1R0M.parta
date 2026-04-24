@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_19294413"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:26:10)
+    (utime 2024-04-30-05:04:52)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "LSEUC3225HKT1R0M")
+)
+
+
+(pinAssign "ECS_19294413"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:26:10)
+    (utime 2024-04-30-05:04:52)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_19294413")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LSEUC3225HKT1R0M")
+)
+
+
+(part "LSEUC3225HKT1R0M"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-04-27-10:26:10)
+    (utime 2024-04-30-05:04:52)
+    (packageRef "LSEUC3225HKT1R0M")
+    (pinAssignRef "ECS_19294413")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "Wire-wound Metal Power Inductors MCOIL LSEU series for General Electronic Equipment, 1.0uH+/-20%, 4.2A, 1210/3225 (EIA/JIS)")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Manufacturer_Name" "TAIYO YUDEN")
+    (property "Manufacturer_Part_Number" "LSEUC3225HKT1R0M")
+    (property "Datasheet_Link" "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=LSEUC3225HKT1R0M")
+    (property "compAreaTopHeight" 0.8)
+)
+
+

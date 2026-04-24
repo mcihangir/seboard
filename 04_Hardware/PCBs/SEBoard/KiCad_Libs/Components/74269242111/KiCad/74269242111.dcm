@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74269242111
+D Ferrite Beads WE-TMSB DCR=0.09Ohms 110Ohm 1200mA
+K
+F https://www.we-online.com/catalog/datasheet/74269242111.pdf
+$ENDCMP
+#
+#End Doc Library

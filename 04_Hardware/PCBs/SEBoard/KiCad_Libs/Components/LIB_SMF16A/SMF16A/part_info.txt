@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SMF16A
+PartCategory=TVS Diode (Uni-directional)
+PackageCategory=Small Outline Diode Flat Lead
+PinCount=2
+Version=2.1
+Released=2023-05-16 03:05:27
+Downloaded=2025-12-31 09:54:24
+3D=Y

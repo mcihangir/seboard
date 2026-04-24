@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CMM-3729AT-42316-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-25-06:59:41)
+    (mountForm default
+        (footprintRef "CMM3729AT42316TR")
+        (spec "System")
+    )
+)

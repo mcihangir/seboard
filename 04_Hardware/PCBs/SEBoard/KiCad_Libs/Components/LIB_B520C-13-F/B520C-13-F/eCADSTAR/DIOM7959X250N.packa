@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B520C-13-F"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-03-03:09:20)
+    (mountForm default
+        (footprintRef "DIOM7959X250N")
+        (spec "System")
+    )
+)

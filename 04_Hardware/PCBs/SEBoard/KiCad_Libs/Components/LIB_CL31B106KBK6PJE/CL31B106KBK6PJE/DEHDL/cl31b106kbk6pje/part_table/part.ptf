@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CL31B106KBK6PJE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SAMSUNG", "CL31B106KBK6PJE" (!) = "", "CAPC3216X190N", "Capacitor Chip Non-polarised", "187-CL31B106KBK6PJE", "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B106KBK6PJE?qs=3vio67wFuYp0lbjHU%2FUvIA%3D%3D", "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206/3216,10uF,X7R,50Vdc,+/-10%", "https://product.samsungsem.com/mlcc/CL31B106KBK6PJ.do", "1.9 mm"
+END_PART
+
+END.

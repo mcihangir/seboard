@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP2518FDT_H_SL'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP2518FDT-H/SL" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "579-MCP2518FDT-H/SL", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP2518FDT-H-SL?qs=T3oQrply3y91PFfynJbKYg%3D%3D", "CAN Interface IC Stand-alone Low Power CAN FD Controller w/SPI Interface Grade0", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/744760637e861ab0ee43f380fa65a694.pdf", "1.75 mm"
+END_PART
+
+END.

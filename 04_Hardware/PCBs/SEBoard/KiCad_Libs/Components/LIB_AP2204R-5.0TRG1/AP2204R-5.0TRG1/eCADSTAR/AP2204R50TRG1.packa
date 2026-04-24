@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP2204R-5_0TRG1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-01-28-10:05:01)
+    (mountForm default
+        (footprintRef "AP2204R50TRG1")
+        (spec "System")
+    )
+)

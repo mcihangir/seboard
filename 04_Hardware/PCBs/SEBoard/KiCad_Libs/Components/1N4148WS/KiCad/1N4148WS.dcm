@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1N4148WS
+D ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS
+K
+F https://www.onsemi.com/pub/Collateral/1N4148WS-D.PDF
+$ENDCMP
+#
+#End Doc Library

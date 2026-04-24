@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CMM_3729AT_42316_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Same Sky", "CMM-3729AT-42316-TR" (!) = "", "CMM3729AT42316TR", "Other", "490-CMM3729AT42316TR", "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMM-3729AT-42316-TR?qs=PqoDHHvF648Z0lNkUbFxwQ%3D%3D", "3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB, MEMS Microphone", "https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf", "1.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AP7361E-33FGE-7
+#/15587958/941407/2.50/9/2/Integrated Circuit
+DEF AP7361E-33FGE-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AP7361E-33FGE-7" 1050 200 50 H V L CNN
+F2 "SON65P300X300X63-9N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com/datasheet/download/AP7361E.pdf" 1050 0 50 H I L CNN
+F4 "Wide Input Voltage Range: 2.2V to 6.0V  Output Voltage Accuracy: +/-1%  Very Low Dropout Voltage (3.3V): 360mV at 1A Typical  Low Quiescent Current (IQ): 60A Typical  Adjustable Output Voltage Range: 0.8V to 5.0V  Fixed Output Options: 1.0V, 1.2V, 1.5V, 1.8V, 2.5V, 2.8V and 3.3V  High PSRR: 75dB @ 1kHz  Current Limit: 1.5A  Fold-Back Short Circuit Protection: 400mA  Power-Good (PG) Output for Supply Monitoring and for Sequencing of Other Supplies" 1050 -100 50 H I L CNN "Description"
+F5 "0.63" 1050 -200 50 H I L CNN "Height"
+F6 "621-AP7361E-33FGE-7" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7361E-33FGE-7?qs=hd1VzrDQEGjeYIMlU6aeYw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP7361E-33FGE-7" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X ADJ/NC 3 0 -200 200 R 50 50 0 0 P
+X GND_1 4 0 -300 200 R 50 50 0 0 P
+X GND_2 9 600 -1000 200 U 50 50 0 0 P
+X IN 8 1200 0 200 L 50 50 0 0 P
+X PG 7 1200 -100 200 L 50 50 0 0 P
+X NC_2 6 1200 -200 200 L 50 50 0 0 P
+X EN 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

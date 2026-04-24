@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AP7361E-33FGE-7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-18-16:48:59)
+    (mountForm default
+        (footprintRef "SON65P300X300X63-9N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.PESD5V0S1BSF_315 :1 ;PESD5V0S1BSF - Ultra low profile bidirectional low capacitance ESD protection diode
+PMEG3005AESFYL
+*STM D
+*NGS
+*PLB 1="K1" 2="K2"
+*MXP 2
+*DFN PESD5V0S1BSF_315
+~!Mouser Part Number (771-PESD5V0S1BSF315)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0S1BSF315?qs=5eMHoInnifTy2yfigppkSQ%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD5V0S1BSF,315)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BSF.pdf)
+~!Height (-)
+~!3D_Model (PESD5V0S1BSF,315)
+PESD5V0S1BSF_315
+1.1!U 2.1!U 

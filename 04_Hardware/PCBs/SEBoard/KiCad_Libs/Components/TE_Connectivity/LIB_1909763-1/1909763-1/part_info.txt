@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1909763-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=2.1
+Released=2017-10-17 14:35:12
+Downloaded=2025-11-24 12:44:27
+3D=Y

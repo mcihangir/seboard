@@ -1,0 +1,180 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CM2021Y330R-10"
+   (description "2 Line Common Mode Choke Surface Mount 33 Ohms @ 100 MHz 15A DCR 0.75mOhm 2322 (5956 Metric), 4 Lead  -40C ~ 125C")
+   (family "ANA")
+   (package "CM2021Y330R10")
+   (attribute "Datasheet Link" "https://www.laird.com/sites/default/files/cm2021y330r-10-datasheet.pdf")
+   (attribute "Geometry.Height" "3.8mm")
+   (attribute "Mouser Part Number" "N/A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Laird/CM2021Y330R-10?qs=PzGy0jfpSMsuvW4RfkrirA%3D%3D")
+   (attribute "Manufacturer_Name" "Laird Technologies")
+   (attribute "Manufacturer_Part_Number" "CM2021Y330R-10")
+   (gate
+    (symbol "CM2021Y330R-10")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "CM2021Y330R-10"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 280 550) (pt 280 150) (pt 280 550) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 310 550) (pt 310 150) (pt 310 550) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 550) (pt 180 640) (pt 180 550) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 550) (pt 400 640) (pt 400 550) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 180 150) (pt 180 60) (pt 180 150) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 150) (pt 400 60) (pt 400 150) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 250) (pt 352 150) (pt 452 250) (start 175.4) (sweep 92.3)) (pt 400 150))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 350) (pt 352 250) (pt 452 350) (start 175.4) (sweep 92.3)) (pt 400 250))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 450) (pt 352 350) (pt 452 450) (start 175.4) (sweep 92.3)) (pt 400 350))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 400 550) (pt 352 450) (pt 452 550) (start 175.4) (sweep 92.3)) (pt 400 450))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 180 250) (pt 128 150) (pt 228 250) (start -175.4) (sweep 87.7)) (pt 180 150))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 180 350) (pt 128 250) (pt 228 350) (start -175.4) (sweep 87.7)) (pt 180 250))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 180 450) (pt 128 350) (pt 228 450) (start -175.4) (sweep 87.7)) (pt 180 350))
+   )
+   (graphic
+    (stroke 10)
+    (path
+     (arc (pt 180 550) (pt 128 450) (pt 228 550) (start -175.4) (sweep 87.7)) (pt 180 450))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 180 -140) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -140) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 840) (rot 90) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 180 840) (rot 90) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CM2021Y330R10"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 2.8)
+      (pt 2.5 2.8)
+      (pt 2.5 -2.8)
+      (pt -2.5 -2.8)
+      (pt -2.5 2.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.205 3.8)
+      (pt 5.205 3.8)
+      (pt 5.205 -3.8)
+      (pt -5.205 -3.8)
+      (pt -5.205 3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.7 1.423)
+      (arc (pt -4.700 1.423) (pt -4.800 1.372) (pt -4.700 1.473) (start 180.0) (sweep .0))
+      (pt -4.8 1.423)
+      (arc (pt -4.800 1.423) (pt -4.800 1.372) (pt -4.700 1.473) (start 180.0) (sweep 180.0))
+      (pt -4.7 1.423))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.5 2.8)
+      (pt 2.5 2.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.5 -2.8)
+      (pt 2.5 -2.8))))
+   (leg 1 (pt -2.375 1.423) (padstack 0))
+   (leg 2 (pt -2.375 -1.423) (padstack 0))
+   (leg 3 (pt 2.375 -1.423) (padstack 0))
+   (leg 4 (pt 2.375 1.423) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 2.085 3.660 0 0 0.000))
+   )
+   (model "CM2021Y330R-10.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

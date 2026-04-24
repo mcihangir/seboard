@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP22655QWU_7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP22655QWU-7" (!) = "", "SOT95P280X82-6N", "SOT23 (6-Pin)", "621-AP22655QWU-7", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22655QWU-7?qs=ulEaXIWI0c9S0Nhcy0ljbQ%3D%3D", "Power Switch ICs - Power Distribution Load Switch TSOT26 T&R 3K", "https://www.diodes.com/assets/Datasheets/AP22654Q_AP22655Q.pdf", "0.825 mm"
+END_PART
+
+END.

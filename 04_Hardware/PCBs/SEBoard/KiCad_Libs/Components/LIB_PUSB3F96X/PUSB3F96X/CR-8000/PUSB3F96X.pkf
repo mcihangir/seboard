@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PUSB3F96X"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PUSB3F96X")
+        (spec "default")
+    )
+)

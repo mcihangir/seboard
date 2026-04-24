@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RQ7E100ATTCR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RQ7E100ATTCR")
+        (spec "default")
+    )
+)

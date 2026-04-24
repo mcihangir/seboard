@@ -1,0 +1,111 @@
+(footprint "RESC5025X88N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RESC5025X88N")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "2488d77f-1213-49a9-9a5e-b2e92a3d6708")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RESC5025X88N"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4636638-c90c-4482-bc65-d0d63ab303e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d9f1f44-a066-439c-ac40-ee3b85ccb12f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57aa167c-ded3-46db-b99c-67523483734e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.397 1.3208)
+		(end 1.397 1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7be7d709-9f7e-4286-ac9e-9cb5ddb23da3")
+	)
+	(fp_line
+		(start 1.397 -1.3208)
+		(end -1.397 -1.3208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1138dfdb-7253-4ecc-9224-4f7f30fcf365")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4544 -1.905 0)
+		(layer "F.Fab")
+		(uuid "a895106f-d0b4-4259-bdd2-19848d15f8bd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.3368 0)
+		(size 1.1938 2.6416)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e918da1-aa80-47b7-a8c9-360546a07d2a")
+	)
+	(pad "2" smd rect
+		(at 2.3368 0)
+		(size 1.1938 2.6416)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5998062f-30a0-4871-ac55-32e5233cb235")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/WSL2010R0200FEA/3D/WSL2010R0200FEA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

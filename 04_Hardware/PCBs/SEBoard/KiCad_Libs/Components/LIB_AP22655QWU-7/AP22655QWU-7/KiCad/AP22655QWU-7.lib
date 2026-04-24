@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AP22655QWU-7
+#/18590347/941407/2.50/6/2/Integrated Circuit
+DEF AP22655QWU-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "AP22655QWU-7" 1150 200 50 H V L CNN
+F2 "SOT95P280X82-6N" 1150 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP22654Q_AP22655Q.pdf" 1150 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution Load Switch TSOT26 T&R 3K" 1150 -100 50 H I L CNN "Description"
+F5 "0.825" 1150 -200 50 H I L CNN "Height"
+F6 "621-AP22655QWU-7" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22655QWU-7?qs=ulEaXIWI0c9S0Nhcy0ljbQ%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP22655QWU-7" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~FAULT 3 0 -200 200 R 50 50 0 0 P
+X IN 6 1300 0 200 L 50 50 0 0 P
+X ILIM 5 1300 -100 200 L 50 50 0 0 P
+X EN/~EN 4 1300 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

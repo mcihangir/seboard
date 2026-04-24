@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP64502QSP_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP64502QSP-13" (!) = "", "SOIC127P600X163-9N", "Small Outline Packages", "621-AP64502QSP-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP64502QSP-13?qs=IS%252B4QmGtzzowUaGiBacWLA%3D%3D", "Switching Voltage Regulators DCDC Conv HV Buck SO-8EP T&R 4K", "https://www.diodes.com/assets/Datasheets/AP64502Q.pdf", "1.63 mm"
+END_PART
+
+END.

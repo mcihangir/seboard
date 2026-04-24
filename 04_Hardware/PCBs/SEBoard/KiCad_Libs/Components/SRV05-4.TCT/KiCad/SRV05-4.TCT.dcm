@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRV05-4.TCT
+D Semtech SRV05-4.TCT, Uni-Directional TVS Diode Array, 300W, 6-Pin SOT-23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842016.pdf
+$ENDCMP
+#
+#End Doc Library

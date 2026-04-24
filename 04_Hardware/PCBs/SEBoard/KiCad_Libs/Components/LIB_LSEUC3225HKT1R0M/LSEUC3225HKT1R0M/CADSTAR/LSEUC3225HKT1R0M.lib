@@ -1,0 +1,16 @@
+.LSEUC3225HKT1R0M :1 ;Wire-wound Metal Power Inductors MCOIL LSEU series for General Electronic Equipment, 1.0uH+/-20%, 4.2A, 1210/3225 (EIA/JIS)
+LSEUC3225HKT1R0M
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN LSEUC3225HKT1R0M
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (TAIYO YUDEN)
+~!Manufacturer_Part_Number (LSEUC3225HKT1R0M)
+~!Link Datasheet (https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=LSEUC3225HKT1R0M)
+~!Height (0.8mm)
+~!3D_Model (LSEUC3225HKT1R0M)
+LSEUC3225HKT1R0M
+1.1!U 2.1!U 

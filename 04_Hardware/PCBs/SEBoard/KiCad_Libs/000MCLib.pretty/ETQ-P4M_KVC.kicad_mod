@@ -1,0 +1,228 @@
+(footprint "ETQ-P4M_KVC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ETQ-P4M_KVC")
+	(tags "Inductor")
+	(property "Reference" "L1"
+		(at -0.25 -3.9 180)
+		(layer "F.SilkS")
+		(uuid "0461dc9d-4d37-47af-9e0c-d8ab7a4399c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ETQ-P4M6R8KVC 6.8uH 6.9A"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1c77a791-a926-478e-9cb9-140dab495b53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C63.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "209c1892-0835-426e-b384-19e34a27254c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor 6.8uH 6.9A"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f079dc0-28fd-459a-93fe-0f251e848e85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f726f5cf-9676-4eba-82f7-4f1b49d6df62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ETQ-P4M6R8KVC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71a0f458-45a9-4ec6-aa3d-38d291f5f176")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da0b2cae-5baa-45f1-82c1-e689463f5cc5")
+	)
+	(fp_line
+		(start 5 5)
+		(end -5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cefe3dc6-5c73-4747-86fb-2c4698da59bd")
+	)
+	(fp_circle
+		(center -6.49 0)
+		(end -6.49 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "57e29d65-a0ce-48db-815f-caf23db7dc60")
+	)
+	(fp_line
+		(start -6.33 -5.21)
+		(end 6.18 -5.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f9c6c89-b5b7-4628-a99a-6908fcc4e594")
+	)
+	(fp_line
+		(start -6.33 5.24)
+		(end -6.33 -5.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b76816c8-aed1-4e7b-a27e-320daf1f0a3c")
+	)
+	(fp_line
+		(start 6.18 -5.21)
+		(end 6.18 5.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ffad2fa-8ed4-46ee-b100-595e7b96a68f")
+	)
+	(fp_line
+		(start 6.18 5.24)
+		(end -6.33 5.24)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3569dcb4-19af-481d-bc55-272d05a0e174")
+	)
+	(fp_line
+		(start -5 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "67fd225a-efc3-41ed-8a55-7fb01b9aa474")
+	)
+	(fp_line
+		(start -5 5)
+		(end -5 -5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a0cc23d-7c28-4443-88dd-da83ae109b4e")
+	)
+	(fp_line
+		(start 5 -5)
+		(end 5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9bdfeee-46b2-4d18-a6ad-337d25e926e0")
+	)
+	(fp_line
+		(start 5 5)
+		(end -5 5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9cdbc76e-0f33-440a-925a-4a0b7d134bd9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2d9abc30-425a-4d6c-96d8-01f66d29c5d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.313 0 90)
+		(size 3.251 3.439)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d24ec8e3-7753-403b-806d-5b1a69e8352f")
+	)
+	(pad "2" smd rect
+		(at 4.313 0 90)
+		(size 3.251 3.439)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "285e8847-47ff-471a-bc88-3654bc546fb1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/LIB_ETQ-P4M6R8KVC/ETQ-P4M6R8KVC/3D/ETQ-P4M6R8KVC.stp"
+		(offset
+			(xyz 0 0 3.099999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

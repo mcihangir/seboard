@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2336582_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "2336582-1" (!) = "", "23365821", "Other", "", "", "4FF SIM, Push-Push Type, 7 Position, 7 Loaded Positions, Signal, -40  80 C [-40  185 F], SIM Card Connectors", "https://www.te.com/en/product-2336582-1.html", "1.62 mm"
+END_PART
+
+END.

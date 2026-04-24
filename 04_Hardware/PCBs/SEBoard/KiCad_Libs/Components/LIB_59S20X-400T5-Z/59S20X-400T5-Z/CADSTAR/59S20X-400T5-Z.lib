@@ -1,0 +1,16 @@
+.59S20X-400T5-Z :1 ;RIGHT ANGLE PLUG PCB WITH HOUSING  + 105 C  - 40 C
+"59S20X400T5Z"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 5
+*DFN 59S20X-400T5-Z
+~!Mouser Part Number (476-59S20X-400T5-Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Rosenberger/59S20X-400T5-Z?qs=vvQtp7zwQdPV7Wq24wX2xA%3D%3D)
+~!Manufacturer_Name (Rosenberger)
+~!Manufacturer_Part_Number (59S20X-400T5-Z)
+~!Link Datasheet (https://products.rosenberger.com/_ocassets/db/59S20X-400T5-Y.pdf)
+~!Height (13.05mm)
+~!3D_Model (59S20X-400T5-Z)
+"59S20X-400T5-Z"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

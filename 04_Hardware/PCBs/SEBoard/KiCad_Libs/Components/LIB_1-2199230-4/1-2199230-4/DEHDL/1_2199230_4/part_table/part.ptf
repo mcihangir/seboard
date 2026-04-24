@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1_2199230_4'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "1-2199230-4" (!) = "", "121992304", "Other", "571-1-2199230-4", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1-2199230-4?qs=gAfoL%252BRo%2FrJHWNmRjPOT7g%3D%3D", "M.2 NGFF, M.2 Connectors, Height 4.2 mm [.165 in], Keying Code M, Gold, Board-to-Board, 67 Position, .02 in [.5 mm] Centerline, Printed Circuit Board", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2199230%7FB3%7Fpdf%7FEnglish%7FENG_CD_2199230_B3.pdf%7F1-2199230-4"
+END_PART
+
+END.

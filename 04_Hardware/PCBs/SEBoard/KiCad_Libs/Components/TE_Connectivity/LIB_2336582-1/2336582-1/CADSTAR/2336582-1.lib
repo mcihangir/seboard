@@ -1,0 +1,17 @@
+.2336582-1 :1 ;4FF SIM, Push-Push Type, 7 Position, 7 Loaded Positions, Signal, -40  80 C [-40  185 F], SIM Card Connectors
+"23365821"
+*STM J
+*NGS
+*PNM 1=C1 2=C2 3=C3 4=C5 5=C6 6=C7 7=CD1 8=MP1 9=MP2 10=MP3 11=MP4
+*PLB 1="VCC" 2="RST" 3="CLK" 4="GND" 5="VPP" 6="I/O" 7="CD1" 8="MP1" 9="MP2" 10="MP3" 11="MP4"
+*MXP 13
+*DFN 2336582-1
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (2336582-1)
+~!Link Datasheet (https://www.te.com/en/product-2336582-1.html)
+~!Height (1.62mm)
+~!3D_Model (2336582-1)
+"2336582-1"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

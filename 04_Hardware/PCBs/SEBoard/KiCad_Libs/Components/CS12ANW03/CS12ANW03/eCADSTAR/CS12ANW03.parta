@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_622393"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-18:13:31)
+    (utime 2024-08-22-09:22:53)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "CS12ANW03")
+)
+
+
+(pinAssign "ECS_622393"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-18:13:31)
+    (utime 2024-08-22-09:22:53)
+    (interface
+        (port "1" (symbPinId 1) (portName "NC") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_622393")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CS12ANW03")
+)
+
+
+(part "CS12ANW03"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-18:13:31)
+    (utime 2024-08-22-09:22:53)
+    (packageRef "CS12ANW03")
+    (pinAssignRef "ECS_622393")
+    (interface
+        (port "1" (symbPinId 1) (portName "NC") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "COM") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH")
+    (property "Mouser_Part_Number" "633-CS12ANW03")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D")
+    (property "Manufacturer_Name" "NKK Switches")
+    (property "Manufacturer_Part_Number" "CS12ANW03")
+    (property "Datasheet_Link" "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/")
+    (property "compAreaTopHeight" 13.6)
+)
+
+

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1747981_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1747981-1" (!) = "", "17479811", "Other", "571-1747981-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/1747981-1?qs=z5WhPA3s7zPU1O1OMn7SIA%3D%3D", "HDMI Receptacle Connector 19 Position Panel Mount; Surface Mount, Right Angle; Through Hole", "https://www.digikey.com/htmldatasheets/production/12378/0/0/1/2-1747981-1.pdf", "6.38 mm"
+END_PART
+
+END.

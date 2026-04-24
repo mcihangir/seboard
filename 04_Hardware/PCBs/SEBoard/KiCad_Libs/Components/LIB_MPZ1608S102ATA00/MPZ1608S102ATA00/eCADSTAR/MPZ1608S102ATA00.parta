@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_851843"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-13-11:29:38)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MPZ1608S102ATA00")
+)
+
+
+(pinAssign "ECS_851843"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-13-11:29:38)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_851843")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MPZ1608S102ATA00")
+)
+
+
+(part "MPZ1608S102ATA00"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-06-13-11:29:38)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "MPZ1608S102ATA00")
+    (pinAssignRef "ECS_851843")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "FB")
+    (property "description" "1 kOhms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 800mA 300mOhm")
+    (property "Mouser_Part_Number" "810-MPZ1608S102ATA00")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/MPZ1608S102ATA00?qs=8Kz9Wu9QwqXjw56MUD5REw%3D%3D")
+    (property "Manufacturer_Name" "TDK")
+    (property "Manufacturer_Part_Number" "MPZ1608S102ATA00")
+    (property "Datasheet_Link" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf")
+    (property "compAreaTopHeight" 0.95)
+)
+
+

@@ -1,0 +1,16 @@
+.PZT3904T1G :1 ;Pb-Free Package is Available; S and NSV Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable
+SOT230P700X175-4N
+*STM Q
+*NGS
+*PLB 1="BASE" 2="COLLECTOR_1" 3="EMITTER" 4="COLLECTOR_2"
+*MXP 4
+*DFN PZT3904T1G
+~!Mouser Part Number (863-PZT3904T1G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/PZT3904T1G?qs=xZq1yRCsb1eC3ukwvyKrig%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (PZT3904T1G)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/PZT3904T1-D.PDF)
+~!Height (1.75mm)
+~!3D_Model (PZT3904T1G)
+PZT3904T1G
+1.1!U 2.1!U 3.1!U 4.1!U 

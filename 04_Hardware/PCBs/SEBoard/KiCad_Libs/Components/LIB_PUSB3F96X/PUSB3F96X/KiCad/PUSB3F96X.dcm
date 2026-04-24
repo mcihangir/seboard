@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PUSB3F96X
+D 4.6V (Typ) Clamp 5.2A (8/20s) Ipp Tvs Diode Surface Mount DFN2510A-10
+K
+F https://www.nexperia.com/product/PUSB3F96
+$ENDCMP
+#
+#End Doc Library

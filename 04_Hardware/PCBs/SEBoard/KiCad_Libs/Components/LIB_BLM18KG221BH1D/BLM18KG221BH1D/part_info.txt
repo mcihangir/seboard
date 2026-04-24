@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=BLM18KG221BH1D
+PartCategory=Filter
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-10-10 10:28:44
+Downloaded=2026-02-15 07:32:37
+3D=Y

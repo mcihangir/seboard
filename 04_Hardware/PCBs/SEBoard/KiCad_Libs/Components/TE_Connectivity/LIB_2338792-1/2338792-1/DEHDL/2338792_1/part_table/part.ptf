@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2338792_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "2338792-1" (!) = "", "23387921", "Other", "571-2338792-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2338792-1?qs=P1JMDcb91o48A7J0Lklrxw%3D%3D", "USB Connectors, C, 3.1 Gen 1, Standard Profile, Receptacle, 1 Port, Top, Right Angle, Reel, Through Hole - Solder / Surface Mount, Cable-to-Board ", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2338792&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2338792-1.html", "3.55 mm"
+END_PART
+
+END.

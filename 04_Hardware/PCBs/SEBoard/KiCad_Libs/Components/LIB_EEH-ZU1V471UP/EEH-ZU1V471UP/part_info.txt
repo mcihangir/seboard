@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=EEH-ZU1V471UP
+PartCategory=Capacitor Polarised
+PackageCategory=Other
+PinCount=2
+Version=2.3
+Released=2023-09-22 09:48:37
+Downloaded=2025-12-15 07:02:56
+3D=Y

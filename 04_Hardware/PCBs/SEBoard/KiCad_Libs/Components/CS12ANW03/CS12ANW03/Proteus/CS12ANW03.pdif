@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CS12ANW03"
+   (description "NKK SWITCHES - CS12ANW03 - SWITCH, SLIDE, SPDT, 3A, 250V, TH")
+   (family "SWI")
+   (package "CS12ANW03")
+   (attribute "Datasheet Link" "https://www.nkkswitches.com.hk/products/Slides/Slides%20CS/CS12ANW03/")
+   (attribute "Geometry.Height" "13.6mm")
+   (attribute "Mouser Part Number" "633-CS12ANW03")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NKK-Switches/CS12ANW03?qs=4P1McwaGddbVHu%252BBZT0egw%3D%3D")
+   (attribute "Manufacturer_Name" "NKK Switches")
+   (attribute "Manufacturer_Part_Number" "CS12ANW03")
+   (gate
+    (symbol "CS12ANW03")
+    (pin "NC" 1 NC)
+    (pin "COM" 2 PS)
+    (pin "NO" 3 PS)
+   )
+  )
+  (symbol "CS12ANW03"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CS12ANW03"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.8 11.7)
+      (pt 3.3 11.7)
+      (pt 3.3 -2.3)
+      (pt -3.8 -2.3)
+      (pt -3.8 11.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.8 11.7)
+      (pt 3.3 11.7)
+      (pt 3.3 -2.3)
+      (pt -3.8 -2.3)
+      (pt -3.8 11.7))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.8 12.7)
+      (pt 4.3 12.7)
+      (pt 4.3 -3.3)
+      (pt -4.8 -3.3)
+      (pt -4.8 12.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -2.8)
+      (arc (pt 0.000 -2.800) (pt -0.050 -2.900) (pt 0.050 -2.800) (start 180.0) (sweep 90.0))
+      (pt 0 -2.9)
+      (arc (pt 0.000 -2.900) (pt -0.050 -2.900) (pt 0.050 -2.800) (start 180.0) (sweep -90.0))
+      (pt 0 -2.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 4.700) (padstack 0))
+   (leg 3 (pt 0.000 9.400) (padstack 0))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (model "CS12ANW03.stp"
+    (euler 90 0 0)
+    (offset -0.029999999329447746 4.699999809265137 8.640000343322754)
+   )
+  )
+ )
+)

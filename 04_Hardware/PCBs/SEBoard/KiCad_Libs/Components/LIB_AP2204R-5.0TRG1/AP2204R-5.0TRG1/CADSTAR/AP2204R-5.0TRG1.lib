@@ -1,0 +1,16 @@
+.AP2204R-5.0TRG1 :1 ;LDO Voltage Regulators 150mA CMOS LDO 5.0V
+AP2204R50TRG1
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND_1" 3="VOUT" 4="GND_2"
+*MXP 4
+*DFN AP2204R-5.0TRG1
+~!Mouser Part Number (621-AP2204R-5.0TRG1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP2204R-5.0TRG1?qs=x6A8l6qLYDB4wt14AgubAw%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP2204R-5.0TRG1)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Diodes-Incorporated-AP2204R-5-0TRG1_C156388.pdf)
+~!Height (1.6mm)
+~!3D_Model (AP2204R-5.0TRG1)
+AP2204R-5.0TRG1
+1.1!U 2.1!U 3.1!U 4.1!U 

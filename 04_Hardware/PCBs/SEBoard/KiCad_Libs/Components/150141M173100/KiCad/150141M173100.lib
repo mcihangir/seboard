@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 150141M173100
+#/13233934/941407/2.50/4/4/LED
+DEF 150141M173100 LED 0 30 Y Y 1 F N
+F0 "LED" 950 300 50 H V L CNN
+F1 "150141M173100" 950 200 50 H V L CNN
+F2 "150141M173100" 950 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/445/150141M173100-1714646.pdf" 950 0 50 H I L CNN
+F4 "Standard LEDs - SMD WL-SFTW SMDBiClr Top WL-SFTW" 950 -100 50 H I L CNN "Description"
+F5 "2.1" 950 -200 50 H I L CNN "Height"
+F6 "710-150141M173100" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150141M173100?qs=2kOmHSv6VfT%2Fmnpysgc7Ng%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "150141M173100" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM_A 1 1100 0 200 L 50 50 0 0 P
+X K_B 2 1100 -100 200 L 50 50 0 0 P
+X K_R 3 0 0 200 R 50 50 0 0 P
+X K_G 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,273 @@
+(footprint "SD12CTCT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SD12C.TCT-4_1-2023")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D1"
+		(at 2.45 0 180)
+		(layer "F.SilkS")
+		(uuid "df21844b-a67a-4d13-92fd-07dd6c20ed9b")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SD12C.TCT"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74a51629-5612-4c0d-b011-9a869f696691")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SmartNFC:SD12CTCT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2edaffda-8da8-4f24-af47-85ca9416a79e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/2R000000HTxH/RR10aQG36Xi0_9rrc6CNXtCd.ju6CYQhOj9cf.EljbY"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d24f41fd-7c60-4521-b739-7c8ddb2ec673")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "TVS Bi Vrwm=12V 100pF SOD-323 RO"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aef3f833-6f7b-4311-927c-5edf2dc2fa37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SEMTECH"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e90121ff-b1b4-4a2c-973a-7e3d6652e1d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "SD12C.TCT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e571fbc0-bfd4-40c9-a70a-564bc76041ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 0)
+		(end -2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c350d6ad-e4fe-4c08-8462-9b09a36a9553")
+	)
+	(fp_line
+		(start -2 0)
+		(end -2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87f8b8af-8394-4c9b-9bb2-f4e7b57416ed")
+	)
+	(fp_line
+		(start -0.6 0.65)
+		(end 0.4 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "652566af-5a0e-4936-8387-bd4dd65584a7")
+	)
+	(fp_line
+		(start -0.4 -0.65)
+		(end 0.4 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "780b84f3-4383-4478-982b-a4b4c73df5cf")
+	)
+	(fp_arc
+		(start -2.1 0)
+		(mid -2.05 -0.05)
+		(end -2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71a55b3b-4332-4fe7-abc0-90975e2d36c0")
+	)
+	(fp_arc
+		(start -2 0)
+		(mid -2.05 0.05)
+		(end -2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "208615bc-31ce-4ad9-b7c7-54d9422e9488")
+	)
+	(fp_line
+		(start -2.25 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "45e559bf-0dd7-4db1-b8b6-accfdd22b8dc")
+	)
+	(fp_line
+		(start -2.25 1)
+		(end -2.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05b9826f-1346-4a88-8383-e8241cac7805")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a918ef10-c3d6-4fa7-a515-fa5fb74f279f")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a16fb26f-5914-4cb6-8a42-fe97519f3631")
+	)
+	(fp_line
+		(start -0.825 -0.65)
+		(end 0.825 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69948a9f-82c4-4c57-9a86-e769aa3b004b")
+	)
+	(fp_line
+		(start -0.825 0.65)
+		(end -0.825 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1b48157-64d1-4d38-9dd8-e180e4c4802b")
+	)
+	(fp_line
+		(start 0.825 -0.65)
+		(end 0.825 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "953bbf84-474e-4499-8714-ba9cdd858a1a")
+	)
+	(fp_line
+		(start 0.825 0.65)
+		(end -0.825 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "598db453-e5a9-45d4-b43c-ead9ed6e68e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "95dd77a7-7a50-47d0-b299-06f8b4a918f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3d59a744-bc33-4b8f-9bcf-9253bb2c93ed")
+	)
+	(pad "2" smd rect
+		(at 1.125 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f1082c4-1016-4a08-b042-b65c275bedcb")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/SD12C.TCT/3D/SD12C.TCT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SHF_108_01_L_D_SM'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "SHF-108-01-L-D-SM" (!) = "", "SHF-108-01-X-D-SM", "Other", "200-SHF10801LDSM", "https://www.mouser.co.uk/ProductDetail/Samtec/SHF-108-01-L-D-SM?qs=%252BZP6%2F%252BtExtAjkv5kwhbS6w%3D%3D", "Shrouded Terminal Strip, 0.050" pitch", "https://www.samtec.com/partnumber/SHF-108-01-L-D-SM"
+END_PART
+
+END.

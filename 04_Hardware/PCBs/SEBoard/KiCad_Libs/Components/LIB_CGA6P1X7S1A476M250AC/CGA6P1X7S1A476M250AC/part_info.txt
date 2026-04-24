@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=CGA6P1X7S1A476M250AC
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=4.1
+Released=2021-06-18 05:25:30
+Downloaded=2025-10-09 17:18:40
+3D=Y

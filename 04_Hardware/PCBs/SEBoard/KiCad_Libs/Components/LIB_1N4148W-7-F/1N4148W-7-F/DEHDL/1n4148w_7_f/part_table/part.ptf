@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1N4148W_7_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "TKNEE", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "IF", "IR", "RJA", "BV", "IPEAK";
+{========================================================================================}
+ "Diodes Incorporated", "1N4148W-7-F" (!) = "", "SOD3716X145N", "Small Outline Diode", "621-1N4148W-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D", "Diode Switching 150mA 100V 400mW SOD123 Diodes Inc 1N4148W-7-F Switching Diode 100V, 2-Pin SOD-123", "https://www.diodes.com//assets/Datasheets/BAV16W_1N4148W.pdf", "1.45 mm", "150", "25", "", "400m", "0.0032", "FAST SWITCHING SMD", "SOD123", "300m", "", "315", "71", "1"
+END_PART
+
+END.

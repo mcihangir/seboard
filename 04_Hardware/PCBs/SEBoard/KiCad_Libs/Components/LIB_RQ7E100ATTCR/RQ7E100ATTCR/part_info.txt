@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=RQ7E100ATTCR
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=8
+Version=4.2
+Released=2022-08-10 06:10:30
+Downloaded=2025-11-15 14:03:56
+3D=Y

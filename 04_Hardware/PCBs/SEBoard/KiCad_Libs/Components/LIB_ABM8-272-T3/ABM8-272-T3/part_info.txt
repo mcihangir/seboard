@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ABM8-272-T3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2024-02-26 05:01:07
+Downloaded=2025-10-08 20:23:26
+3D=Y

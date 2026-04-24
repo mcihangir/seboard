@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74AXC8T245QPWRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74AXC8T245QPWRQ1" (!) = "", "SOP65P640X120-24N", "Small Outline Packages", "595-74AXC8T245QPWRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC8T245QPWRQ1?qs=P1JMDcb91o4mscbbcJNVBA%3D%3D", "Automotive 8-bit dual-supply bus transceiver w/ configurable voltage translation, 3-state output", "http://www.ti.com/lit/gpn/SN74AXC8T245-Q1", "1.2 mm"
+END_PART
+
+END.

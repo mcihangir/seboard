@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RQ7E100ATTCR
+D RQ7E100ATTCR P-Channel MOSFET, 10 A, 30 V RQ7E100AT, 8-Pin TSMT ROHM
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq7e100attcr-e.pdf
+$ENDCMP
+#
+#End Doc Library

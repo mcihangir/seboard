@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PN7221EV"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-12-27-12:55:45)
+    (mountForm default
+        (footprintRef "BGA64C50P8X8_450X450X90")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.SPM5030T-4R7M-HZ :1 ;Inductors for power circuits, Wound metal, Automotive
+SPM5030
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SPM5030T-4R7M-HZ
+~!Mouser Part Number (810-SPM5030T-4R7M-HZ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/SPM5030T-4R7M-HZ?qs=lYGu3FyN48eeIkTXE4MIQw%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (SPM5030T-4R7M-HZ)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_spm5030-hz_en.pdf)
+~!Height (-)
+~!3D_Model (SPM5030T-4R7M-HZ)
+SPM5030T-4R7M-HZ
+1.1!U 2.1!U 

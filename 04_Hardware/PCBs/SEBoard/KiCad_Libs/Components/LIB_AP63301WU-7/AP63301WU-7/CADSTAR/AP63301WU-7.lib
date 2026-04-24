@@ -1,0 +1,16 @@
+.AP63301WU-7 :1 ;3.8V TO 32V INPUT, 3A LOW IQ SYNCHRONOUS BUCK WITH ENHANCED EMI REDUCTION.
+SOT95P280X100-6N
+*STM IC
+*NGS
+*PLB 1="FB" 2="EN" 3="VIN" 4="GND" 5="SW" 6="BST"
+*MXP 6
+*DFN AP63301WU-7
+~!Mouser Part Number (621-AP63301WU-7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP63301WU-7?qs=bZr6mbWTK5mxozg17S0lNg%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP63301WU-7)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/AP63300-AP63301.pdf)
+~!Height (1mm)
+~!3D_Model (AP63301WU-7)
+AP63301WU-7
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

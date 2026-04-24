@@ -1,0 +1,16 @@
+.CMM-3729AT-42316-TR :1 ;3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB, MEMS Microphone
+CMM3729AT42316TR
+*STM MK
+*NGS
+*PLB 1="VDD" 2="GND_1" 3="GND_2" 4="OUTPUT"
+*MXP 4
+*DFN CMM-3729AT-42316-TR
+~!Mouser Part Number (490-CMM3729AT42316TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CUI-Devices/CMM-3729AT-42316-TR?qs=PqoDHHvF648Z0lNkUbFxwQ%3D%3D)
+~!Manufacturer_Name (Same Sky)
+~!Manufacturer_Part_Number (CMM-3729AT-42316-TR)
+~!Link Datasheet (https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf)
+~!Height (1.2mm)
+~!3D_Model (CMM-3729AT-42316-TR)
+CMM-3729AT-42316-TR
+1.1!U 2.1!U 3.1!U 4.1!U 

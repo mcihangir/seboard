@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=MPZ1608S102ATA00
+PartCategory=Ferrite Bead
+PackageCategory=Ferrite Bead Chip
+PinCount=2
+Version=4.1
+Released=2020-06-13 11:29:38
+Downloaded=2026-01-01 14:41:17
+3D=Y

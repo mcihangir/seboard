@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SC1105-01UTG
+D ESD Suppressors / TVS Diodes TVS DIODE 30KV
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sc11xx_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

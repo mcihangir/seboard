@@ -1,0 +1,253 @@
+(footprint "SC110501UTG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SC1105-01UTG-2")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D2"
+		(at 1.75 -0.05 0)
+		(layer "F.SilkS")
+		(uuid "ceea5498-db19-4c20-af4e-d26889b6f0ee")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SC1105-01UTG"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8e66257b-e7b7-4f4a-9ab5-8dc5559013b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SmartNFC:SC110501UTG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8761080-e3ae-45a3-846e-0f0cd186b647")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sc11xx_datasheet.pdf.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b54cb23b-8923-49fe-b777-92dc01d13e3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ESD Suppressors / TVS Diodes TVS DIODE 30KV"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91422b8b-c249-429d-a312-51621444c148")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "LITTELFUSE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "889486c7-191a-4dad-90cf-7ecdefe2b80f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "SC1105-01UTG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f70db369-4990-44ec-9ad9-53bf466635c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.4 0.1)
+		(end -1.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15050cb1-4696-445c-8c30-4cab5367029f")
+	)
+	(fp_line
+		(start -1.4 0.2)
+		(end -1.4 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "655d7251-5166-4924-a151-080cd8d4aa2d")
+	)
+	(fp_arc
+		(start -1.4 0.1)
+		(mid -1.35 0.15)
+		(end -1.4 0.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d9f15d6-cf7f-4962-9e51-92417bc0cc1d")
+	)
+	(fp_arc
+		(start -1.4 0.2)
+		(mid -1.45 0.15)
+		(end -1.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "605e5793-c940-4ef0-9ba3-66e9b351ef9f")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end 1.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10f7cc35-07ea-4825-bbc6-11e5f6b033e9")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d42dfdc5-a92a-4b46-8661-b70195f96b2b")
+	)
+	(fp_line
+		(start 1.25 -0.75)
+		(end 1.25 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43eb1ad0-5b0f-4163-8859-2e321d293ce2")
+	)
+	(fp_line
+		(start 1.25 0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17e52b3a-3385-4b6e-ba54-c8789a3c0391")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46fea258-83de-40db-b4b8-ee257a9548fb")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ddde98b-1811-4b05-86b9-bb01466afddc")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2010b7e-feed-40de-873a-ebde266e92d0")
+	)
+	(fp_line
+		(start 0.8 0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "734a50d7-73c0-4911-9eee-cc0603641d04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0a39c8cc-7691-4cfc-8758-85124e0ed33f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.56 0)
+		(size 0.58 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3821a387-79f4-44f2-9348-c299bb760acb")
+	)
+	(pad "2" smd rect
+		(at 0.56 0)
+		(size 0.58 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "82cd4246-ddfd-4876-81c7-d412b2162a9a")
+	)
+	(model "${KIPRJMOD}/KiCad_Libs/Components/SC1105-01UTG/3D/SC1105-01UTG.stp"
+		(offset
+			(xyz 0 0 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 0)
+		)
+	)
+)

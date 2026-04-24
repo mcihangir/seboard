@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SP0402U-ULC-02ETG
+D ESD Suppressors / TVS Diodes 5V .2pF 20kV 2CH
+K
+F https://componentsearchengine.com/Datasheets/1/SP0402U-ULC-02ETG.pdf
+$ENDCMP
+#
+#End Doc Library

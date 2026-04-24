@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SC1205-01ETG
+#/16159319/941407/2.50/2/2/TVS Diode (Bi-directional)
+DEF SC1205-01ETG D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L BNN
+F1 "SC1205-01ETG" 500 250 50 H V L BNN
+F2 "SC120501ETG" 500 150 50 H I L BNN
+F3 "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=fff6fc88-c477-4ea4-984b-6b98f832da15&filename=littelfuse-tvs-diode-array-sc1205-01etg-datasheet-1" 500 50 50 H I L BNN
+F4 "Bidirectional Discrete TVS Diode, General Purpose Surge Protection" 500 -50 50 H I L BNN "Description"
+F5 "0.55" 500 -150 50 H I L BNN "Height"
+F6 "" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SC1205-01ETG" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+P 4 0 1 6 400 0 200 -100 200 100 400 0 N
+P 4 0 1 6 400 0 600 -100 600 100 400 0 N
+P 2 0 1 6 400 -80 400 80 N
+P 2 0 1 6 360 100 400 80 N
+P 2 0 1 6 400 -80 440 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

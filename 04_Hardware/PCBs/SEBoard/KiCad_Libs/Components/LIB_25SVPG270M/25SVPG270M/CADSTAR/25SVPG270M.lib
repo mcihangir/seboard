@@ -1,0 +1,16 @@
+.25SVPG270M :1 ;Low ESR High ripple current 105  5000 h
+"16SVPT560M"
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN 25SVPG270M
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (25SVPG270M)
+~!Link Datasheet (https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C175.pdf)
+~!Height (12mm)
+~!3D_Model (25SVPG270M)
+"25SVPG270M"
+1.1!U 2.1!U 

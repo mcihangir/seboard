@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "59S20X-400T5-Z"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-03-03-04:09:19)
+    (mountForm default
+        (footprintRef "59S20X400T5Z")
+        (spec "System")
+    )
+)

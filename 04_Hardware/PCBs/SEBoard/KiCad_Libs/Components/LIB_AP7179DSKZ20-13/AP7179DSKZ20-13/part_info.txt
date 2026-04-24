@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP7179DSKZ20-13
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=21
+Version=2.1
+Released=2024-02-13 10:03:47
+Downloaded=2025-10-16 13:05:45
+3D=Y

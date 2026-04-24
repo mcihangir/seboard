@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_227233"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-09-16-07:27:06)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "SZNUP2105LT3G")
+)
+
+
+(pinAssign "ECS_227233"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-09-16-07:27:06)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "K_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K_3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_227233")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SZNUP2105LT3G")
+)
+
+
+(part "SZNUP2105LT3G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-09-16-07:27:06)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "SZNUP2105LT3G")
+    (pinAssignRef "ECS_227233")
+    (interface
+        (port "1" (symbPinId 1) (portName "K_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "K_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "K_3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Low Capacitance High-Speed CAN Data Rates; SZ Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AECQ101 Qualified and PPAP Capable; SOT-23 pacakage allows two separate bi-directional configurations; 350 W Peak Power Dissipation per line (8x20 us waveform); Low reverse leakage current (< 100 nA); IEC-61000-4-2: Level 4 Compatible.; IEC-61000-4-4: 5/50 ns 50 A Max.; IEC-61000-4-5: 8.0 A (8x20 us); ISO 76372 Pulse 2a: Repetitive Load Switch Disconnect, 9.5 A;")
+    (property "Mouser_Part_Number" "863-SZNUP2105LT3G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/SZNUP2105LT3G?qs=PJJcWtbOkNXrvSZpB7E7mw%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "SZNUP2105LT3G")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/NUP2105L-D.PDF")
+    (property "compAreaTopHeight" 1.11)
+)
+
+

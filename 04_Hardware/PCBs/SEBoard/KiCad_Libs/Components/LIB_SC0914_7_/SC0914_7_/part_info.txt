@@ -1,0 +1,9 @@
+Manufacturer=RASPBERRY-PI
+PartNumber=SC0914(7)
+PartCategory=Connector
+PackageCategory=Quad Flat No-Lead
+PinCount=57
+Version=1.1
+Released=2023-01-26 11:09:15
+Downloaded=2025-10-08 17:52:00
+3D=Y

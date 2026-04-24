@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LCFE121002A900TG
+D Common Mode Chokes / Filters 90ohms 25% 100A 2 Lines 1210
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/emc_components/littelfuse_emi_filter_lcfe_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

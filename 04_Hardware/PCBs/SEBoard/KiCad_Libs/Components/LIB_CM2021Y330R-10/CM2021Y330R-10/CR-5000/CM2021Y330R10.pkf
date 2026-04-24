@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CM2021Y330R10"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CM2021Y330R10")
+        (spec "default")
+    )
+)

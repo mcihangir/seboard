@@ -1,0 +1,16 @@
+.SN74AXC8T245QPWRQ1 :1 ;Automotive 8-bit dual-supply bus transceiver w/ configurable voltage translation, 3-state output
+SOP65P640X120-24N
+*STM IC
+*NGS
+*PLB 1="VCCA" 2="DIR1" 3="A1" 4="A2" 5="A3" 6="A4" 7="A5" 8="A6" 9="A7" 10="A8" 11="DIR2" 12="GND_1" 13="GND_2" 14="B8" 15="B7" 16="B6" 17="B5" 18="B4" 19="B3" 20="B2" 21="B1" 22="'OE'" 23="VCCB_1" 24="VCCB_2"
+*MXP 24
+*DFN SN74AXC8T245QPWRQ1
+~!Mouser Part Number (595-74AXC8T245QPWRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AXC8T245QPWRQ1?qs=P1JMDcb91o4mscbbcJNVBA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74AXC8T245QPWRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/SN74AXC8T245-Q1)
+~!Height (1.2mm)
+~!3D_Model (SN74AXC8T245QPWRQ1)
+SN74AXC8T245QPWRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

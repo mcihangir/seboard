@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM155R61H105KE05D
+D Chip Capacitor value 105
+K
+F https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf
+$ENDCMP
+#
+#End Doc Library

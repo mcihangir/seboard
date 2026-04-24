@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP64502QSP-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=3.1
+Released=2022-12-07 11:12:33
+Downloaded=2025-10-09 15:30:38
+3D=Y

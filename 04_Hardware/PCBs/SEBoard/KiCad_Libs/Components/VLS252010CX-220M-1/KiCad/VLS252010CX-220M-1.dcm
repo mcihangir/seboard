@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VLS252010CX-220M-1
+D SMD / SMT Inductors (Coils), L=22?H, L x W x T :
+K
+F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls252010cx-1_en.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MUN5233T1G
+D Simplifies Circuit Design; Reduces Component Count; S Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC-Q101 Qualified and PPAP Capable; These Devices are PbFree, Halogen Free/BFR Free and are RoHS Compliant
+K
+F https://www.onsemi.com/pub/Collateral/DTC143Z-D.PDF
+$ENDCMP
+#
+#End Doc Library

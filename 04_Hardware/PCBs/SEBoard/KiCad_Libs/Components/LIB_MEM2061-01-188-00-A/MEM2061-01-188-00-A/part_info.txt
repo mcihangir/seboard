@@ -1,0 +1,9 @@
+Manufacturer=GCT (GLOBAL CONNECTOR TECHNOLOGY)
+PartNumber=MEM2061-01-188-00-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=1.3
+Released=2020-12-06 16:35:02
+Downloaded=2025-10-11 14:54:59
+3D=Y

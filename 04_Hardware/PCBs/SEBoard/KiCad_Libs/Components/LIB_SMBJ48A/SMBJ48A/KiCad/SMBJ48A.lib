@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMBJ48A
+#/799595/941407/2.50/2/3/TVS Diode (Uni-directional)
+DEF SMBJ48A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMBJ48A" 400 250 50 H V L BNN
+F2 "DIOM5436X261N" 400 150 50 H I L BNN
+F3 "https://m.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smbj_datasheet.pdf.pdf" 400 50 50 H I L BNN
+F4 "Diode TVS Single Uni-Dir 48V 600W 2-Pin SMB T/R" 400 -50 50 H I L BNN "Description"
+F5 "2.61" 400 -150 50 H I L BNN "Height"
+F6 "576-SMBJ48A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ48A?qs=HR2RnyOI4E5oJjzUW5oszQ%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMBJ48A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#End Library

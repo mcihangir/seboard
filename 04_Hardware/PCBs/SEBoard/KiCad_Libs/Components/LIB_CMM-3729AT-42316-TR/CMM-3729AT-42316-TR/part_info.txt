@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=CMM-3729AT-42316-TR
+PartCategory=Microphone
+PackageCategory=Other
+PinCount=4
+Version=5.3
+Released=2022-01-25 06:59:41
+Downloaded=2025-10-07 15:33:06
+3D=Y

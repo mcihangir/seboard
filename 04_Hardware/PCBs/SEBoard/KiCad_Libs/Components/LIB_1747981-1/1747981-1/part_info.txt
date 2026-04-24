@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1747981-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=23
+Version=4.7
+Released=2024-10-03 13:55:13
+Downloaded=2026-02-14 08:36:30
+3D=Y

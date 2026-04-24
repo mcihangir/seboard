@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PUSB3F96X"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-24-07:49:53)
+    (mountForm default
+        (footprintRef "PUSB3F96X")
+        (spec "System")
+    )
+)
