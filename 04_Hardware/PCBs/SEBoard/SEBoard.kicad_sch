@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Block Diagram")
-		(date "2024-06-09")
+		(date "2026-04-26")
 		(rev "v1.0")
 		(company "Author: Mehmet Cihangir")
 		(comment 1 "Smart Board")
@@ -272,6 +272,16 @@
 		)
 		(uuid "104b7630-b0cb-47b3-b62d-04c5c9e63893")
 	)
+	(text "VREG_L15A_1P8_AB49"
+		(exclude_from_sim no)
+		(at 141.224 196.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "105dd0c8-0534-460d-9cac-14a4eaef9914")
+	)
 	(text "UARTs"
 		(exclude_from_sim no)
 		(at 145.796 139.192 0)
@@ -372,9 +382,9 @@
 		)
 		(uuid "2ec4d6fa-f2df-4485-bd73-715c2cc39b83")
 	)
-	(text "1.8V/300mA"
+	(text "1.8V/?mA"
 		(exclude_from_sim no)
-		(at 157.48 199.898 0)
+		(at 159.004 199.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -432,6 +442,16 @@
 		)
 		(uuid "45b2a9e2-2c21-48ee-b2e0-fb4d006ddbd2")
 	)
+	(text "VREG_L20A_2P96"
+		(exclude_from_sim no)
+		(at 138.938 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4a04cc3e-ea4e-4abb-b99e-01318ab8f399")
+	)
 	(text "I2C/SPI"
 		(exclude_from_sim no)
 		(at 205.74 159.258 90)
@@ -442,9 +462,9 @@
 		)
 		(uuid "4c77fd21-b7db-4715-b60b-7161e58296a0")
 	)
-	(text "GPIO_104"
+	(text "LCM_VCC_EN"
 		(exclude_from_sim no)
-		(at 180.34 233.172 0)
+		(at 179.07 232.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -462,7 +482,7 @@
 		)
 		(uuid "54875977-6515-4752-81ba-0072fb358c72")
 	)
-	(text "SC200E"
+	(text "SE250B4"
 		(exclude_from_sim no)
 		(at 173.228 92.71 0)
 		(effects
@@ -473,6 +493,16 @@
 			)
 		)
 		(uuid "550c6ec5-f9ef-4774-92ec-29ce66ebfd93")
+	)
+	(text "VREG_L17A_3P0"
+		(exclude_from_sim no)
+		(at 138.43 207.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56dd9d59-076f-4f26-b82f-a78b752903b8")
 	)
 	(text "1A @3.8V"
 		(exclude_from_sim no)
@@ -504,6 +534,16 @@
 		)
 		(uuid "60546a89-5b18-4fdf-ae6e-780dfb18194f")
 	)
+	(text "VREG_L15A_1P8_AB49"
+		(exclude_from_sim no)
+		(at 141.224 199.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6456a3fd-fee2-4c6b-9583-512ada9dbf25")
+	)
 	(text "eSIM"
 		(exclude_from_sim no)
 		(at 167.894 157.988 90)
@@ -514,9 +554,9 @@
 		)
 		(uuid "683f96df-bb13-413f-bdb9-2a8fe32f6c2c")
 	)
-	(text "2.8V/500mA"
+	(text "2.96V/?mA"
 		(exclude_from_sim no)
-		(at 157.734 203.708 0)
+		(at 159.258 203.708 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -790,9 +830,9 @@
 		)
 		(uuid "d1fd96d0-af0b-4e98-8f8d-e3bf4f57c062")
 	)
-	(text "3V/192mA"
+	(text "3V/?mA"
 		(exclude_from_sim no)
-		(at 157.734 207.518 0)
+		(at 159.258 207.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,9 +902,9 @@
 		)
 		(uuid "e9abe69a-57a0-4c26-8f93-940ee22cdc5f")
 	)
-	(text "GPIO_106"
+	(text "CAM0_1V1_EN"
 		(exclude_from_sim no)
-		(at 180.34 217.678 0)
+		(at 178.562 217.678 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -902,9 +942,9 @@
 		)
 		(uuid "eee3f226-d805-49d3-934c-e08416225785")
 	)
-	(text "1.8V/200mA"
+	(text "1.8V/?mA"
 		(exclude_from_sim no)
-		(at 157.48 196.088 0)
+		(at 159.004 196.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -912,7 +952,7 @@
 		)
 		(uuid "ef49ab65-6ebc-4ef1-b29a-9d2d24360198")
 	)
-	(text "[2.8 V output power for Camera AVDD & AF-VDD]"
+	(text "[2.96 V output power for Camera AVDD & AF-VDD]"
 		(exclude_from_sim no)
 		(at 202.692 204.724 0)
 		(effects
@@ -990,14 +1030,14 @@
 		)
 		(uuid "2dd550e3-1c52-429f-86ae-ecca520c06c5")
 	)
-	(text_box "VBAT"
+	(text_box "VBAT\nVPH_PA"
 		(exclude_from_sim no)
 		(at 110.49 229.87 0)
 		(size 13.97 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -1123,14 +1163,14 @@
 		)
 		(uuid "5a745d52-8485-418c-9aee-2d57ae85d214")
 	)
-	(text_box "SC200E"
+	(text_box "SE250B4"
 		(exclude_from_sim no)
 		(at 110.49 210.82 0)
 		(size 48.26 41.91)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
