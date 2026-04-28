@@ -12,6 +12,128 @@
 		(comment 1 "Smart Board")
 	)
 	(lib_symbols
+		(symbol "000MCLib:53047-0210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.762 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "53047-0210"
+				(at -5.08 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:530470210"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/53047-0210.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector 2P 1.25mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "53047-0210"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "53047-0210_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:74269242111"
 			(pin_names
 				(hide yes)
@@ -505,6 +627,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000MCLib:GRM1555C1H101JA01J"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.508 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100pF 50V"
+				(at -4.318 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:CAPC1005X55N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "GRM1555C1H101JA01J"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM1555C1H101JA01J_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:GRM1555C1H330JA01D"
 			(pin_names
 				(hide yes)
@@ -580,6 +864,168 @@
 				)
 			)
 			(symbol "GRM1555C1H330JA01D_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000MCLib:GRM155R60J106ME15D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.762 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "10uF 6.3V"
+				(at -4.826 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:CAPC1005X55N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "GRM155R60J106ME15D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM155R60J106ME15D_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.762 0)
@@ -819,6 +1265,398 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000MCLib:GRM158R60J226ME01D"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -0.762 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "22uF 6.3V"
+				(at -4.064 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:CAPC1005X55N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 22uF, 6.3V, X5R, 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "GRM158R60J226ME01D"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "GRM158R60J226ME01D_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy -0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000MCLib:PAM8302AASCR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -0.762 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PAM8302AASCR"
+				(at -7.366 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:SOP65P490X110-8N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC Auido Amplifier  1-Channel (Mono) Class D 8-MSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "PAM8302AASCR"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PAM8302AASCR_1_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 3.81 0)
+					(length 5.08)
+					(name "~{SD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 1.27 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -1.27 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -3.81 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 5.08)
+					(name "VO-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 1.27 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 180)
+					(length 5.08)
+					(name "VO+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,6 +1992,331 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000MCLib:RC0402JR-0710KL"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "000MCLib:RC0402N_YAG"
+				(at -6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 10K 1/16W CH0402"
+				(at -6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RC0402JR-0710KL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC0402JR-0710KL_1_2"
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:SE250B4"
 			(pin_names
 				(offset 1.016)
@@ -1172,7 +2335,7 @@
 				)
 			)
 			(property "Value" "SE250B4"
-				(at 24.384 -2.54 0)
+				(at 30.226 -2.54 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -1239,7 +2402,7 @@
 			(symbol "SE250B4_1_0"
 				(unit_name "Power")
 				(rectangle
-					(start 0 72.7075)
+					(start 0 62.5475)
 					(end 38.0999 0)
 					(stroke
 						(width 0.254)
@@ -1250,7 +2413,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 68.58 0)
+					(at -5.08 58.42 0)
 					(length 5.08)
 					(name "RKEY"
 						(effects
@@ -1268,7 +2431,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(name "GND_1"
 						(effects
@@ -1286,7 +2449,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_10"
@@ -1305,7 +2468,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_11"
@@ -1324,7 +2487,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_12"
@@ -1343,7 +2506,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_13"
@@ -1362,7 +2525,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_14"
@@ -1381,7 +2544,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_15"
@@ -1400,7 +2563,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_16"
@@ -1419,7 +2582,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_17"
@@ -1438,7 +2601,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_18"
@@ -1457,7 +2620,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_19"
@@ -1476,7 +2639,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_2"
@@ -1495,7 +2658,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_20"
@@ -1514,7 +2677,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_21"
@@ -1533,7 +2696,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_22"
@@ -1552,7 +2715,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_23"
@@ -1571,7 +2734,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_24"
@@ -1590,7 +2753,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_25"
@@ -1609,7 +2772,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_26"
@@ -1628,7 +2791,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_27"
@@ -1647,7 +2810,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_28"
@@ -1666,7 +2829,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_29"
@@ -1685,7 +2848,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_3"
@@ -1704,7 +2867,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_30"
@@ -1723,7 +2886,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_31"
@@ -1742,7 +2905,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_32"
@@ -1761,7 +2924,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_33"
@@ -1780,7 +2943,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_34"
@@ -1799,7 +2962,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_35"
@@ -1818,7 +2981,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_36"
@@ -1837,7 +3000,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_37"
@@ -1856,7 +3019,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_38"
@@ -1875,7 +3038,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_39"
@@ -1894,7 +3057,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_4"
@@ -1913,7 +3076,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_40"
@@ -1932,7 +3095,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_41"
@@ -1951,7 +3114,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_42"
@@ -1970,7 +3133,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_43"
@@ -1989,7 +3152,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_44"
@@ -2008,7 +3171,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_45"
@@ -2027,7 +3190,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_46"
@@ -2046,7 +3209,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_47"
@@ -2065,7 +3228,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_48"
@@ -2084,7 +3247,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_49"
@@ -2103,7 +3266,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_5"
@@ -2122,7 +3285,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_50"
@@ -2141,7 +3304,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_51"
@@ -2160,7 +3323,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_52"
@@ -2179,7 +3342,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_53"
@@ -2198,7 +3361,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_54"
@@ -2217,7 +3380,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_55"
@@ -2236,7 +3399,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_56"
@@ -2255,7 +3418,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_57"
@@ -2274,7 +3437,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_58"
@@ -2293,7 +3456,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_59"
@@ -2312,7 +3475,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_6"
@@ -2331,7 +3494,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_60"
@@ -2350,7 +3513,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_7"
@@ -2369,7 +3532,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_8"
@@ -2388,7 +3551,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_9"
@@ -2407,7 +3570,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A11"
@@ -2426,7 +3589,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A15"
@@ -2445,7 +3608,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A17"
@@ -2464,7 +3627,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A21"
@@ -2483,7 +3646,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A23"
@@ -2502,7 +3665,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A27"
@@ -2521,7 +3684,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A29"
@@ -2540,7 +3703,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A31"
@@ -2559,7 +3722,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A35"
@@ -2578,7 +3741,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A39"
@@ -2597,7 +3760,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A43"
@@ -2616,7 +3779,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_A7"
@@ -2635,7 +3798,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AA47"
@@ -2654,7 +3817,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AA5"
@@ -2673,7 +3836,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AB45"
@@ -2692,7 +3855,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AB51"
@@ -2711,7 +3874,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AC50"
@@ -2730,7 +3893,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AD7"
@@ -2749,7 +3912,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AE5"
@@ -2768,7 +3931,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AF3"
@@ -2787,7 +3950,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AF45"
@@ -2806,7 +3969,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AG2"
@@ -2825,7 +3988,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AH1"
@@ -2844,7 +4007,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AH51"
@@ -2863,7 +4026,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AJ2"
@@ -2882,7 +4045,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AJ47"
@@ -2901,7 +4064,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AJ5"
@@ -2920,7 +4083,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AK3"
@@ -2939,7 +4102,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AK45"
@@ -2958,7 +4121,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AK51"
@@ -2977,7 +4140,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AL2"
@@ -2996,7 +4159,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AL47"
@@ -3015,7 +4178,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AM1"
@@ -3034,7 +4197,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AM45"
@@ -3053,7 +4216,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AN2"
@@ -3072,7 +4235,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AN50"
@@ -3091,7 +4254,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AP1"
@@ -3110,7 +4273,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AP51"
@@ -3129,7 +4292,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AR2"
@@ -3148,7 +4311,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AS1"
@@ -3167,7 +4330,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AT2"
@@ -3186,7 +4349,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AU1"
@@ -3205,7 +4368,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AU45"
@@ -3224,7 +4387,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AU51"
@@ -3243,7 +4406,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AV47"
@@ -3262,7 +4425,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AV50"
@@ -3281,7 +4444,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AW49"
@@ -3300,7 +4463,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY1"
@@ -3319,7 +4482,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY11"
@@ -3338,7 +4501,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY17"
@@ -3357,7 +4520,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY19"
@@ -3376,7 +4539,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY29"
@@ -3395,7 +4558,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY33"
@@ -3414,7 +4577,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY37"
@@ -3433,7 +4596,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY39"
@@ -3452,7 +4615,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AY41"
@@ -3471,7 +4634,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_AZ2"
@@ -3490,7 +4653,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B10"
@@ -3509,7 +4672,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B14"
@@ -3528,7 +4691,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B16"
@@ -3547,7 +4710,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B18"
@@ -3566,7 +4729,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B24"
@@ -3585,7 +4748,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B26"
@@ -3604,7 +4767,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B28"
@@ -3623,7 +4786,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B32"
@@ -3642,7 +4805,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B34"
@@ -3661,7 +4824,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B40"
@@ -3680,7 +4843,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B42"
@@ -3699,7 +4862,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_B8"
@@ -3718,7 +4881,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA1"
@@ -3737,7 +4900,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA12"
@@ -3756,7 +4919,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA20"
@@ -3775,7 +4938,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA26"
@@ -3794,7 +4957,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA30"
@@ -3813,7 +4976,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA38"
@@ -3832,7 +4995,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA40"
@@ -3851,7 +5014,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BA42"
@@ -3870,7 +5033,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BC13"
@@ -3889,7 +5052,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BC23"
@@ -3908,7 +5071,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BC29"
@@ -3927,7 +5090,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BC37"
@@ -3946,7 +5109,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BC45"
@@ -3965,7 +5128,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BD14"
@@ -3984,7 +5147,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BD24"
@@ -4003,7 +5166,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BD38"
@@ -4022,7 +5185,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BD44"
@@ -4041,7 +5204,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE11"
@@ -4060,7 +5223,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE17"
@@ -4079,7 +5242,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE21"
@@ -4098,7 +5261,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE27"
@@ -4117,7 +5280,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE39"
@@ -4136,7 +5299,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE41"
@@ -4155,7 +5318,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_BE7"
@@ -4174,7 +5337,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C13"
@@ -4193,7 +5356,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C15"
@@ -4212,7 +5375,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C33"
@@ -4231,7 +5394,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C41"
@@ -4250,7 +5413,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C7"
@@ -4269,7 +5432,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_C9"
@@ -4288,7 +5451,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_E10"
@@ -4307,7 +5470,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_F50"
@@ -4326,7 +5489,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_G1"
@@ -4345,7 +5508,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_H2"
@@ -4364,7 +5527,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_J1"
@@ -4383,7 +5546,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_J51"
@@ -4402,7 +5565,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_M47"
@@ -4421,7 +5584,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_M50"
@@ -4440,7 +5603,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_N49"
@@ -4459,7 +5622,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_N51"
@@ -4478,7 +5641,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_N7"
@@ -4497,7 +5660,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_P47"
@@ -4516,7 +5679,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_P50"
@@ -4535,7 +5698,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_R3"
@@ -4554,7 +5717,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_T45"
@@ -4573,7 +5736,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_U5"
@@ -4592,7 +5755,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_V3"
@@ -4611,7 +5774,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_X1"
@@ -4630,7 +5793,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_Y2"
@@ -4649,7 +5812,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 64.77 0)
+					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
 					(name "GND_Y5"
@@ -4668,7 +5831,7 @@
 					)
 				)
 				(pin power_in line
-					(at 43.18 68.58 180)
+					(at 43.18 58.42 180)
 					(length 5.08)
 					(name "VBAT"
 						(effects
@@ -4686,7 +5849,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_AW51"
@@ -4705,7 +5868,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_AX50"
@@ -4724,7 +5887,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_AY49"
@@ -4743,7 +5906,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_AY51"
@@ -4762,7 +5925,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_AZ50"
@@ -4781,7 +5944,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(name "VPH_PA_BA51"
 						(effects
@@ -4799,7 +5962,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_BC41"
@@ -4818,7 +5981,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 66.04 180)
+					(at 43.18 55.88 180)
 					(length 5.08)
 					(hide yes)
 					(name "VPH_PA_BD42"
@@ -4837,7 +6000,7 @@
 					)
 				)
 				(pin input line
-					(at 43.18 60.96 180)
+					(at 43.18 50.8 180)
 					(length 5.08)
 					(name "BATT_CONN_VSNS_P"
 						(effects
@@ -4855,7 +6018,7 @@
 					)
 				)
 				(pin input line
-					(at 43.18 58.42 180)
+					(at 43.18 48.26 180)
 					(length 5.08)
 					(name "BATT_THERM"
 						(effects
@@ -4873,7 +6036,7 @@
 					)
 				)
 				(pin input line
-					(at 43.18 55.88 180)
+					(at 43.18 45.72 180)
 					(length 5.08)
 					(name "BATT_CONN_VSNS_M"
 						(effects
@@ -4891,7 +6054,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 43.18 53.34 180)
+					(at 43.18 43.18 180)
 					(length 5.08)
 					(name "BATT_ID/PM_GPIO_07"
 						(effects
@@ -4909,7 +6072,7 @@
 					)
 				)
 				(pin output line
-					(at 43.18 48.26 180)
+					(at 43.18 38.1 180)
 					(length 5.08)
 					(name "CBL_PWR_N"
 						(effects
@@ -4927,7 +6090,7 @@
 					)
 				)
 				(pin passive line
-					(at 43.18 44.45 180)
+					(at 43.18 34.29 180)
 					(length 5.08)
 					(name "VCOIN"
 						(effects
@@ -4945,7 +6108,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 39.37 180)
+					(at 43.18 25.4 180)
 					(length 5.08)
 					(name "VPH_PWR_BC39"
 						(effects
@@ -4962,9 +6125,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 43.18 36.83 180)
+				(pin passive line
+					(at 43.18 25.4 180)
 					(length 5.08)
+					(hide yes)
 					(name "VPH_PWR_BC43"
 						(effects
 							(font
@@ -4980,9 +6144,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 43.18 34.29 180)
+				(pin passive line
+					(at 43.18 25.4 180)
 					(length 5.08)
+					(hide yes)
 					(name "VPH_PWR_BD40"
 						(effects
 							(font
@@ -4998,9 +6163,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 43.18 31.75 180)
+				(pin passive line
+					(at 43.18 25.4 180)
 					(length 5.08)
+					(hide yes)
 					(name "VPH_PWR_BD46"
 						(effects
 							(font
@@ -5016,9 +6182,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 43.18 29.21 180)
+				(pin passive line
+					(at 43.18 25.4 180)
 					(length 5.08)
+					(hide yes)
 					(name "VPH_PWR_BE43"
 						(effects
 							(font
@@ -5034,9 +6201,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 43.18 26.67 180)
+				(pin passive line
+					(at 43.18 25.4 180)
 					(length 5.08)
+					(hide yes)
 					(name "VPH_PWR_BE45"
 						(effects
 							(font
@@ -5053,7 +6221,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 22.86 180)
+					(at 43.18 21.59 180)
 					(length 5.08)
 					(name "VREG_L15A_1P8_AB49"
 						(effects
@@ -5071,7 +6239,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 20.32 180)
+					(at 43.18 19.05 180)
 					(length 5.08)
 					(name "VREG_L15A_1P8_AH49"
 						(effects
@@ -5089,7 +6257,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 16.51 180)
+					(at 43.18 15.24 180)
 					(length 5.08)
 					(name "VREG_L17A_3P0"
 						(effects
@@ -5107,7 +6275,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 12.7 180)
+					(at 43.18 11.43 180)
 					(length 5.08)
 					(name "VREG_L20A_2P96"
 						(effects
@@ -5125,7 +6293,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 8.89 180)
+					(at 43.18 7.62 180)
 					(length 5.08)
 					(name "VREG_S4A_2P04"
 						(effects
@@ -5143,7 +6311,7 @@
 					)
 				)
 				(pin power_out line
-					(at 43.18 5.08 180)
+					(at 43.18 3.81 180)
 					(length 5.08)
 					(name "VREG_S3A_1P352"
 						(effects
@@ -9654,1505 +10822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SEBoard:53047-0210"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.762 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "53047-0210"
-				(at -5.08 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:530470210"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/53047-0210.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector 2P 1.25mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Molex"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "53047-0210"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "53047-0210_1_1"
-				(rectangle
-					(start -3.81 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -8.89 1.27 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -1.27 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:74269242111"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB1"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "110Ohm 1200mA"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SEBoard:BEADC1005X55N"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "74269242111"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "74269242111_1_1"
-				(polyline
-					(pts
-						(xy -5.08 1.905) (xy 5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid -3.81 1.219)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.219)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 1.27 1.219)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 3.81 1.219)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:GRM1555C1H101JA01D"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -0.508 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "100pF 50V"
-				(at -4.318 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "GRM1555C1H101JA01D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GRM1555C1H101JA01D_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.54) (xy -0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:GRM1555C1H330JA01D"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -0.508 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "33pF 50V"
-				(at -4.318 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "GRM1555C1H330JA01D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GRM1555C1H330JA01D_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.54) (xy -0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:GRM155R60J106ME15D"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -0.762 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "10uF 6.3V"
-				(at -4.826 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "GRM155R60J106ME15D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GRM155R60J106ME15D_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.54) (xy -0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:GRM158R60J226ME01D"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -0.762 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "22uF 6.3V"
-				(at -4.064 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor 22uF, 6.3V, X5R, 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "GRM158R60J226ME01D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "GRM158R60J226ME01D_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 2.54) (xy -0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:PAM8302AASCR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -0.762 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PAM8302AASCR"
-				(at -7.366 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SEBoard:SOP65P490X110-8N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC Auido Amplifier  1-Channel (Mono) Class D 8-MSOP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Diodes Incorporated"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "PAM8302AASCR"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "PAM8302AASCR_1_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 3.81 0)
-					(length 5.08)
-					(name "~{SD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -12.7 1.27 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -1.27 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -3.81 0)
-					(length 5.08)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 3.81 180)
-					(length 5.08)
-					(name "VO-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -1.27 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -3.81 180)
-					(length 5.08)
-					(name "VO+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:RC0402JR-0710KL"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10K"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SEBoard:RC0402N_YAG"
-				(at -6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 10K 1/16W CH0402"
-				(at -6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RC0402JR-0710KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0402JR-0710KL_1_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 1.27) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -0.635 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 3.175 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -1.27) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RC0402JR-0710KL_1_2"
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "SEBoard:SPKM.15.8.A"
+		(symbol "000MCLib:SPKM.15.8.A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -12425,72 +12095,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "058bb9a2-021d-415c-8170-3d6dad0ff89b")
-		(property "Reference" "#PWR0170"
-			(at 128.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a25b26e1-3a88-4a0f-803b-7e14a82aae4c")
-		)
-		(instances
-			(project "SEBoard"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
-					(reference "#PWR0170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SEBoard:GRM1555C1H330JA01D")
+		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 193.04 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12516,7 +12121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 289.23 102.87 0)
 			(effects
 				(font
@@ -12581,7 +12186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:53047-0210")
+		(lib_id "000MCLib:53047-0210")
 		(at 262.89 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12607,7 +12212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SEBoard:530470210"
+		(property "Footprint" "000MCLib:530470210"
 			(at 279.4 192.71 0)
 			(effects
 				(font
@@ -12672,7 +12277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H330JA01D")
+		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 237.49 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12698,7 +12303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 333.68 102.87 0)
 			(effects
 				(font
@@ -12763,7 +12368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:74269242111")
+		(lib_id "000MCLib:74269242111")
 		(at 224.79 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12788,7 +12393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:BEADC1005X55N"
+		(property "Footprint" "000MCLib:BEADC1005X55N"
 			(at 241.3 196.52 0)
 			(effects
 				(font
@@ -12853,7 +12458,72 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM155R60J106ME15D")
+		(lib_id "power:GND")
+		(at 128.27 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23e529fe-5f29-4623-80a1-e63cbf589bfc")
+		(property "Reference" "#PWR0188"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "705b9d1a-fbbc-47b3-aa0b-9059da570ec3")
+		)
+		(instances
+			(project "SEBoard"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:GRM155R60J106ME15D")
 		(at 81.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12877,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 90.17 195.25 0)
 			(effects
 				(font
@@ -12936,71 +12606,6 @@
 			(project ""
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "C100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29c784f2-5df8-48f9-9173-78b69e04fe66")
-		(property "Reference" "#PWR0170"
-			(at 128.27 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc0ece41-b285-4c83-bb9a-449560b50d03")
-		)
-		(instances
-			(project "SEBoard"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
-					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -13163,7 +12768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:SPKM.15.8.A")
+		(lib_id "000MCLib:SPKM.15.8.A")
 		(at 262.89 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13251,7 +12856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-0710KL")
+		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 130.81 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13275,7 +12880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 130.81 116.84 0)
 			(effects
 				(font
@@ -13338,7 +12943,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:PAM8302AASCR")
+		(lib_id "000MCLib:PAM8302AASCR")
 		(at 144.78 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13363,7 +12968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:SOP65P490X110-8N"
+		(property "Footprint" "000MCLib:SOP65P490X110-8N"
 			(at 166.37 192.71 0)
 			(effects
 				(font
@@ -13511,7 +13116,96 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM158R60J226ME01D")
+		(lib_id "000MCLib:GRM1555C1H101JA01J")
+		(at 203.2 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f7c28e1-fcba-442d-afac-a3466caffd66")
+		(property "Reference" "C105"
+			(at 206.756 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100pF 50V"
+			(at 202.438 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:CAPC1005X55N"
+			(at 212.09 193.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+			(at 212.09 293.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
+			(at 203.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 212.09 793.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM1555C1H101JA01J"
+			(at 212.09 893.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60496baa-f097-441a-a36c-9cabcdbc2716")
+		)
+		(pin "1"
+			(uuid "6e305734-9ae1-475e-9d55-63d20669fda1")
+		)
+		(instances
+			(project ""
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
+					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:GRM158R60J226ME01D")
 		(at 167.64 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13537,7 +13231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 71.45 120.65 0)
 			(effects
 				(font
@@ -13780,7 +13474,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H330JA01D")
+		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 212.09 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13806,7 +13500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 308.28 102.87 0)
 			(effects
 				(font
@@ -13880,7 +13574,7 @@
 		(dnp no)
 		(uuid "a4c97c4d-5be5-4417-8e08-20c1697f78cb")
 		(property "Reference" "C109"
-			(at 171.45 58.42 0)
+			(at 171.45 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15512,52 +15206,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H101JA01D")
-		(at 203.2 97.79 0)
+		(lib_id "power:GND")
+		(at 128.27 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c37faefc-1b46-40e2-be3e-fe432eb847cb")
-		(property "Reference" "C105"
-			(at 206.756 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF 50V"
-			(at 203.2 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
-			(at 212.09 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 212.09 293.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
-			(at 203.2 97.79 0)
+		(uuid "bd22a21a-3c2a-44b8-a069-c68b12d5907f")
+		(property "Reference" "#PWR0170"
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15565,36 +15223,48 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 212.09 793.98 0)
+		(property "Value" "GND"
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM1555C1H101JA01D"
-			(at 212.09 893.98 0)
+		(property "Footprint" ""
+			(at 128.27 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "7e26e78f-bab6-49cd-83ad-a204fc6b9b2f")
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "614130c1-e915-45fb-97e0-22e7713fcb68")
+			(uuid "7b0f3412-09d2-42f7-b093-5cc5ccaf2708")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
-					(reference "C105")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -15697,7 +15367,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:74269242111")
+		(lib_id "000MCLib:74269242111")
 		(at 223.52 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15722,7 +15392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:BEADC1005X55N"
+		(property "Footprint" "000MCLib:BEADC1005X55N"
 			(at 240.03 188.9 0)
 			(effects
 				(font
@@ -15787,7 +15457,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H330JA01D")
+		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 246.38 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15813,7 +15483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 342.57 102.87 0)
 			(effects
 				(font
@@ -15968,7 +15638,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM155R60J106ME15D")
+		(lib_id "000MCLib:GRM155R60J106ME15D")
 		(at 81.28 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15992,7 +15662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 90.17 199.06 0)
 			(effects
 				(font
@@ -16057,7 +15727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-0710KL")
+		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 109.22 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16081,7 +15751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -16326,7 +15996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-0710KL")
+		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 109.22 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16350,7 +16020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 102.87 102.87 0)
 			(effects
 				(font

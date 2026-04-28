@@ -20959,7 +20959,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20977,7 +20977,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21240,7 +21240,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "000MCLib:SOT95P230X110-3N"
 			(at 13.97 -101.27 0)
 			(effects
 				(font
@@ -86559,7 +86559,7 @@
 			)
 		)
 		(property "Value" "SE250B4"
-			(at 24.13 -2.286 0)
+			(at 24.384 -2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -86569,7 +86569,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:XCVR_SE250B4-NA"
-			(at 15.494 63.5 0)
+			(at -16.764 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86588,7 +86588,7 @@
 			)
 		)
 		(property "Description" "Telit Smart Module QCM2290"
-			(at 15.494 62.23 0)
+			(at -16.764 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86597,7 +86597,7 @@
 			)
 		)
 		(property "Manufacturer" "Telit"
-			(at 16.002 74.168 0)
+			(at -16.256 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86607,7 +86607,7 @@
 			)
 		)
 		(property "Part Number" "SE250B4-EU"
-			(at 18.542 69.088 0)
+			(at -13.716 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93876,8 +93876,8 @@
 		(symbol "SE250B4_9_0"
 			(unit_name "Unconnected")
 			(rectangle
-				(start 0 81.28)
-				(end 35.56 -87.63)
+				(start 0 168.91)
+				(end 35.56 0)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -93887,7 +93887,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 76.2 180)
+				(at 40.64 163.83 180)
 				(length 5.08)
 				(name "RFU_A13"
 					(effects
@@ -93905,7 +93905,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 73.66 180)
+				(at 40.64 161.29 180)
 				(length 5.08)
 				(name "RFU_A19"
 					(effects
@@ -93923,7 +93923,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 71.12 180)
+				(at 40.64 158.75 180)
 				(length 5.08)
 				(name "RFU_A37"
 					(effects
@@ -93941,7 +93941,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 68.58 180)
+				(at 40.64 156.21 180)
 				(length 5.08)
 				(name "RFU_A45"
 					(effects
@@ -93959,7 +93959,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 66.04 180)
+				(at 40.64 153.67 180)
 				(length 5.08)
 				(name "RFU_A47"
 					(effects
@@ -93977,7 +93977,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 63.5 180)
+				(at 40.64 151.13 180)
 				(length 5.08)
 				(name "RFU_AC47"
 					(effects
@@ -93995,7 +93995,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 60.96 180)
+				(at 40.64 148.59 180)
 				(length 5.08)
 				(name "RFU_AH3"
 					(effects
@@ -94013,7 +94013,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 58.42 180)
+				(at 40.64 146.05 180)
 				(length 5.08)
 				(name "RFU_AK49"
 					(effects
@@ -94031,7 +94031,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 55.88 180)
+				(at 40.64 143.51 180)
 				(length 5.08)
 				(name "RFU_AL5"
 					(effects
@@ -94049,7 +94049,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 53.34 180)
+				(at 40.64 140.97 180)
 				(length 5.08)
 				(name "RFU_AM3"
 					(effects
@@ -94067,7 +94067,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 50.8 180)
+				(at 40.64 138.43 180)
 				(length 5.08)
 				(name "RFU_AM51"
 					(effects
@@ -94085,7 +94085,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 48.26 180)
+				(at 40.64 135.89 180)
 				(length 5.08)
 				(name "RFU_AM7"
 					(effects
@@ -94103,7 +94103,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 45.72 180)
+				(at 40.64 133.35 180)
 				(length 5.08)
 				(name "RFU_AP3"
 					(effects
@@ -94121,7 +94121,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 43.18 180)
+				(at 40.64 130.81 180)
 				(length 5.08)
 				(name "RFU_AS3"
 					(effects
@@ -94139,7 +94139,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 40.64 180)
+				(at 40.64 128.27 180)
 				(length 5.08)
 				(name "RFU_AS51"
 					(effects
@@ -94157,7 +94157,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 38.1 180)
+				(at 40.64 125.73 180)
 				(length 5.08)
 				(name "RFU_AV2"
 					(effects
@@ -94175,7 +94175,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 35.56 180)
+				(at 40.64 123.19 180)
 				(length 5.08)
 				(name "RFU_AW1"
 					(effects
@@ -94193,7 +94193,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 33.02 180)
+				(at 40.64 120.65 180)
 				(length 5.08)
 				(name "RFU_AX2"
 					(effects
@@ -94211,7 +94211,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 30.48 180)
+				(at 40.64 118.11 180)
 				(length 5.08)
 				(name "RFU_AY31"
 					(effects
@@ -94229,7 +94229,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 27.94 180)
+				(at 40.64 115.57 180)
 				(length 5.08)
 				(name "RFU_AY35"
 					(effects
@@ -94247,7 +94247,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 25.4 180)
+				(at 40.64 113.03 180)
 				(length 5.08)
 				(name "RFU_B6"
 					(effects
@@ -94265,7 +94265,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 22.86 180)
+				(at 40.64 110.49 180)
 				(length 5.08)
 				(name "RFU_B12"
 					(effects
@@ -94283,7 +94283,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 20.32 180)
+				(at 40.64 107.95 180)
 				(length 5.08)
 				(name "RFU_BA18"
 					(effects
@@ -94301,7 +94301,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 17.78 180)
+				(at 40.64 105.41 180)
 				(length 5.08)
 				(name "RFU_BA28"
 					(effects
@@ -94319,7 +94319,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 15.24 180)
+				(at 40.64 102.87 180)
 				(length 5.08)
 				(name "RFU_BA32"
 					(effects
@@ -94337,7 +94337,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 12.7 180)
+				(at 40.64 100.33 180)
 				(length 5.08)
 				(name "RFU_BA34"
 					(effects
@@ -94355,7 +94355,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 10.16 180)
+				(at 40.64 97.79 180)
 				(length 5.08)
 				(name "RFU_BA36"
 					(effects
@@ -94373,7 +94373,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 7.62 180)
+				(at 40.64 95.25 180)
 				(length 5.08)
 				(name "RFU_BC31"
 					(effects
@@ -94391,7 +94391,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 5.08 180)
+				(at 40.64 92.71 180)
 				(length 5.08)
 				(name "RFU_BC33"
 					(effects
@@ -94409,7 +94409,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 2.54 180)
+				(at 40.64 90.17 180)
 				(length 5.08)
 				(name "RFU_BC35"
 					(effects
@@ -94427,7 +94427,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 0 180)
+				(at 40.64 87.63 180)
 				(length 5.08)
 				(name "RFU_BD30"
 					(effects
@@ -94445,7 +94445,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -2.54 180)
+				(at 40.64 85.09 180)
 				(length 5.08)
 				(name "RFU_BD32"
 					(effects
@@ -94463,7 +94463,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -5.08 180)
+				(at 40.64 82.55 180)
 				(length 5.08)
 				(name "RFU_BD34"
 					(effects
@@ -94481,7 +94481,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -7.62 180)
+				(at 40.64 80.01 180)
 				(length 5.08)
 				(name "RFU_BD36"
 					(effects
@@ -94499,7 +94499,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -10.16 180)
+				(at 40.64 77.47 180)
 				(length 5.08)
 				(name "RFU_BE13"
 					(effects
@@ -94517,7 +94517,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -12.7 180)
+				(at 40.64 74.93 180)
 				(length 5.08)
 				(name "RFU_BE15"
 					(effects
@@ -94535,7 +94535,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -15.24 180)
+				(at 40.64 72.39 180)
 				(length 5.08)
 				(name "RFU_BE19"
 					(effects
@@ -94553,7 +94553,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -17.78 180)
+				(at 40.64 69.85 180)
 				(length 5.08)
 				(name "RFU_BE23"
 					(effects
@@ -94571,7 +94571,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -20.32 180)
+				(at 40.64 67.31 180)
 				(length 5.08)
 				(name "RFU_BE25"
 					(effects
@@ -94589,7 +94589,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -22.86 180)
+				(at 40.64 64.77 180)
 				(length 5.08)
 				(name "RFU_BE29"
 					(effects
@@ -94607,7 +94607,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -25.4 180)
+				(at 40.64 62.23 180)
 				(length 5.08)
 				(name "RFU_BE31"
 					(effects
@@ -94625,7 +94625,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -27.94 180)
+				(at 40.64 59.69 180)
 				(length 5.08)
 				(name "RFU_BE33"
 					(effects
@@ -94643,7 +94643,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -30.48 180)
+				(at 40.64 57.15 180)
 				(length 5.08)
 				(name "RFU_BE35"
 					(effects
@@ -94661,7 +94661,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -33.02 180)
+				(at 40.64 54.61 180)
 				(length 5.08)
 				(name "RFU_BE37"
 					(effects
@@ -94679,7 +94679,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -35.56 180)
+				(at 40.64 52.07 180)
 				(length 5.08)
 				(name "RFU_BE9"
 					(effects
@@ -94697,7 +94697,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -38.1 180)
+				(at 40.64 49.53 180)
 				(length 5.08)
 				(name "RFU_C11"
 					(effects
@@ -94715,7 +94715,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -40.64 180)
+				(at 40.64 46.99 180)
 				(length 5.08)
 				(name "RFU_F2"
 					(effects
@@ -94733,7 +94733,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -43.18 180)
+				(at 40.64 44.45 180)
 				(length 5.08)
 				(name "RFU_G3"
 					(effects
@@ -94751,7 +94751,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -45.72 180)
+				(at 40.64 41.91 180)
 				(length 5.08)
 				(name "RFU_G11"
 					(effects
@@ -94769,7 +94769,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -48.26 180)
+				(at 40.64 39.37 180)
 				(length 5.08)
 				(name "RFU_J3"
 					(effects
@@ -94787,7 +94787,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -50.8 180)
+				(at 40.64 36.83 180)
 				(length 5.08)
 				(name "RFU_K2"
 					(effects
@@ -94805,7 +94805,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -53.34 180)
+				(at 40.64 34.29 180)
 				(length 5.08)
 				(name "RFU_K5"
 					(effects
@@ -94823,7 +94823,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -55.88 180)
+				(at 40.64 31.75 180)
 				(length 5.08)
 				(name "RFU_L1"
 					(effects
@@ -94841,7 +94841,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -58.42 180)
+				(at 40.64 29.21 180)
 				(length 5.08)
 				(name "RFU_L3"
 					(effects
@@ -94859,7 +94859,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -60.96 180)
+				(at 40.64 26.67 180)
 				(length 5.08)
 				(name "RFU_L7"
 					(effects
@@ -94877,7 +94877,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -63.5 180)
+				(at 40.64 24.13 180)
 				(length 5.08)
 				(name "RFU_M5"
 					(effects
@@ -94895,7 +94895,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -66.04 180)
+				(at 40.64 21.59 180)
 				(length 5.08)
 				(name "RFU_N3"
 					(effects
@@ -94913,7 +94913,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -68.58 180)
+				(at 40.64 19.05 180)
 				(length 5.08)
 				(name "RFU_S5"
 					(effects
@@ -94931,7 +94931,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -71.12 180)
+				(at 40.64 16.51 180)
 				(length 5.08)
 				(name "RFU_T3"
 					(effects
@@ -94949,7 +94949,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -73.66 180)
+				(at 40.64 13.97 180)
 				(length 5.08)
 				(name "RFU_T7"
 					(effects
@@ -94967,7 +94967,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -76.2 180)
+				(at 40.64 11.43 180)
 				(length 5.08)
 				(name "RFU_V7"
 					(effects
@@ -94985,7 +94985,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -78.74 180)
+				(at 40.64 8.89 180)
 				(length 5.08)
 				(name "RFU_W2"
 					(effects
@@ -95003,7 +95003,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -81.28 180)
+				(at 40.64 6.35 180)
 				(length 5.08)
 				(name "RFU_W5"
 					(effects
@@ -95021,7 +95021,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 40.64 -83.82 180)
+				(at 40.64 3.81 180)
 				(length 5.08)
 				(name "RFU_Z3"
 					(effects

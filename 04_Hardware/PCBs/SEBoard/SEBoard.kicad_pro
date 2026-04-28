@@ -841,6 +841,9 @@
       "Net-(D2-K)": [
         "PWR_DC"
       ],
+      "Net-(D3-A)": [
+        "PWR_VBAT"
+      ],
       "Net-(D3-K)": [
         "PWR_VBAT"
       ],

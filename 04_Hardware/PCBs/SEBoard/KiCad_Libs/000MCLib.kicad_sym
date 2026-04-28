@@ -20959,7 +20959,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20977,7 +20977,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21240,7 +21240,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "000MCLib:SOT95P230X110-3N"
 			(at 13.97 -101.27 0)
 			(effects
 				(font
@@ -86559,7 +86559,7 @@
 			)
 		)
 		(property "Value" "SE250B4"
-			(at 24.384 -2.54 0)
+			(at 30.226 -2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -86626,7 +86626,7 @@
 		(symbol "SE250B4_1_0"
 			(unit_name "Power")
 			(rectangle
-				(start 0 72.7075)
+				(start 0 62.5475)
 				(end 38.0999 0)
 				(stroke
 					(width 0.254)
@@ -86637,7 +86637,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 68.58 0)
+				(at -5.08 58.42 0)
 				(length 5.08)
 				(name "RKEY"
 					(effects
@@ -86655,7 +86655,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(name "GND_1"
 					(effects
@@ -86673,7 +86673,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_10"
@@ -86692,7 +86692,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_11"
@@ -86711,7 +86711,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_12"
@@ -86730,7 +86730,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_13"
@@ -86749,7 +86749,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_14"
@@ -86768,7 +86768,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_15"
@@ -86787,7 +86787,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_16"
@@ -86806,7 +86806,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_17"
@@ -86825,7 +86825,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_18"
@@ -86844,7 +86844,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_19"
@@ -86863,7 +86863,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_2"
@@ -86882,7 +86882,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_20"
@@ -86901,7 +86901,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_21"
@@ -86920,7 +86920,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_22"
@@ -86939,7 +86939,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_23"
@@ -86958,7 +86958,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_24"
@@ -86977,7 +86977,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_25"
@@ -86996,7 +86996,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_26"
@@ -87015,7 +87015,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_27"
@@ -87034,7 +87034,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_28"
@@ -87053,7 +87053,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_29"
@@ -87072,7 +87072,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_3"
@@ -87091,7 +87091,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_30"
@@ -87110,7 +87110,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_31"
@@ -87129,7 +87129,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_32"
@@ -87148,7 +87148,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_33"
@@ -87167,7 +87167,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_34"
@@ -87186,7 +87186,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_35"
@@ -87205,7 +87205,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_36"
@@ -87224,7 +87224,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_37"
@@ -87243,7 +87243,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_38"
@@ -87262,7 +87262,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_39"
@@ -87281,7 +87281,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_4"
@@ -87300,7 +87300,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_40"
@@ -87319,7 +87319,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_41"
@@ -87338,7 +87338,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_42"
@@ -87357,7 +87357,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_43"
@@ -87376,7 +87376,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_44"
@@ -87395,7 +87395,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_45"
@@ -87414,7 +87414,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_46"
@@ -87433,7 +87433,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_47"
@@ -87452,7 +87452,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_48"
@@ -87471,7 +87471,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_49"
@@ -87490,7 +87490,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_5"
@@ -87509,7 +87509,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_50"
@@ -87528,7 +87528,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_51"
@@ -87547,7 +87547,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_52"
@@ -87566,7 +87566,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_53"
@@ -87585,7 +87585,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_54"
@@ -87604,7 +87604,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_55"
@@ -87623,7 +87623,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_56"
@@ -87642,7 +87642,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_57"
@@ -87661,7 +87661,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_58"
@@ -87680,7 +87680,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_59"
@@ -87699,7 +87699,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_6"
@@ -87718,7 +87718,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_60"
@@ -87737,7 +87737,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_7"
@@ -87756,7 +87756,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_8"
@@ -87775,7 +87775,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_9"
@@ -87794,7 +87794,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A11"
@@ -87813,7 +87813,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A15"
@@ -87832,7 +87832,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A17"
@@ -87851,7 +87851,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A21"
@@ -87870,7 +87870,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A23"
@@ -87889,7 +87889,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A27"
@@ -87908,7 +87908,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A29"
@@ -87927,7 +87927,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A31"
@@ -87946,7 +87946,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A35"
@@ -87965,7 +87965,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A39"
@@ -87984,7 +87984,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A43"
@@ -88003,7 +88003,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_A7"
@@ -88022,7 +88022,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AA47"
@@ -88041,7 +88041,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AA5"
@@ -88060,7 +88060,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AB45"
@@ -88079,7 +88079,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AB51"
@@ -88098,7 +88098,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AC50"
@@ -88117,7 +88117,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AD7"
@@ -88136,7 +88136,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AE5"
@@ -88155,7 +88155,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AF3"
@@ -88174,7 +88174,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AF45"
@@ -88193,7 +88193,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AG2"
@@ -88212,7 +88212,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AH1"
@@ -88231,7 +88231,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AH51"
@@ -88250,7 +88250,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AJ2"
@@ -88269,7 +88269,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AJ47"
@@ -88288,7 +88288,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AJ5"
@@ -88307,7 +88307,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AK3"
@@ -88326,7 +88326,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AK45"
@@ -88345,7 +88345,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AK51"
@@ -88364,7 +88364,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AL2"
@@ -88383,7 +88383,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AL47"
@@ -88402,7 +88402,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AM1"
@@ -88421,7 +88421,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AM45"
@@ -88440,7 +88440,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AN2"
@@ -88459,7 +88459,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AN50"
@@ -88478,7 +88478,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AP1"
@@ -88497,7 +88497,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AP51"
@@ -88516,7 +88516,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AR2"
@@ -88535,7 +88535,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AS1"
@@ -88554,7 +88554,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AT2"
@@ -88573,7 +88573,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AU1"
@@ -88592,7 +88592,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AU45"
@@ -88611,7 +88611,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AU51"
@@ -88630,7 +88630,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AV47"
@@ -88649,7 +88649,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AV50"
@@ -88668,7 +88668,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AW49"
@@ -88687,7 +88687,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY1"
@@ -88706,7 +88706,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY11"
@@ -88725,7 +88725,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY17"
@@ -88744,7 +88744,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY19"
@@ -88763,7 +88763,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY29"
@@ -88782,7 +88782,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY33"
@@ -88801,7 +88801,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY37"
@@ -88820,7 +88820,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY39"
@@ -88839,7 +88839,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AY41"
@@ -88858,7 +88858,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_AZ2"
@@ -88877,7 +88877,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B10"
@@ -88896,7 +88896,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B14"
@@ -88915,7 +88915,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B16"
@@ -88934,7 +88934,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B18"
@@ -88953,7 +88953,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B24"
@@ -88972,7 +88972,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B26"
@@ -88991,7 +88991,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B28"
@@ -89010,7 +89010,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B32"
@@ -89029,7 +89029,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B34"
@@ -89048,7 +89048,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B40"
@@ -89067,7 +89067,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B42"
@@ -89086,7 +89086,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_B8"
@@ -89105,7 +89105,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA1"
@@ -89124,7 +89124,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA12"
@@ -89143,7 +89143,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA20"
@@ -89162,7 +89162,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA26"
@@ -89181,7 +89181,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA30"
@@ -89200,7 +89200,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA38"
@@ -89219,7 +89219,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA40"
@@ -89238,7 +89238,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BA42"
@@ -89257,7 +89257,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BC13"
@@ -89276,7 +89276,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BC23"
@@ -89295,7 +89295,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BC29"
@@ -89314,7 +89314,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BC37"
@@ -89333,7 +89333,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BC45"
@@ -89352,7 +89352,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BD14"
@@ -89371,7 +89371,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BD24"
@@ -89390,7 +89390,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BD38"
@@ -89409,7 +89409,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BD44"
@@ -89428,7 +89428,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE11"
@@ -89447,7 +89447,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE17"
@@ -89466,7 +89466,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE21"
@@ -89485,7 +89485,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE27"
@@ -89504,7 +89504,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE39"
@@ -89523,7 +89523,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE41"
@@ -89542,7 +89542,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_BE7"
@@ -89561,7 +89561,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C13"
@@ -89580,7 +89580,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C15"
@@ -89599,7 +89599,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C33"
@@ -89618,7 +89618,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C41"
@@ -89637,7 +89637,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C7"
@@ -89656,7 +89656,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_C9"
@@ -89675,7 +89675,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_E10"
@@ -89694,7 +89694,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_F50"
@@ -89713,7 +89713,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_G1"
@@ -89732,7 +89732,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_H2"
@@ -89751,7 +89751,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_J1"
@@ -89770,7 +89770,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_J51"
@@ -89789,7 +89789,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_M47"
@@ -89808,7 +89808,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_M50"
@@ -89827,7 +89827,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_N49"
@@ -89846,7 +89846,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_N51"
@@ -89865,7 +89865,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_N7"
@@ -89884,7 +89884,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_P47"
@@ -89903,7 +89903,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_P50"
@@ -89922,7 +89922,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_R3"
@@ -89941,7 +89941,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_T45"
@@ -89960,7 +89960,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_U5"
@@ -89979,7 +89979,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_V3"
@@ -89998,7 +89998,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_X1"
@@ -90017,7 +90017,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_Y2"
@@ -90036,7 +90036,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 64.77 0)
+				(at -5.08 54.61 0)
 				(length 5.08)
 				(hide yes)
 				(name "GND_Y5"
@@ -90055,7 +90055,7 @@
 				)
 			)
 			(pin power_in line
-				(at 43.18 68.58 180)
+				(at 43.18 58.42 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -90073,7 +90073,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_AW51"
@@ -90092,7 +90092,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_AX50"
@@ -90111,7 +90111,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_AY49"
@@ -90130,7 +90130,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_AY51"
@@ -90149,7 +90149,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_AZ50"
@@ -90168,7 +90168,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(name "VPH_PA_BA51"
 					(effects
@@ -90186,7 +90186,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_BC41"
@@ -90205,7 +90205,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 66.04 180)
+				(at 43.18 55.88 180)
 				(length 5.08)
 				(hide yes)
 				(name "VPH_PA_BD42"
@@ -90224,7 +90224,7 @@
 				)
 			)
 			(pin input line
-				(at 43.18 60.96 180)
+				(at 43.18 50.8 180)
 				(length 5.08)
 				(name "BATT_CONN_VSNS_P"
 					(effects
@@ -90242,7 +90242,7 @@
 				)
 			)
 			(pin input line
-				(at 43.18 58.42 180)
+				(at 43.18 48.26 180)
 				(length 5.08)
 				(name "BATT_THERM"
 					(effects
@@ -90260,7 +90260,7 @@
 				)
 			)
 			(pin input line
-				(at 43.18 55.88 180)
+				(at 43.18 45.72 180)
 				(length 5.08)
 				(name "BATT_CONN_VSNS_M"
 					(effects
@@ -90278,7 +90278,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 43.18 53.34 180)
+				(at 43.18 43.18 180)
 				(length 5.08)
 				(name "BATT_ID/PM_GPIO_07"
 					(effects
@@ -90296,7 +90296,7 @@
 				)
 			)
 			(pin output line
-				(at 43.18 48.26 180)
+				(at 43.18 38.1 180)
 				(length 5.08)
 				(name "CBL_PWR_N"
 					(effects
@@ -90314,7 +90314,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 44.45 180)
+				(at 43.18 34.29 180)
 				(length 5.08)
 				(name "VCOIN"
 					(effects
@@ -90332,7 +90332,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 39.37 180)
+				(at 43.18 25.4 180)
 				(length 5.08)
 				(name "VPH_PWR_BC39"
 					(effects
@@ -90349,9 +90349,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 43.18 36.83 180)
+			(pin passive line
+				(at 43.18 25.4 180)
 				(length 5.08)
+				(hide yes)
 				(name "VPH_PWR_BC43"
 					(effects
 						(font
@@ -90367,9 +90368,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 43.18 34.29 180)
+			(pin passive line
+				(at 43.18 25.4 180)
 				(length 5.08)
+				(hide yes)
 				(name "VPH_PWR_BD40"
 					(effects
 						(font
@@ -90385,9 +90387,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 43.18 31.75 180)
+			(pin passive line
+				(at 43.18 25.4 180)
 				(length 5.08)
+				(hide yes)
 				(name "VPH_PWR_BD46"
 					(effects
 						(font
@@ -90403,9 +90406,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 43.18 29.21 180)
+			(pin passive line
+				(at 43.18 25.4 180)
 				(length 5.08)
+				(hide yes)
 				(name "VPH_PWR_BE43"
 					(effects
 						(font
@@ -90421,9 +90425,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 43.18 26.67 180)
+			(pin passive line
+				(at 43.18 25.4 180)
 				(length 5.08)
+				(hide yes)
 				(name "VPH_PWR_BE45"
 					(effects
 						(font
@@ -90440,7 +90445,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 22.86 180)
+				(at 43.18 21.59 180)
 				(length 5.08)
 				(name "VREG_L15A_1P8_AB49"
 					(effects
@@ -90458,7 +90463,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 20.32 180)
+				(at 43.18 19.05 180)
 				(length 5.08)
 				(name "VREG_L15A_1P8_AH49"
 					(effects
@@ -90476,7 +90481,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 16.51 180)
+				(at 43.18 15.24 180)
 				(length 5.08)
 				(name "VREG_L17A_3P0"
 					(effects
@@ -90494,7 +90499,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 12.7 180)
+				(at 43.18 11.43 180)
 				(length 5.08)
 				(name "VREG_L20A_2P96"
 					(effects
@@ -90512,7 +90517,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 8.89 180)
+				(at 43.18 7.62 180)
 				(length 5.08)
 				(name "VREG_S4A_2P04"
 					(effects
@@ -90530,7 +90535,7 @@
 				)
 			)
 			(pin power_out line
-				(at 43.18 5.08 180)
+				(at 43.18 3.81 180)
 				(length 5.08)
 				(name "VREG_S3A_1P352"
 					(effects

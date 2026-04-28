@@ -1,9 +1,10 @@
 from pathlib import Path
+import re
 
 TARGET_DIR = Path(r"D:\Projects\SEBoard\04_Hardware\PCBs\SEBoard")
 
-OLD_TEXT = "SmartNFC"
-NEW_TEXT = "SEBoard"
+OLD_PROJECT_NAME = "SmartNFC"
+NEW_PROJECT_NAME = "SEBoard"
 
 ALLOWED_EXTENSIONS = {
     ".kicad_sch",
@@ -16,13 +17,10 @@ modified_files = 0
 renamed_files = 0
 
 if not TARGET_DIR.exists():
-    raise FileNotFoundError(f"Target folder not found: {TARGET_DIR}")
-
-if not TARGET_DIR.is_dir():
-    raise NotADirectoryError(f"Target path is not a folder: {TARGET_DIR}")
+    raise FileNotFoundError(TARGET_DIR)
 
 for file_path in TARGET_DIR.iterdir():
-    # Do not enter subfolders
+
     if not file_path.is_file():
         continue
 
@@ -31,30 +29,37 @@ for file_path in TARGET_DIR.iterdir():
 
     text = file_path.read_text(encoding="utf-8")
 
-    count = text.count(OLD_TEXT)
+    # SmartNFC: şeklindekilere dokunma
+    pattern = rf'\b{re.escape(OLD_PROJECT_NAME)}\b(?!:)'
 
-    if count == 0:
-        print(f"No change: {file_path.name}")
-    else:
-        new_text = text.replace(OLD_TEXT, NEW_TEXT)
+    new_text, count = re.subn(
+        pattern,
+        NEW_PROJECT_NAME,
+        text
+    )
+
+    if count > 0:
         file_path.write_text(new_text, encoding="utf-8")
-
-        total_replacements += count
         modified_files += 1
+        total_replacements += count
+        print(f"Modified: {file_path.name} | {count}")
 
-        print(f"Modified: {file_path.name} | Replacements: {count}")
+    else:
+        print(f"No change: {file_path.name}")
 
-    # Rename file if OLD_TEXT exists in filename
-    if OLD_TEXT in file_path.stem:
-        new_name = file_path.name.replace(OLD_TEXT, NEW_TEXT)
+    # Dosya adı değiştir
+    if OLD_PROJECT_NAME in file_path.stem:
+        new_name = file_path.name.replace(
+            OLD_PROJECT_NAME,
+            NEW_PROJECT_NAME
+        )
         new_path = file_path.with_name(new_name)
-
         file_path.rename(new_path)
-        renamed_files += 1
 
-        print(f"Renamed : {file_path.name} -> {new_name}")
+        renamed_files += 1
+        print(f"Renamed: {file_path.name} -> {new_name}")
 
 print("-" * 50)
-print(f"Modified files : {modified_files}")
-print(f"Renamed files  : {renamed_files}")
-print(f"Total replacements: {total_replacements}")
+print("Modified files :", modified_files)
+print("Renamed files  :", renamed_files)
+print("Total replacements:", total_replacements)

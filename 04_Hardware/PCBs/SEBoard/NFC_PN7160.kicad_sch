@@ -12,7 +12,7 @@
 		(comment 1 "Smart Board")
 	)
 	(lib_symbols
-		(symbol "SEBoard:06035A560FAT2A"
+		(symbol "000MCLib:06035A560FAT2A"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:CAP_CL10_SAM"
+			(property "Footprint" "000MCLib:CAP_CL10_SAM"
 				(at -3.81 0 0)
 				(effects
 					(font
@@ -263,7 +263,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:06035A680FAT2A"
+		(symbol "000MCLib:06035A680FAT2A"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -285,7 +285,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:CAP_CL10_SAM"
+			(property "Footprint" "000MCLib:CAP_CL10_SAM"
 				(at -3.81 0 0)
 				(effects
 					(font
@@ -512,7 +512,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:636101112001"
+		(symbol "000MCLib:636101112001"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -534,7 +534,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:COAX2_636101112001_WRE"
+			(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
 				(at -1.016 5.08 0)
 				(effects
 					(font
@@ -1090,7 +1090,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:ABM8-27.120MHZ-10-D1G-T"
+		(symbol "000MCLib:ABM8-27.120MHZ-10-D1G-T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1112,7 +1112,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:ABM810000MHZ12D2W"
+			(property "Footprint" "000MCLib:ABM810000MHZ12D2W"
 				(at 26.67 -94.92 0)
 				(effects
 					(font
@@ -1550,7 +1550,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:C0603C751F5GACTU"
+		(symbol "000MCLib:C0603C751F5GACTU"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1573,7 +1573,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1608X87N"
+			(property "Footprint" "000MCLib:CAPC1608X87N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -1709,7 +1709,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:C1608C0G1H102F080AA"
+		(symbol "000MCLib:C1608C0G1H102F080AA"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1732,7 +1732,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1608X80N"
+			(property "Footprint" "000MCLib:CAPC1608X80N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -1868,7 +1868,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:CL10C390FB81PNC"
+		(symbol "000MCLib:CL10C390FB81PNC"
 			(pin_names
 				(offset 0.254) hide)
 			(exclude_from_sim no)
@@ -1890,7 +1890,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:CAP_CL10_SAM"
+			(property "Footprint" "000MCLib:CAP_CL10_SAM"
 				(at -3.81 0 0)
 				(effects
 					(font
@@ -2128,7 +2128,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:CRCW08050000Z0EA"
+		(symbol "000MCLib:CRCW08050000Z0EA"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2149,7 +2149,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:RESC2012X50N"
+			(property "Footprint" "000MCLib:RESC2012X50N"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -2351,7 +2351,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:CRCW08052R70FKEA"
+		(symbol "000MCLib:CRCW08052R70FKEA"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2374,7 +2374,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:RESC2012X50N"
+			(property "Footprint" "000MCLib:RESC2012X50N"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -2546,7 +2546,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:ERJ-3GEYJ222V"
+		(symbol "000MCLib:ERJ-3GEYJ222V"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2569,7 +2569,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:ERJ3EKF1000V"
+			(property "Footprint" "000MCLib:ERJ3EKF1000V"
 				(at 13.97 -96.19 0)
 				(effects
 					(font
@@ -2741,7 +2741,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:GRM1555C1H100JA01D"
+		(symbol "000MCLib:GRM1555C1H100JA01D"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2764,7 +2764,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
+			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -2900,7 +2900,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:GRM155R61H105KE05D"
+		(symbol "000MCLib:GRM155R61H105KE05D"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2923,7 +2923,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
+			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -3059,7 +3059,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:GRM155R71A104KA01D"
+		(symbol "000MCLib:GRM155R71A104KA01D"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3082,7 +3082,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
+			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -3218,7 +3218,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:GRT155R61A225KE01D"
+		(symbol "000MCLib:GRT155R61A225KE01D"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3241,7 +3241,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1005X55N"
+			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -3377,7 +3377,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:L000641-01"
+		(symbol "000MCLib:L000641-01"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -3400,7 +3400,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:L000641-01"
+			(property "Footprint" "000MCLib:L000641-01"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3507,7 +3507,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:LMK107BJ475KA-T"
+		(symbol "000MCLib:LMK107BJ475KA-T"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3530,7 +3530,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:CAPC1608X90N"
+			(property "Footprint" "000MCLib:CAPC1608X90N"
 				(at 8.89 -96.19 0)
 				(effects
 					(font
@@ -3666,7 +3666,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:LQW18CNR16J00D"
+		(symbol "000MCLib:LQW18CNR16J00D"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3689,7 +3689,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:LQW18CNR16J00D"
+			(property "Footprint" "000MCLib:LQW18CNR16J00D"
 				(at 16.51 -96.19 0)
 				(effects
 					(font
@@ -3825,7 +3825,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:PN7160B1HN_C100E"
+		(symbol "000MCLib:PN7160B1HN_C100E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3847,7 +3847,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SEBoard:QFN50P600X600X100-41N-D"
+			(property "Footprint" "000MCLib:QFN50P600X600X100-41N-D"
 				(at 52.07 -82.22 0)
 				(effects
 					(font
@@ -4648,7 +4648,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:RC0402JR-070RL"
+		(symbol "000MCLib:RC0402JR-070RL"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4671,7 +4671,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:RC0402N_YAG"
+			(property "Footprint" "000MCLib:RC0402N_YAG"
 				(at -6.35 0 0)
 				(effects
 					(font
@@ -4972,7 +4972,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:RC0402JR-0710KL"
+		(symbol "000MCLib:RC0402JR-0710KL"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4995,7 +4995,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SEBoard:RC0402N_YAG"
+			(property "Footprint" "000MCLib:RC0402N_YAG"
 				(at -6.35 0 0)
 				(effects
 					(font
@@ -5296,7 +5296,7 @@
 				)
 			)
 		)
-		(symbol "SEBoard:TestPoint"
+		(symbol "000MCLib:TestPoint"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.762) hide)
@@ -8000,7 +8000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 80.01 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8024,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 73.66 109.22 0)
 			(effects
 				(font
@@ -8087,7 +8087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CRCW08052R70FKEA")
+		(lib_id "000MCLib:CRCW08052R70FKEA")
 		(at 127 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8111,7 +8111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RESC2012X50N"
+		(property "Footprint" "000MCLib:RESC2012X50N"
 			(at 140.97 244.78 0)
 			(effects
 				(font
@@ -8176,7 +8176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRT155R61A225KE01D")
+		(lib_id "000MCLib:GRT155R61A225KE01D")
 		(at 246.38 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8202,7 +8202,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 255.27 140.64 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:636101112001")
+		(lib_id "000MCLib:636101112001")
 		(at 186.69 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8293,7 +8293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SEBoard:COAX2_636101112001_WRE"
+		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
 			(at 185.674 140.97 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:TestPoint")
+		(lib_id "000MCLib:TestPoint")
 		(at 115.57 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8488,7 +8488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 83.82 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8512,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -8640,7 +8640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:C0603C751F5GACTU")
+		(lib_id "000MCLib:C0603C751F5GACTU")
 		(at 64.77 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8666,7 +8666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X87N"
+		(property "Footprint" "000MCLib:CAPC1608X87N"
 			(at 160.96 129.54 0)
 			(effects
 				(font
@@ -8731,7 +8731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A560FAT2A")
+		(lib_id "000MCLib:06035A560FAT2A")
 		(at 80.01 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8755,7 +8755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 76.2 167.64 0)
 			(effects
 				(font
@@ -8818,7 +8818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM155R71A104KA01D")
+		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 246.38 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8844,7 +8844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 255.27 155.88 0)
 			(effects
 				(font
@@ -8909,7 +8909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM155R61H105KE05D")
+		(lib_id "000MCLib:GRM155R61H105KE05D")
 		(at 215.9 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8935,7 +8935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 119.71 104.14 0)
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:ERJ-3GEYJ222V")
+		(lib_id "000MCLib:ERJ-3GEYJ222V")
 		(at 64.77 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9026,7 +9026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:ERJ3EKF1000V"
+		(property "Footprint" "000MCLib:ERJ3EKF1000V"
 			(at 160.96 160.02 0)
 			(effects
 				(font
@@ -9091,7 +9091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:TestPoint")
+		(lib_id "000MCLib:TestPoint")
 		(at 105.41 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9157,7 +9157,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 83.82 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9181,7 +9181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 77.47 57.15 0)
 			(effects
 				(font
@@ -9244,7 +9244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:TestPoint")
+		(lib_id "000MCLib:TestPoint")
 		(at 110.49 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9310,7 +9310,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:LMK107BJ475KA-T")
+		(lib_id "000MCLib:LMK107BJ475KA-T")
 		(at 223.52 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9336,7 +9336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X90N"
+		(property "Footprint" "000MCLib:CAPC1608X90N"
 			(at 127.33 104.14 0)
 			(effects
 				(font
@@ -9401,7 +9401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A560FAT2A")
+		(lib_id "000MCLib:06035A560FAT2A")
 		(at 80.01 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9425,7 +9425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 76.2 121.92 0)
 			(effects
 				(font
@@ -9488,7 +9488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRT155R61A225KE01D")
+		(lib_id "000MCLib:GRT155R61A225KE01D")
 		(at 246.38 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9514,7 +9514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 255.27 163.5 0)
 			(effects
 				(font
@@ -9579,7 +9579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CRCW08050000Z0EA")
+		(lib_id "000MCLib:CRCW08050000Z0EA")
 		(at 166.37 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9603,7 +9603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RESC2012X50N"
+		(property "Footprint" "000MCLib:RESC2012X50N"
 			(at 152.4 44.78 0)
 			(effects
 				(font
@@ -9733,7 +9733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CL10C390FB81PNC")
+		(lib_id "000MCLib:CL10C390FB81PNC")
 		(at 104.14 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9759,7 +9759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 104.14 154.94 0)
 			(effects
 				(font
@@ -9822,7 +9822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 83.82 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9846,7 +9846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 77.47 63.5 0)
 			(effects
 				(font
@@ -9909,7 +9909,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRT155R61A225KE01D")
+		(lib_id "000MCLib:GRT155R61A225KE01D")
 		(at 246.38 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9935,7 +9935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 255.27 171.12 0)
 			(effects
 				(font
@@ -10130,7 +10130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 83.82 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10154,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 77.47 69.85 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H100JA01D")
+		(lib_id "000MCLib:GRM1555C1H100JA01D")
 		(at 127 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10308,7 +10308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 30.81 40.64 0)
 			(effects
 				(font
@@ -10373,7 +10373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:TestPoint")
+		(lib_id "000MCLib:TestPoint")
 		(at 134.62 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10439,7 +10439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:LMK107BJ475KA-T")
+		(lib_id "000MCLib:LMK107BJ475KA-T")
 		(at 208.28 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10465,7 +10465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X90N"
+		(property "Footprint" "000MCLib:CAPC1608X90N"
 			(at 112.09 104.14 0)
 			(effects
 				(font
@@ -10530,7 +10530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-070RL")
+		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 78.74 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10554,7 +10554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 72.39 180.34 0)
 			(effects
 				(font
@@ -10617,7 +10617,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:C1608C0G1H102F080AA")
+		(lib_id "000MCLib:C1608C0G1H102F080AA")
 		(at 48.26 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10641,7 +10641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X80N"
+		(property "Footprint" "000MCLib:CAPC1608X80N"
 			(at 57.15 205.41 0)
 			(effects
 				(font
@@ -10706,7 +10706,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM155R71A104KA01D")
+		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 200.66 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10732,7 +10732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 104.47 104.14 0)
 			(effects
 				(font
@@ -10797,7 +10797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CRCW08052R70FKEA")
+		(lib_id "000MCLib:CRCW08052R70FKEA")
 		(at 127 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10821,7 +10821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RESC2012X50N"
+		(property "Footprint" "000MCLib:RESC2012X50N"
 			(at 140.97 237.16 0)
 			(effects
 				(font
@@ -10951,7 +10951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:PN7160B1HN_C100E")
+		(lib_id "000MCLib:PN7160B1HN_C100E")
 		(at 168.91 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10975,7 +10975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:QFN50P600X600X100-41N-D"
+		(property "Footprint" "000MCLib:QFN50P600X600X100-41N-D"
 			(at 220.98 141.91 0)
 			(effects
 				(font
@@ -11157,7 +11157,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A680FAT2A")
+		(lib_id "000MCLib:06035A680FAT2A")
 		(at 80.01 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11181,7 +11181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 76.2 132.08 0)
 			(effects
 				(font
@@ -11244,7 +11244,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:C0603C751F5GACTU")
+		(lib_id "000MCLib:C0603C751F5GACTU")
 		(at 64.77 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11270,7 +11270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X87N"
+		(property "Footprint" "000MCLib:CAPC1608X87N"
 			(at 160.96 142.24 0)
 			(effects
 				(font
@@ -11335,7 +11335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:C1608C0G1H102F080AA")
+		(lib_id "000MCLib:C1608C0G1H102F080AA")
 		(at 48.26 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11359,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1608X80N"
+		(property "Footprint" "000MCLib:CAPC1608X80N"
 			(at 57.15 276.53 0)
 			(effects
 				(font
@@ -11424,7 +11424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRM1555C1H100JA01D")
+		(lib_id "000MCLib:GRM1555C1H100JA01D")
 		(at 127 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11450,7 +11450,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 30.81 53.34 0)
 			(effects
 				(font
@@ -11580,7 +11580,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CRCW08050000Z0EA")
+		(lib_id "000MCLib:CRCW08050000Z0EA")
 		(at 166.37 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11604,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:RESC2012X50N"
+		(property "Footprint" "000MCLib:RESC2012X50N"
 			(at 152.4 52.4 0)
 			(effects
 				(font
@@ -11669,7 +11669,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:LQW18CNR16J00D")
+		(lib_id "000MCLib:LQW18CNR16J00D")
 		(at 48.26 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11694,7 +11694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:LQW18CNR16J00D"
+		(property "Footprint" "000MCLib:LQW18CNR16J00D"
 			(at 64.77 253.67 0)
 			(effects
 				(font
@@ -11759,7 +11759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:RC0402JR-0710KL")
+		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 137.16 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11786,7 +11786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:RC0402N_YAG"
+		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -11849,7 +11849,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:LQW18CNR16J00D")
+		(lib_id "000MCLib:LQW18CNR16J00D")
 		(at 48.26 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11874,7 +11874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:LQW18CNR16J00D"
+		(property "Footprint" "000MCLib:LQW18CNR16J00D"
 			(at 64.77 228.27 0)
 			(effects
 				(font
@@ -11939,7 +11939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:GRT155R61A225KE01D")
+		(lib_id "000MCLib:GRT155R61A225KE01D")
 		(at 246.38 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11965,7 +11965,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAPC1005X55N"
+		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 255.27 148.26 0)
 			(effects
 				(font
@@ -12030,7 +12030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A680FAT2A")
+		(lib_id "000MCLib:06035A680FAT2A")
 		(at 93.98 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12056,7 +12056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 93.98 154.94 0)
 			(effects
 				(font
@@ -12119,7 +12119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:ABM8-27.120MHZ-10-D1G-T")
+		(lib_id "000MCLib:ABM8-27.120MHZ-10-D1G-T")
 		(at 107.95 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12145,7 +12145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:ABM810000MHZ12D2W"
+		(property "Footprint" "000MCLib:ABM810000MHZ12D2W"
 			(at 202.87 10.16 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:CL10C390FB81PNC")
+		(lib_id "000MCLib:CL10C390FB81PNC")
 		(at 104.14 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12242,7 +12242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 104.14 142.24 0)
 			(effects
 				(font
@@ -12305,7 +12305,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A680FAT2A")
+		(lib_id "000MCLib:06035A680FAT2A")
 		(at 80.01 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12329,7 +12329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -12392,7 +12392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:06035A680FAT2A")
+		(lib_id "000MCLib:06035A680FAT2A")
 		(at 93.98 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12418,7 +12418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:CAP_CL10_SAM"
+		(property "Footprint" "000MCLib:CAP_CL10_SAM"
 			(at 93.98 142.24 0)
 			(effects
 				(font
@@ -12481,7 +12481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:TestPoint")
+		(lib_id "000MCLib:TestPoint")
 		(at 120.65 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12612,7 +12612,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:ERJ-3GEYJ222V")
+		(lib_id "000MCLib:ERJ-3GEYJ222V")
 		(at 64.77 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12638,7 +12638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SEBoard:ERJ3EKF1000V"
+		(property "Footprint" "000MCLib:ERJ3EKF1000V"
 			(at 160.96 101.6 0)
 			(effects
 				(font
@@ -12703,7 +12703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SEBoard:L000641-01")
+		(lib_id "000MCLib:L000641-01")
 		(at 143.51 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12729,7 +12729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SEBoard:L000641-01"
+		(property "Footprint" "000MCLib:L000641-01"
 			(at 143.51 143.51 0)
 			(effects
 				(font
