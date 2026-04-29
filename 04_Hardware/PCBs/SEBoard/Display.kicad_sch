@@ -15340,10 +15340,6 @@
 		(uuid "50f07ceb-282e-4ff3-aa3c-d4021274a675")
 	)
 	(no_connect
-		(at 57.15 96.52)
-		(uuid "5529c229-5dae-4185-832c-c1de6cab1362")
-	)
-	(no_connect
 		(at 254 151.13)
 		(uuid "6b51e920-c846-4e92-bbcf-e0dde1836066")
 	)
@@ -20100,6 +20096,72 @@
 			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/fd20983e-53dc-4079-9f17-527f4e836b8e"
 					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:TestPoint")
+		(at 57.15 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e050f5c-2b60-4fe7-9925-16b9e8424735")
+		(property "Reference" "TP40"
+			(at 61.468 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Sens_M"
+			(at 57.404 97.536 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4578e6d7-cfda-445c-9e86-79ff3f1f2134")
+		)
+		(instances
+			(project "SEBoard"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/fd20983e-53dc-4079-9f17-527f4e836b8e"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
