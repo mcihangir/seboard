@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "38605b01-fdd9-41de-8a8b-501279ee3e8a")
 	(paper "A3")
 	(title_block
@@ -22,7 +22,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 06eb6bfd-6b87-4fdf-be9b-5b30587b9ac8)
+		(uuid "06eb6bfd-6b87-4fdf-be9b-5b30587b9ac8")
 	)
 	(rectangle
 		(start 215.9 63.5)
@@ -34,7 +34,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 08a15d82-fb27-4680-809c-a36d40f2b2ca)
+		(uuid "08a15d82-fb27-4680-809c-a36d40f2b2ca")
 	)
 	(rectangle
 		(start 157.48 52.07)
@@ -46,7 +46,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1a9399be-39ee-47e5-ab7a-3cffcf5ffb18)
+		(uuid "1a9399be-39ee-47e5-ab7a-3cffcf5ffb18")
 	)
 	(rectangle
 		(start 127 135.89)
@@ -58,7 +58,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 35c707c8-ceba-45cd-8350-77a6091fd2d5)
+		(uuid "35c707c8-ceba-45cd-8350-77a6091fd2d5")
 	)
 	(rectangle
 		(start 138.43 52.07)
@@ -70,7 +70,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 3a665ecc-6b77-4016-b0aa-e32053c2a810)
+		(uuid "3a665ecc-6b77-4016-b0aa-e32053c2a810")
 	)
 	(rectangle
 		(start 193.04 142.24)
@@ -82,7 +82,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 42dedb4e-8c15-4060-9615-c76912339b02)
+		(uuid "42dedb4e-8c15-4060-9615-c76912339b02")
 	)
 	(rectangle
 		(start 195.58 52.07)
@@ -94,7 +94,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 48fa00a0-befa-4039-97ee-d145857ccf24)
+		(uuid "48fa00a0-befa-4039-97ee-d145857ccf24")
 	)
 	(rectangle
 		(start 171.45 135.89)
@@ -106,7 +106,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4b0ff5cf-6b63-4cc1-bd01-308592269784)
+		(uuid "4b0ff5cf-6b63-4cc1-bd01-308592269784")
 	)
 	(rectangle
 		(start 251.46 88.9)
@@ -118,7 +118,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 56af8c4a-a74b-4f18-af2d-eefa5e19eb5a)
+		(uuid "56af8c4a-a74b-4f18-af2d-eefa5e19eb5a")
 	)
 	(rectangle
 		(start 198.12 142.24)
@@ -130,7 +130,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 5f378be5-25c8-4c26-98f6-5392dda29f32)
+		(uuid "5f378be5-25c8-4c26-98f6-5392dda29f32")
 	)
 	(rectangle
 		(start 113.03 92.456)
@@ -142,7 +142,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 60bd649b-5a24-410f-9e41-159b4ef5672b)
+		(uuid "60bd649b-5a24-410f-9e41-159b4ef5672b")
 	)
 	(rectangle
 		(start 113.03 63.5)
@@ -154,7 +154,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 636512c8-ead9-46ea-9470-04c6efdd326a)
+		(uuid "636512c8-ead9-46ea-9470-04c6efdd326a")
 	)
 	(rectangle
 		(start 113.03 52.07)
@@ -166,7 +166,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 7ca802a5-416c-4b3e-b4fc-b970288bec98)
+		(uuid "7ca802a5-416c-4b3e-b4fc-b970288bec98")
 	)
 	(rectangle
 		(start 215.9 118.11)
@@ -178,7 +178,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 83821aeb-451c-4d79-a0cd-ed86e59b3390)
+		(uuid "83821aeb-451c-4d79-a0cd-ed86e59b3390")
 	)
 	(rectangle
 		(start 139.7 135.89)
@@ -190,7 +190,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 88b0957f-274c-49a5-b084-9bbcc75d5bfe)
+		(uuid "88b0957f-274c-49a5-b084-9bbcc75d5bfe")
 	)
 	(rectangle
 		(start 215.9 87.63)
@@ -202,7 +202,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ac9547ea-1705-4565-9c8d-372460fe09a3)
+		(uuid "ac9547ea-1705-4565-9c8d-372460fe09a3")
 	)
 	(rectangle
 		(start 158.75 135.89)
@@ -214,7 +214,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b56df447-4b05-4dbf-b5f8-c31e75a41301)
+		(uuid "b56df447-4b05-4dbf-b5f8-c31e75a41301")
 	)
 	(rectangle
 		(start 176.53 52.07)
@@ -226,7 +226,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e4e03e68-36e7-482e-9790-6371d5c46000)
+		(uuid "e4e03e68-36e7-482e-9790-6371d5c46000")
 	)
 	(rectangle
 		(start 113.03 81.026)
@@ -238,7 +238,7 @@
 		(fill
 			(type none)
 		)
-		(uuid f8f2f039-b37f-4574-83e6-5756e7eddf80)
+		(uuid "f8f2f039-b37f-4574-83e6-5756e7eddf80")
 	)
 	(text "PWRKEY\nVOL-UP/VOL-DOWN"
 		(exclude_from_sim no)
@@ -1889,11 +1889,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "04241d8f-a156-493c-8d6a-b2fd4005e365")
 		(property "Sheetname" "Power"
 			(at 73.66 187.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,6 +1905,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 73.66 260.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,11 +1935,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d")
 		(property "Sheetname" "Audio"
 			(at 251.46 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,6 +1951,8 @@
 		)
 		(property "Sheetfile" "Audio.kicad_sch"
 			(at 251.46 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,11 +1981,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "373f33e2-7aee-45a5-8557-24b7dea83b68")
 		(property "Sheetname" "Antennas"
 			(at 138.43 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,6 +1997,8 @@
 		)
 		(property "Sheetfile" "Antennas.kicad_sch"
 			(at 138.43 34.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,11 +2027,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "3c2aa49b-c8be-4870-9888-62f9793db4a0")
 		(property "Sheetname" "SIM_SD"
 			(at 158.75 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,6 +2043,8 @@
 		)
 		(property "Sheetfile" "SIM_SD.kicad_sch"
 			(at 158.75 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,11 +2073,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "7b362aa1-94ef-43a9-85ed-ebfe858e9164")
 		(property "Sheetname" "NFC_PN7220"
 			(at 73.66 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,6 +2089,8 @@
 		)
 		(property "Sheetfile" "NFC_PN7220.kicad_sch"
 			(at 73.66 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,11 +2119,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "b1e534e0-0f7b-45a3-a276-524cb0179f18")
 		(property "Sheetname" "Interfaces"
 			(at 192.405 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,6 +2135,8 @@
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
 			(at 192.405 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,11 +2165,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "c25a207c-b8a9-4784-b66a-330177f8d9f9")
 		(property "Sheetname" "USB_UARTs"
 			(at 127 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,6 +2181,8 @@
 		)
 		(property "Sheetfile" "USB_UARTs.kicad_sch"
 			(at 127 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,11 +2211,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "c91f7c0c-0252-4c4e-bbd9-4382f9eba7c2")
 		(property "Sheetname" "Sensors"
 			(at 73.66 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,6 +2227,8 @@
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
 			(at 73.66 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,11 +2257,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "cdfe43e3-900e-4bcd-bed8-8237c8b358e7")
 		(property "Sheetname" "Camera"
 			(at 251.46 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,6 +2273,8 @@
 		)
 		(property "Sheetfile" "Camera.kicad_sch"
 			(at 251.46 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,11 +2303,13 @@
 			(type solid)
 		)
 		(fill
-			(color 255 229 191 1.0000)
+			(color 255 229 191 1)
 		)
 		(uuid "fd20983e-53dc-4079-9f17-527f4e836b8e")
 		(property "Sheetname" "Display"
 			(at 251.46 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,6 +2319,8 @@
 		)
 		(property "Sheetfile" "Display.kicad_sch"
 			(at 251.46 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

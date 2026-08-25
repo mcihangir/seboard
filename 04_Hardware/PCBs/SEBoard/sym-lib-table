@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "000MCLib") (type "KiCad") (uri "${KIPRJMOD}/KiCad_Libs") (options "") (descr ""))
+)

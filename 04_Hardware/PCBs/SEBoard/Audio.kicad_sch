@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "3e2351ca-29b8-45e9-ade0-a9200e36179c")
 	(paper "A4")
 	(title_block
@@ -16,8 +16,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -0.762 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,6 +31,8 @@
 			)
 			(property "Value" "53047-0210"
 				(at -5.08 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,51 +42,61 @@
 			)
 			(property "Footprint" "000MCLib:530470210"
 				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/53047-0210.pdf"
 				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Connector 2P 1.25mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Molex"
 				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "53047-0210"
 				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "53047-0210_1_1"
@@ -93,24 +109,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin passive line
-					(at -8.89 1.27 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -131,6 +129,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -8.89 1.27 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -141,8 +157,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB1"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,6 +171,8 @@
 			)
 			(property "Value" "110Ohm 1200mA"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -159,51 +181,61 @@
 			)
 			(property "Footprint" "000MCLib:BEADC1005X55N"
 				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
 				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Wurth Elektronik"
 				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "74269242111"
 				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "74269242111_1_1"
@@ -311,8 +343,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "MK"
 				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -322,6 +358,8 @@
 			)
 			(property "Value" "CMM-3729AT-42316-TR"
 				(at 29.21 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -331,51 +369,61 @@
 			)
 			(property "Footprint" "000MCLib:CMM3729AT42316TR"
 				(at 29.21 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf"
 				(at 29.21 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "MEMS Microphone, 3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB,"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Same Sky"
 				(at 29.21 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "CMM-3729AT-42316-TR"
 				(at 29.21 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "CMM-3729AT-42316-TR_1_1"
@@ -388,42 +436,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin passive line
@@ -462,6 +474,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -472,8 +520,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -0.762 5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -483,6 +535,8 @@
 			)
 			(property "Value" "10pF 50V"
 				(at -5.08 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -492,51 +546,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 10pF, 50V, X5R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM1555C1H100JA01D"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM1555C1H100JA01D_1_1"
@@ -634,8 +698,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -0.508 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -645,6 +713,8 @@
 			)
 			(property "Value" "100pF 50V"
 				(at -4.318 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -654,51 +724,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM1555C1H101JA01J"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM1555C1H101JA01J_1_1"
@@ -796,8 +876,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -0.508 4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -807,6 +891,8 @@
 			)
 			(property "Value" "33pF 50V"
 				(at -4.318 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -816,51 +902,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM1555C1H330JA01D"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM1555C1H330JA01D_1_1"
@@ -958,8 +1054,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -0.762 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -969,6 +1069,8 @@
 			)
 			(property "Value" "10uF 6.3V"
 				(at -4.826 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -978,51 +1080,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM155R60J106ME15D"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM155R60J106ME15D_1_1"
@@ -1120,8 +1232,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -1.016 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1131,6 +1247,8 @@
 			)
 			(property "Value" "100nF 10V"
 				(at -4.826 -3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1140,51 +1258,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM155R71A104KA01D"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM155R71A104KA01D_1_1"
@@ -1282,8 +1410,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at -0.762 4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1293,6 +1425,8 @@
 			)
 			(property "Value" "22uF 6.3V"
 				(at -4.064 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1302,51 +1436,61 @@
 			)
 			(property "Footprint" "000MCLib:CAPC1005X55N"
 				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
 				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Capacitor 22uF, 6.3V, X5R, 0402"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Murata Electronics"
 				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "GRM158R60J226ME01D"
 				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "GRM158R60J226ME01D_1_1"
@@ -1441,8 +1585,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -0.762 10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1452,6 +1600,8 @@
 			)
 			(property "Value" "PAM8302AASCR"
 				(at -7.366 8.382 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1461,51 +1611,61 @@
 			)
 			(property "Footprint" "000MCLib:SOP65P490X110-8N"
 				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
 				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "IC Auido Amplifier  1-Channel (Mono) Class D 8-MSOP"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Diodes Incorporated"
 				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "PAM8302AASCR"
 				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "PAM8302AASCR_1_1"
@@ -1593,34 +1753,16 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 3.81 180)
+					(at 12.7 -3.81 180)
 					(length 5.08)
-					(name "VO-"
+					(name "VO+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 1.27 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1647,16 +1789,34 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -3.81 180)
+					(at 12.7 1.27 180)
 					(length 5.08)
-					(name "VO+"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 3.81 180)
+					(length 5.08)
+					(name "VO-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1668,14 +1828,19 @@
 			(embedded_fonts no)
 		)
 		(symbol "000MCLib:RC0402JR-070RL"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1684,6 +1849,8 @@
 			)
 			(property "Value" "0R"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1692,58 +1859,70 @@
 			)
 			(property "Footprint" "000MCLib:RC0402N_YAG"
 				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor 0R 1/16W CH0402"
 				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "RC0402JR-070RL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "RC0402JR-070RL_1_1"
@@ -1832,24 +2011,6 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name ""
@@ -1860,6 +2021,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1993,14 +2172,19 @@
 			(embedded_fonts no)
 		)
 		(symbol "000MCLib:RC0402JR-0710KL"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 0 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2009,6 +2193,8 @@
 			)
 			(property "Value" "10K"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2017,58 +2203,70 @@
 			)
 			(property "Footprint" "000MCLib:RC0402N_YAG"
 				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor 10K 1/16W CH0402"
 				(at -6.35 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "YAGEO"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "RC0402JR-0710KL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "RC0402JR-0710KL_1_1"
@@ -2157,24 +2355,6 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 6.35 0 180)
 					(length 2.54)
 					(name ""
@@ -2185,6 +2365,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2324,9 +2522,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0.762 171.958 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2336,7 +2537,8 @@
 			)
 			(property "Value" "SE250B4"
 				(at 30.226 -2.54 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2346,53 +2548,65 @@
 			)
 			(property "Footprint" "000MCLib:XCVR_SE250B4-NA"
 				(at -16.764 71.12 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Telit Smart Module QCM2290"
 				(at -16.764 69.85 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Telit"
 				(at -16.256 81.788 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "SE250B4-EU"
 				(at -13.716 76.708 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2412,24 +2626,6 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -5.08 58.42 0)
-					(length 5.08)
-					(name "RKEY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
@@ -2441,6 +2637,158 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2642,25 +2990,6 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
 					(name "GND_20"
 						(effects
 							(font
@@ -2840,25 +3169,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3060,25 +3370,6 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
 					(name "GND_40"
 						(effects
 							(font
@@ -3258,25 +3549,6 @@
 						)
 					)
 					(number "49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3478,25 +3750,6 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
 					(name "GND_60"
 						(effects
 							(font
@@ -3512,18 +3765,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 54.61 0)
+				(pin input line
+					(at -5.08 58.42 0)
 					(length 5.08)
-					(hide yes)
-					(name "GND_7"
+					(name "RKEY"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "A1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3535,33 +3787,14 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_8"
+					(name "GND_A7"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
+					(number "A7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3778,37 +4011,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 54.61 0)
+				(pin output line
+					(at 43.18 38.1 180)
 					(length 5.08)
-					(hide yes)
-					(name "GND_A7"
+					(name "CBL_PWR_N"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_AA47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AA47"
+					(number "AA2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3839,6 +4052,25 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
+					(name "GND_AA47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AA47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
 					(name "GND_AB45"
 						(effects
 							(font
@@ -3847,6 +4079,24 @@
 						)
 					)
 					(number "AB45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 21.59 180)
+					(length 5.08)
+					(name "VREG_L15A_1P8_AB49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AB49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3892,6 +4142,24 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 43.18 43.18 180)
+					(length 5.08)
+					(name "BATT_ID/PM_GPIO_07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
@@ -3904,6 +4172,24 @@
 						)
 					)
 					(number "AD7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 15.24 180)
+					(length 5.08)
+					(name "VREG_L17A_3P0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AD49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3987,6 +4273,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 43.18 48.26 180)
+					(length 5.08)
+					(name "BATT_THERM"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AG5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
@@ -3999,6 +4303,42 @@
 						)
 					)
 					(number "AH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 50.8 180)
+					(length 5.08)
+					(name "BATT_CONN_VSNS_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AH7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 19.05 180)
+					(length 5.08)
+					(name "VREG_L15A_1P8_AH49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AH49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4048,25 +4388,6 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_AJ47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AJ47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
 					(name "GND_AJ5"
 						(effects
 							(font
@@ -4086,6 +4407,25 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
+					(name "GND_AJ47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AJ47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
 					(name "GND_AK3"
 						(effects
 							(font
@@ -4094,6 +4434,24 @@
 						)
 					)
 					(number "AK3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 43.18 45.72 180)
+					(length 5.08)
+					(name "BATT_CONN_VSNS_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AK7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4208,6 +4566,24 @@
 						)
 					)
 					(number "AM45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 11.43 180)
+					(length 5.08)
+					(name "VREG_L20A_2P96"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AM49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4463,6 +4839,44 @@
 					)
 				)
 				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_AW51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AW51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_AX50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AX50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
@@ -4634,6 +5048,44 @@
 					)
 				)
 				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_AY49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AY49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_AY51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AY51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
@@ -4645,6 +5097,44 @@
 						)
 					)
 					(number "AZ2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_AZ50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AZ50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -4865,25 +5355,6 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
-					(name "GND_B8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
 					(name "GND_BA1"
 						(effects
 							(font
@@ -5033,6 +5504,24 @@
 					)
 				)
 				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(name "VPH_PA_BA51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BA51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
@@ -5101,6 +5590,62 @@
 						)
 					)
 					(number "BC37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(name "VPH_PWR_BC39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_BC41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PWR_BC43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC43"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5185,6 +5730,44 @@
 					)
 				)
 				(pin passive line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PWR_BD40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 55.88 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PA_BD42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
@@ -5196,6 +5779,44 @@
 						)
 					)
 					(number "BD44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PWR_BD46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_BE7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BE7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5318,17 +5939,92 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 54.61 0)
+					(at 43.18 25.4 180)
 					(length 5.08)
 					(hide yes)
-					(name "GND_BE7"
+					(name "VPH_PWR_BE43"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BE7"
+					(number "BE43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 25.4 180)
+					(length 5.08)
+					(hide yes)
+					(name "VPH_PWR_BE45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BE45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 58.42 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BE47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_C7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
+					(name "GND_C9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5374,6 +6070,24 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 43.18 3.81 180)
+					(length 5.08)
+					(name "VREG_S3A_1P352"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
@@ -5405,44 +6119,6 @@
 						)
 					)
 					(number "C41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_C7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_C9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5500,6 +6176,24 @@
 						)
 					)
 					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 43.18 34.29 180)
+					(length 5.08)
+					(name "VCOIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G17"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5606,6 +6300,25 @@
 					(at -5.08 54.61 0)
 					(length 5.08)
 					(hide yes)
+					(name "GND_N7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 54.61 0)
+					(length 5.08)
+					(hide yes)
 					(name "GND_N49"
 						(effects
 							(font
@@ -5633,25 +6346,6 @@
 						)
 					)
 					(number "N51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 54.61 0)
-					(length 5.08)
-					(hide yes)
-					(name "GND_N7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -5792,6 +6486,24 @@
 						)
 					)
 				)
+				(pin power_out line
+					(at 43.18 7.62 180)
+					(length 5.08)
+					(name "VREG_S4A_2P04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "X3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -5.08 54.61 0)
 					(length 5.08)
@@ -5830,504 +6542,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 43.18 58.42 180)
-					(length 5.08)
-					(name "VBAT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BE47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_AW51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AW51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_AX50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AX50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_AY49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AY49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_AY51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AY51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_AZ50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AZ50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(name "VPH_PA_BA51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BA51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_BC41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BC41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 55.88 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PA_BD42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD42"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 50.8 180)
-					(length 5.08)
-					(name "BATT_CONN_VSNS_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AH7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 48.26 180)
-					(length 5.08)
-					(name "BATT_THERM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AG5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 45.72 180)
-					(length 5.08)
-					(name "BATT_CONN_VSNS_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AK7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 43.18 43.18 180)
-					(length 5.08)
-					(name "BATT_ID/PM_GPIO_07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AD3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 43.18 38.1 180)
-					(length 5.08)
-					(name "CBL_PWR_N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AA2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 34.29 180)
-					(length 5.08)
-					(name "VCOIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(name "VPH_PWR_BC39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BC39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PWR_BC43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BC43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PWR_BD40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD40"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PWR_BD46"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD46"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PWR_BE43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BE43"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 43.18 25.4 180)
-					(length 5.08)
-					(hide yes)
-					(name "VPH_PWR_BE45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BE45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 21.59 180)
-					(length 5.08)
-					(name "VREG_L15A_1P8_AB49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AB49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 19.05 180)
-					(length 5.08)
-					(name "VREG_L15A_1P8_AH49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AH49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 15.24 180)
-					(length 5.08)
-					(name "VREG_L17A_3P0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AD49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 11.43 180)
-					(length 5.08)
-					(name "VREG_L20A_2P96"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AM49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 7.62 180)
-					(length 5.08)
-					(name "VREG_S4A_2P04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "X3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 43.18 3.81 180)
-					(length 5.08)
-					(name "VREG_S3A_1P352"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 			)
 			(symbol "SE250B4_2_0"
 				(unit_name "Display")
@@ -6342,17 +6556,17 @@
 						(type background)
 					)
 				)
-				(pin output clock
-					(at 38.1 81.28 180)
+				(pin bidirectional line
+					(at 38.1 11.43 180)
 					(length 5.08)
-					(name "MIPI_DSI0_CLK_M"
+					(name "HDMI_LT8912_INT/GPIO_28"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BC27"
+					(number "AH45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6360,17 +6574,35 @@
 						)
 					)
 				)
-				(pin output clock
-					(at 38.1 78.74 180)
+				(pin bidirectional line
+					(at 38.1 21.59 180)
 					(length 5.08)
-					(name "MIPI_DSI0_CLK_P"
+					(name "LCM_1P8_EN/GPIO_114"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BC25"
+					(number "AW3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 19.05 180)
+					(length 5.08)
+					(name "LCM_BL_EN/GPIO_113"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AY3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6379,16 +6611,16 @@
 					)
 				)
 				(pin output line
-					(at 38.1 76.2 180)
+					(at 38.1 63.5 180)
 					(length 5.08)
-					(name "MIPI_DSI0_L0_M"
+					(name "MIPI_DSI0_L2_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BA24"
+					(number "AY21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6397,16 +6629,16 @@
 					)
 				)
 				(pin output line
-					(at 38.1 73.66 180)
+					(at 38.1 66.04 180)
 					(length 5.08)
-					(name "MIPI_DSI0_L0_P"
+					(name "MIPI_DSI0_L2_M"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BA22"
+					(number "AY23"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6451,16 +6683,34 @@
 					)
 				)
 				(pin output line
-					(at 38.1 66.04 180)
+					(at 38.1 39.37 180)
 					(length 5.08)
-					(name "MIPI_DSI0_L2_M"
+					(name "LCM_RST_N"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AY23"
+					(number "B30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 36.83 180)
+					(length 5.08)
+					(name "LCM_TE/GPIO_81"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B38"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6469,16 +6719,70 @@
 					)
 				)
 				(pin output line
-					(at 38.1 63.5 180)
+					(at 38.1 73.66 180)
 					(length 5.08)
-					(name "MIPI_DSI0_L2_P"
+					(name "MIPI_DSI0_L0_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AY21"
+					(number "BA22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 76.2 180)
+					(length 5.08)
+					(name "MIPI_DSI0_L0_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BA24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 78.74 180)
+					(length 5.08)
+					(name "MIPI_DSI0_CLK_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 38.1 81.28 180)
+					(length 5.08)
+					(name "MIPI_DSI0_CLK_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC27"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6523,42 +6827,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 53.34 180)
-					(length 5.08)
-					(name "TS_I2C_SCL/GPIO_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 50.8 180)
-					(length 5.08)
-					(name "TS_I2C_SDA/GPIO_6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G31"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 38.1 48.26 180)
 					(length 5.08)
 					(name "TS_INT_N/GPIO_80"
@@ -6595,52 +6863,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 43.18 180)
+					(at 38.1 29.21 180)
 					(length 5.08)
-					(name "TS_3P0_EN/GPIO_37"
+					(name "LCM_BIAS_P_EN/GPIO_107"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "G51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 39.37 180)
-					(length 5.08)
-					(name "LCM_RST_N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 36.83 180)
-					(length 5.08)
-					(name "LCM_TE/GPIO_81"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B38"
+					(number "C39"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6667,16 +6899,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 31.75 180)
+					(at 38.1 53.34 180)
 					(length 5.08)
-					(name "LCM_BIAS_N_EN/GPIO_106"
+					(name "TS_I2C_SCL/GPIO_7"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "R45"
+					(number "E32"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6685,16 +6917,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 29.21 180)
+					(at 38.1 50.8 180)
 					(length 5.08)
-					(name "LCM_BIAS_P_EN/GPIO_107"
+					(name "TS_I2C_SDA/GPIO_6"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "C39"
+					(number "G31"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6703,16 +6935,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 26.67 180)
+					(at 38.1 3.81 180)
 					(length 5.08)
-					(name "LCM_ID1/GPIO_111"
+					(name "HDMI_LVDS_VCC_EN/GPIO_105"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "L45"
+					(number "G33"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6739,16 +6971,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 21.59 180)
+					(at 38.1 43.18 180)
 					(length 5.08)
-					(name "LCM_1P8_EN/GPIO_114"
+					(name "TS_3P0_EN/GPIO_37"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AW3"
+					(number "G51"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6757,16 +6989,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 19.05 180)
+					(at 38.1 26.67 180)
 					(length 5.08)
-					(name "LCM_BL_EN/GPIO_113"
+					(name "LCM_ID1/GPIO_111"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AY3"
+					(number "L45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6775,52 +7007,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 16.51 180)
+					(at 38.1 31.75 180)
 					(length 5.08)
-					(name "LCM_2P8_EN/GPIO_60"
+					(name "LCM_BIAS_N_EN/GPIO_106"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "W47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 11.43 180)
-					(length 5.08)
-					(name "HDMI_LT8912_INT/GPIO_28"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AH45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 8.89 180)
-					(length 5.08)
-					(name "HDMI_INT/GPIO_34"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "T49"
+					(number "R45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6847,16 +7043,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 3.81 180)
+					(at 38.1 8.89 180)
 					(length 5.08)
-					(name "HDMI_LVDS_VCC_EN/GPIO_105"
+					(name "HDMI_INT/GPIO_34"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "G33"
+					(number "T49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 16.51 180)
+					(length 5.08)
+					(name "LCM_2P8_EN/GPIO_60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "W47"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -6878,312 +7092,6 @@
 						(type background)
 					)
 				)
-				(pin input clock
-					(at 46.99 170.18 180)
-					(length 5.08)
-					(name "MIPI_CSI0_A0_CLK_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AU49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at 46.99 166.37 180)
-					(length 5.08)
-					(name "MIPI_CSI0_NC_CLK_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AT50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 160.02 180)
-					(length 5.08)
-					(name "MIPI_CSI0_C0_LN0_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AS49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 156.21 180)
-					(length 5.08)
-					(name "MIPI_CSI0_B0_LN0_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AR50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 149.86 180)
-					(length 5.08)
-					(name "MIPI_CSI0_B1_LN1_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AT47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 146.05 180)
-					(length 5.08)
-					(name "MIPI_CSI0_A1_LN1_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AS45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 139.7 180)
-					(length 5.08)
-					(name "MIPI_CSI0_A2_LN2_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AP45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 135.89 180)
-					(length 5.08)
-					(name "MIPI_CSI0_C1_LN2_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AN47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 129.54 180)
-					(length 5.08)
-					(name "MIPI_CSI0_C2_LN3_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AP49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 125.73 180)
-					(length 5.08)
-					(name "MIPI_CSI0_B2_LN3_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AR47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 46.99 119.38 180)
-					(length 5.08)
-					(name "CAM_CCI_I2C_SCL0/GPIO_23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AG47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 46.99 115.57 180)
-					(length 5.08)
-					(name "CAM_CCI_I2C_SDA0/GPIO_22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AE47"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 46.99 111.76 180)
-					(length 5.08)
-					(name "CAM0_PWDN/GPIO_97"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "L49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 46.99 107.95 180)
-					(length 5.08)
-					(name "CAM_MCLK0/GPIO_20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AJ50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 46.99 104.14 180)
-					(length 5.08)
-					(name "CAM0_RST_N/GPIO_18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AF51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at 46.99 96.52 180)
-					(length 5.08)
-					(name "MIPI_CSI1_A0_CLK_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Y50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at 46.99 92.71 180)
-					(length 5.08)
-					(name "MIPI_CSI1_NC_CLK_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "X51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 46.99 87.63 180)
 					(length 5.08)
@@ -7202,17 +7110,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 46.99 83.82 180)
+				(pin bidirectional line
+					(at 46.99 44.45 180)
 					(length 5.08)
-					(name "MIPI_CSI1_B0_LN0_P"
+					(name "CAM1_PWDN/GPIO_36"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "Z51"
+					(number "AD45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7220,107 +7128,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 46.99 78.74 180)
+				(pin bidirectional line
+					(at 46.99 115.57 180)
 					(length 5.08)
-					(name "MIPI_CSI1_B1_LN1_M"
+					(name "CAM_CCI_I2C_SDA0/GPIO_22"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "W50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 74.93 180)
-					(length 5.08)
-					(name "MIPI_CSI1_A1_LN1_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "V51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 69.85 180)
-					(length 5.08)
-					(name "MIPI_CSI1_A2_LN2_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "U50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 66.04 180)
-					(length 5.08)
-					(name "MIPI_CSI1_C1_LN2_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "T51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 60.96 180)
-					(length 5.08)
-					(name "MIPI_CSI1_C2_LN3_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S50"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 46.99 57.15 180)
-					(length 5.08)
-					(name "MIPI_CSI1_B2_LN3_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R51"
+					(number "AE47"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7365,16 +7183,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 44.45 180)
+					(at 46.99 104.14 180)
 					(length 5.08)
-					(name "CAM1_PWDN/GPIO_36"
+					(name "CAM0_RST_N/GPIO_18"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AD45"
+					(number "AF51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 46.99 119.38 180)
+					(length 5.08)
+					(name "CAM_CCI_I2C_SCL0/GPIO_23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AG47"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7401,16 +7237,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 36.83 180)
+					(at 46.99 107.95 180)
 					(length 5.08)
-					(name "CAM1_RST_N/GPIO_19"
+					(name "CAM_MCLK0/GPIO_20"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "Y47"
+					(number "AJ50"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7436,17 +7272,179 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 46.99 26.67 180)
+				(pin input line
+					(at 46.99 135.89 180)
 					(length 5.08)
-					(name "CAM2_RST_N/GPIO_24"
+					(name "MIPI_CSI0_C1_LN2_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "V45"
+					(number "AN47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 139.7 180)
+					(length 5.08)
+					(name "MIPI_CSI0_A2_LN2_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AP45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 129.54 180)
+					(length 5.08)
+					(name "MIPI_CSI0_C2_LN3_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AP49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 125.73 180)
+					(length 5.08)
+					(name "MIPI_CSI0_B2_LN3_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AR47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 156.21 180)
+					(length 5.08)
+					(name "MIPI_CSI0_B0_LN0_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AR50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 146.05 180)
+					(length 5.08)
+					(name "MIPI_CSI0_A1_LN1_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AS45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 160.02 180)
+					(length 5.08)
+					(name "MIPI_CSI0_C0_LN0_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AS49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 149.86 180)
+					(length 5.08)
+					(name "MIPI_CSI0_B1_LN1_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AT47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 46.99 166.37 180)
+					(length 5.08)
+					(name "MIPI_CSI0_NC_CLK_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AT50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 46.99 170.18 180)
+					(length 5.08)
+					(name "MIPI_CSI0_A0_CLK_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AU49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7465,6 +7463,42 @@
 						)
 					)
 					(number "C37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 46.99 3.81 180)
+					(length 5.08)
+					(name "CAM_2P8_EN/GPIO_42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 46.99 7.62 180)
+					(length 5.08)
+					(name "CAM_1P8_EN/GPIO_39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "H50"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7509,16 +7543,88 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 7.62 180)
+					(at 46.99 111.76 180)
 					(length 5.08)
-					(name "CAM_1P8_EN/GPIO_39"
+					(name "CAM0_PWDN/GPIO_97"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "H50"
+					(number "L49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 57.15 180)
+					(length 5.08)
+					(name "MIPI_CSI1_B2_LN3_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "R51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 60.96 180)
+					(length 5.08)
+					(name "MIPI_CSI1_C2_LN3_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 66.04 180)
+					(length 5.08)
+					(name "MIPI_CSI1_C1_LN2_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "T51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 69.85 180)
+					(length 5.08)
+					(name "MIPI_CSI1_A2_LN2_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "U50"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7527,16 +7633,124 @@
 					)
 				)
 				(pin bidirectional line
-					(at 46.99 3.81 180)
+					(at 46.99 26.67 180)
 					(length 5.08)
-					(name "CAM_2P8_EN/GPIO_42"
+					(name "CAM2_RST_N/GPIO_24"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "E51"
+					(number "V45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 74.93 180)
+					(length 5.08)
+					(name "MIPI_CSI1_A1_LN1_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "V51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 78.74 180)
+					(length 5.08)
+					(name "MIPI_CSI1_B1_LN1_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "W50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 46.99 92.71 180)
+					(length 5.08)
+					(name "MIPI_CSI1_NC_CLK_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "X51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 46.99 36.83 180)
+					(length 5.08)
+					(name "CAM1_RST_N/GPIO_19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Y47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at 46.99 96.52 180)
+					(length 5.08)
+					(name "MIPI_CSI1_A0_CLK_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Y50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 46.99 83.82 180)
+					(length 5.08)
+					(name "MIPI_CSI1_B0_LN0_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Z51"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7548,16 +7762,16 @@
 			(symbol "SE250B4_4_0"
 				(unit_name "Interfaces")
 				(pin bidirectional line
-					(at 38.1 165.1 180)
+					(at 38.1 93.98 180)
 					(length 5.08)
-					(name "LED_CHG_SINK/PM_GPIO_02"
+					(name "PM_AMUX_3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AC2"
+					(number "A5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7565,71 +7779,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 38.1 161.29 180)
+				(pin output clock
+					(at 38.1 29.21 180)
 					(length 5.08)
-					(name "LED_FLASH_E16"
+					(name "NFC_RFCLK3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "E16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 157.48 180)
-					(length 5.08)
-					(name "LED_FLASH_G15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 153.67 180)
-					(length 5.08)
-					(name "LED_GREEN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 149.86 180)
-					(length 5.08)
-					(name "LED_RED"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E12"
+					(number "A25"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7655,89 +7815,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 38.1 139.7 180)
-					(length 5.08)
-					(name "KEY_PM_RESIN_N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Z1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 38.1 135.89 180)
+					(at 38.1 165.1 180)
 					(length 5.08)
-					(name "KEY_VOL_DOWN_N/GPIO_103"
+					(name "LED_CHG_SINK/PM_GPIO_02"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "E36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 132.08 180)
-					(length 5.08)
-					(name "KEY_VOL_UP_N/GPIO_96"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 125.73 180)
-					(length 5.08)
-					(name "SNSR_ACCL_INT/GPIO_32"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "V49"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 121.92 180)
-					(length 5.08)
-					(name "SNSR_GYRO_INT/GPIO_33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "X49"
+					(number "AC2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7764,78 +7852,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 114.3 180)
-					(length 5.08)
-					(name "SNSR_I2C_SCL/GPIO_110"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E38"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 110.49 180)
-					(length 5.08)
-					(name "SNSR_I2C_SDA/GPIO_109"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 106.68 180)
-					(length 5.08)
-					(name "APPS_I2C_SDA/GPIO_4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E26"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 102.87 180)
-					(length 5.08)
-					(name "APPS_I2C_SCL/GPIO_5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 38.1 97.79 180)
 					(length 5.08)
 					(name "PM_AMUX_2"
@@ -7846,42 +7862,6 @@
 						)
 					)
 					(number "AF7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 93.98 180)
-					(length 5.08)
-					(name "PM_AMUX_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 38.1 90.17 180)
-					(length 5.08)
-					(name "VIB_DRIVER"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7908,6 +7888,42 @@
 					)
 				)
 				(pin bidirectional line
+					(at 38.1 55.88 180)
+					(length 5.08)
+					(name "NFC_SPI_MOSI/GPIO_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 132.08 180)
+					(length 5.08)
+					(name "KEY_VOL_UP_N/GPIO_96"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 38.1 80.01 180)
 					(length 5.08)
 					(name "PM_GPIO4"
@@ -7918,78 +7934,6 @@
 						)
 					)
 					(number "C19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 76.2 180)
-					(length 5.08)
-					(name "PM_GPIO8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 72.39 180)
-					(length 5.08)
-					(name "PM_GPIO1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 68.58 180)
-					(length 5.08)
-					(name "PM_GPIO5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 64.77 180)
-					(length 5.08)
-					(name "PM_GPIO6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "E14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8016,16 +7960,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 55.88 180)
+					(at 38.1 44.45 180)
 					(length 5.08)
-					(name "NFC_SPI_MOSI/GPIO_1"
+					(name "NFC_EN/GPIO_69"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "B22"
+					(number "C25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 33.02 180)
+					(length 5.08)
+					(name "NFC_CLKREQ/GPIO_86"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C27"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8052,16 +8014,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 48.26 180)
+					(at 38.1 5.08 180)
 					(length 5.08)
-					(name "NFC_SPI_CS_N/GPIO_3"
+					(name "EXT_GPS_LNA_EN0/GPIO_63"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "N45"
+					(number "E1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 149.86 180)
+					(length 5.08)
+					(name "LED_RED"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8070,16 +8050,52 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 44.45 180)
+					(at 38.1 64.77 180)
 					(length 5.08)
-					(name "NFC_EN/GPIO_69"
+					(name "PM_GPIO6"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "C25"
+					(number "E14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 161.29 180)
+					(length 5.08)
+					(name "LED_FLASH_E16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 72.39 180)
+					(length 5.08)
+					(name "PM_GPIO1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E18"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8106,6 +8122,150 @@
 					)
 				)
 				(pin bidirectional line
+					(at 38.1 106.68 180)
+					(length 5.08)
+					(name "APPS_I2C_SDA/GPIO_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 135.89 180)
+					(length 5.08)
+					(name "KEY_VOL_DOWN_N/GPIO_103"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 114.3 180)
+					(length 5.08)
+					(name "SNSR_I2C_SCL/GPIO_110"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 153.67 180)
+					(length 5.08)
+					(name "LED_GREEN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 157.48 180)
+					(length 5.08)
+					(name "LED_FLASH_G15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 76.2 180)
+					(length 5.08)
+					(name "PM_GPIO8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 102.87 180)
+					(length 5.08)
+					(name "APPS_I2C_SCL/GPIO_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 110.49 180)
+					(length 5.08)
+					(name "SNSR_I2C_SDA/GPIO_109"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 38.1 36.83 180)
 					(length 5.08)
 					(name "NFC_DWL_REQ/GPIO_31"
@@ -8124,16 +8284,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 33.02 180)
+					(at 38.1 48.26 180)
 					(length 5.08)
-					(name "NFC_CLKREQ/GPIO_86"
+					(name "NFC_SPI_CS_N/GPIO_3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "C27"
+					(number "N45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8141,17 +8301,17 @@
 						)
 					)
 				)
-				(pin output clock
-					(at 38.1 29.21 180)
+				(pin power_in line
+					(at 38.1 90.17 180)
 					(length 5.08)
-					(name "NFC_RFCLK3"
+					(name "VIB_DRIVER"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "A25"
+					(number "P5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8160,16 +8320,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 24.13 180)
+					(at 38.1 68.58 180)
 					(length 5.08)
-					(name "PM8008_RST_N/GPIO_26"
+					(name "PM_GPIO5"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "U47"
+					(number "R7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8196,16 +8356,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 16.51 180)
+					(at 38.1 24.13 180)
 					(length 5.08)
-					(name "GRFC_10/GPIO_47"
+					(name "PM8008_RST_N/GPIO_26"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "Z49"
+					(number "U47"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8214,16 +8374,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 12.7 180)
+					(at 38.1 125.73 180)
 					(length 5.08)
-					(name "GRFC_12/GPIO_49"
+					(name "SNSR_ACCL_INT/GPIO_32"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "Z45"
+					(number "V49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8250,16 +8410,70 @@
 					)
 				)
 				(pin bidirectional line
-					(at 38.1 5.08 180)
+					(at 38.1 121.92 180)
 					(length 5.08)
-					(name "EXT_GPS_LNA_EN0/GPIO_63"
+					(name "SNSR_GYRO_INT/GPIO_33"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "E1"
+					(number "X49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 139.7 180)
+					(length 5.08)
+					(name "KEY_PM_RESIN_N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Z1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 12.7 180)
+					(length 5.08)
+					(name "GRFC_12/GPIO_49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Z45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 16.51 180)
+					(length 5.08)
+					(name "GRFC_10/GPIO_47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Z49"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8387,24 +8601,6 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 35.56 105.41 180)
-					(length 5.08)
-					(name "FORCED_USB_BOOT/GPIO_95"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 35.56 101.6 180)
 					(length 5.08)
@@ -8459,35 +8655,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 35.56 90.17 180)
+				(pin bidirectional line
+					(at 35.56 76.2 180)
 					(length 5.08)
-					(name "USB_CC1"
+					(name "USB0_HS_SM_DP"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BC15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 86.36 180)
-					(length 5.08)
-					(name "USB_CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD16"
+					(number "AY13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8514,16 +8692,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 76.2 180)
+					(at 35.56 53.34 180)
 					(length 5.08)
-					(name "USB0_HS_SM_DP"
+					(name "USB0_SS_RX1_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AY13"
+					(number "BA14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8532,16 +8710,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 72.39 180)
+					(at 35.56 57.15 180)
 					(length 5.08)
-					(name "USB0_SS_RX0_M"
+					(name "USB0_SS_RX1_M"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BD18"
+					(number "BA16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 90.17 180)
+					(length 5.08)
+					(name "USB_CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BC15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8568,24 +8764,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 64.77 180)
-					(length 5.08)
-					(name "USB0_SS_TX0_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 35.56 60.96 180)
 					(length 5.08)
 					(name "USB0_SS_TX0_P"
@@ -8604,16 +8782,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 57.15 180)
+					(at 35.56 45.72 180)
 					(length 5.08)
-					(name "USB0_SS_RX1_M"
+					(name "USB0_SS_TX1_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BA16"
+					(number "BC21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 86.36 180)
+					(length 5.08)
+					(name "USB_CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD16"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8622,16 +8818,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 53.34 180)
+					(at 35.56 72.39 180)
 					(length 5.08)
-					(name "USB0_SS_RX1_P"
+					(name "USB0_SS_RX0_M"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BA14"
+					(number "BD18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 64.77 180)
+					(length 5.08)
+					(name "USB0_SS_TX0_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8658,16 +8872,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 45.72 180)
+					(at 35.56 105.41 180)
 					(length 5.08)
-					(name "USB0_SS_TX1_P"
+					(name "FORCED_USB_BOOT/GPIO_95"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BC21"
+					(number "C21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8694,34 +8908,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 31.75 180)
+					(at 35.56 5.08 180)
 					(length 5.08)
-					(name "UART_TX_N_SE5/GPIO_16"
+					(name "UART_DEBUG_RX/GPIO_13"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "G23"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 29.21 180)
-					(length 5.08)
-					(name "UART_CTS_N_SE5/GPIO_14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G29"
+					(number "E28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8748,24 +8944,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 19.05 180)
-					(length 5.08)
-					(name "UART_TX_N_LPI/LPI_GPIO_25"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G35"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 35.56 16.51 180)
 					(length 5.08)
 					(name "UART_RX_N_LPI/LPI_GPIO_26"
@@ -8776,6 +8954,24 @@
 						)
 					)
 					(number "E34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 31.75 180)
+					(length 5.08)
+					(name "UART_TX_N_SE5/GPIO_16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G23"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8802,16 +8998,34 @@
 					)
 				)
 				(pin bidirectional line
-					(at 35.56 5.08 180)
+					(at 35.56 29.21 180)
 					(length 5.08)
-					(name "UART_DEBUG_RX/GPIO_13"
+					(name "UART_CTS_N_SE5/GPIO_14"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "E28"
+					(number "G29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 19.05 180)
+					(length 5.08)
+					(name "UART_TX_N_LPI/LPI_GPIO_25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G35"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8833,71 +9047,17 @@
 						(type background)
 					)
 				)
-				(pin bidirectional line
-					(at 35.56 95.25 180)
+				(pin power_in line
+					(at 35.56 36.83 180)
 					(length 5.08)
-					(name "UIM1_PRESENT/GPIO_79"
+					(name "VREG_L4A_2P96"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "V1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 90.17 180)
-					(length 5.08)
-					(name "UIM1_RESET/GPIO_78"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 85.09 180)
-					(length 5.08)
-					(name "UIM1_CLK/GPIO_77"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "U2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 80.01 180)
-					(length 5.08)
-					(name "UIM1_DATA/GPIO_76"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "T1"
+					(number "AB3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8923,78 +9083,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 35.56 67.31 180)
-					(length 5.08)
-					(name "UIM2_PRESENT/GPIO_75"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "M2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 62.23 180)
-					(length 5.08)
-					(name "UIM2_RESET/GPIO_74"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 57.15 180)
-					(length 5.08)
-					(name "UIM2_CLK/GPIO_73"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "R1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 35.56 52.07 180)
-					(length 5.08)
-					(name "UIM2_DATA/GPIO_72"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 35.56 46.99 180)
 					(length 5.08)
@@ -9013,71 +9101,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 35.56 36.83 180)
+				(pin bidirectional line
+					(at 35.56 15.24 180)
 					(length 5.08)
-					(name "VREG_L4A_2P96"
+					(name "SDC2_DATA_1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AB3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 33.02 180)
-					(length 5.08)
-					(name "VREG_L21A_2P96_X7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "X7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 30.48 180)
-					(length 5.08)
-					(name "VREG_L21A_2P96_Z7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Z7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output clock
-					(at 35.56 26.67 180)
-					(length 5.08)
-					(name "SDC2_CLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C45"
+					(number "B44"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9121,17 +9155,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 35.56 15.24 180)
+				(pin output clock
+					(at 35.56 26.67 180)
 					(length 5.08)
-					(name "SDC2_DATA_1"
+					(name "SDC2_CLK"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "B44"
+					(number "C45"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9193,6 +9227,186 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 35.56 67.31 180)
+					(length 5.08)
+					(name "UIM2_PRESENT/GPIO_75"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "M2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 62.23 180)
+					(length 5.08)
+					(name "UIM2_RESET/GPIO_74"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 52.07 180)
+					(length 5.08)
+					(name "UIM2_DATA/GPIO_72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 57.15 180)
+					(length 5.08)
+					(name "UIM2_CLK/GPIO_73"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 90.17 180)
+					(length 5.08)
+					(name "UIM1_RESET/GPIO_78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 80.01 180)
+					(length 5.08)
+					(name "UIM1_DATA/GPIO_76"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "T1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 85.09 180)
+					(length 5.08)
+					(name "UIM1_CLK/GPIO_77"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "U2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 35.56 95.25 180)
+					(length 5.08)
+					(name "UIM1_PRESENT/GPIO_79"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "V1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 33.02 180)
+					(length 5.08)
+					(name "VREG_L21A_2P96_X7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "X7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 30.48 180)
+					(length 5.08)
+					(name "VREG_L21A_2P96_Z7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "Z7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
 			(symbol "SE250B4_7_0"
 				(unit_name "Antennas")
@@ -9205,24 +9419,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at 22.86 16.51 180)
-					(length 5.08)
-					(name "ANT_TRX"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A41"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
 					)
 				)
 				(pin input line
@@ -9254,6 +9450,24 @@
 						)
 					)
 					(number "A33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 16.51 180)
+					(length 5.08)
+					(name "ANT_TRX"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A41"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9294,52 +9508,16 @@
 					)
 				)
 				(pin output line
-					(at 38.1 77.47 180)
+					(at 38.1 15.24 180)
 					(length 5.08)
-					(name "CDC_MIC_BIAS1"
+					(name "CDC_HPH_R"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BC9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 73.66 180)
-					(length 5.08)
-					(name "CDC_IN1_P"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BC7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 69.85 180)
-					(length 5.08)
-					(name "CDC_IN1_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BD8"
+					(number "AN5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9348,16 +9526,88 @@
 					)
 				)
 				(pin output line
-					(at 38.1 64.77 180)
+					(at 38.1 17.78 180)
 					(length 5.08)
-					(name "CDC_MIC_BIAS2"
+					(name "CDC_HPH_L"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BD10"
+					(number "AP7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 48.26 180)
+					(length 5.08)
+					(name "CDC_IN3_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AR5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 20.32 180)
+					(length 5.08)
+					(name "CDC_HPH_REF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AS7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 44.45 180)
+					(length 5.08)
+					(name "CDC_IN3_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AT5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 38.1 12.7 180)
+					(length 5.08)
+					(name "CDC_HS_DET"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AU3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9420,34 +9670,16 @@
 					)
 				)
 				(pin input line
-					(at 38.1 48.26 180)
+					(at 38.1 73.66 180)
 					(length 5.08)
-					(name "CDC_IN3_P"
+					(name "CDC_IN1_P"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "AR5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 44.45 180)
-					(length 5.08)
-					(name "CDC_IN3_M"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AT5"
+					(number "BC7"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9456,16 +9688,16 @@
 					)
 				)
 				(pin output line
-					(at 38.1 39.37 180)
+					(at 38.1 77.47 180)
 					(length 5.08)
-					(name "CDC_EAR_P"
+					(name "CDC_MIC_BIAS1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "BD12"
+					(number "BC9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9509,6 +9741,60 @@
 						)
 					)
 				)
+				(pin input line
+					(at 38.1 69.85 180)
+					(length 5.08)
+					(name "CDC_IN1_M"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 64.77 180)
+					(length 5.08)
+					(name "CDC_MIC_BIAS2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 39.37 180)
+					(length 5.08)
+					(name "CDC_EAR_P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BD12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 38.1 26.67 180)
 					(length 5.08)
@@ -9520,78 +9806,6 @@
 						)
 					)
 					(number "BE5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 38.1 20.32 180)
-					(length 5.08)
-					(name "CDC_HPH_REF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AS7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 17.78 180)
-					(length 5.08)
-					(name "CDC_HPH_L"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AP7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 38.1 15.24 180)
-					(length 5.08)
-					(name "CDC_HPH_R"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AN5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 38.1 12.7 180)
-					(length 5.08)
-					(name "CDC_HS_DET"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AU3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9617,24 +9831,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 38.1 5.08 180)
-					(length 5.08)
-					(name "AUD_DMIC_DATA_1/GPIO_99"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "G39"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 38.1 2.54 180)
 					(length 5.08)
@@ -9646,6 +9842,24 @@
 						)
 					)
 					(number "G21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 5.08 180)
+					(length 5.08)
+					(name "AUD_DMIC_DATA_1/GPIO_99"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G39"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9848,24 +10062,6 @@
 					)
 				)
 				(pin no_connect line
-					(at 40.64 138.43 180)
-					(length 5.08)
-					(name "RFU_AM51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "AM51"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
 					(at 40.64 135.89 180)
 					(length 5.08)
 					(name "RFU_AM7"
@@ -9876,6 +10072,24 @@
 						)
 					)
 					(number "AM7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 40.64 138.43 180)
+					(length 5.08)
+					(name "RFU_AM51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "AM51"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10280,6 +10494,24 @@
 					)
 				)
 				(pin no_connect line
+					(at 40.64 52.07 180)
+					(length 5.08)
+					(name "RFU_BE9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "BE9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
 					(at 40.64 77.47 180)
 					(length 5.08)
 					(name "RFU_BE13"
@@ -10452,24 +10684,6 @@
 						)
 					)
 					(number "BE37"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 40.64 52.07 180)
-					(length 5.08)
-					(name "RFU_BE9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "BE9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10830,8 +11044,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LS"
 				(at 1.27 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10841,6 +11059,8 @@
 			)
 			(property "Value" "SPKM.15.8.A"
 				(at 1.27 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10850,56 +11070,68 @@
 			)
 			(property "Footprint" ""
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at -0.254 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Speaker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "Taoglas"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Part Number" "SPKM.15.8.A"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "speaker sound"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SPKM.15.8.A_0_0"
@@ -10968,7 +11200,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -10979,17 +11211,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -10998,38 +11236,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -11050,7 +11296,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11069,7 +11315,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:VDD"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -11080,17 +11326,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VDD"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -11099,38 +11351,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VDD\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VDD_0_1"
@@ -11175,7 +11435,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11204,7 +11464,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e8062b01-3c0c-4efa-909a-0625e6a621d6)
+		(uuid "e8062b01-3c0c-4efa-909a-0625e6a621d6")
 	)
 	(text "Mic"
 		(exclude_from_sim no)
@@ -12085,12 +12345,14 @@
 		(uuid "b565f17b-3a8d-4398-9fdc-21942a4fccae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.2133 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -12098,13 +12360,17 @@
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 193.04 111.76 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0784ca5b-522a-4d80-9c49-944b3a007ff0")
 		(property "Reference" "C103"
 			(at 194.31 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12114,6 +12380,8 @@
 		)
 		(property "Value" "33pF 50V"
 			(at 197.104 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,51 +12391,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 289.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 389.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 			(at 193.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 889.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
 			(at 989.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12177,7 +12455,7 @@
 			(uuid "594203d8-6c54-41df-9eaa-d7590a4b8165")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "C103")
 					(unit 1)
@@ -12189,13 +12467,17 @@
 		(lib_id "000MCLib:53047-0210")
 		(at 262.89 97.79 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e5373b3-c1bf-47e4-8e23-0e8745435773")
 		(property "Reference" "J22"
 			(at 259.842 92.456 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,6 +12487,8 @@
 		)
 		(property "Value" "53047-0210"
 			(at 267.462 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,51 +12498,61 @@
 		)
 		(property "Footprint" "000MCLib:530470210"
 			(at 279.4 192.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/53047-0210.pdf"
 			(at 279.4 292.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Connector 2P 1.25mm"
 			(at 262.89 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Molex"
 			(at 279.4 792.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "53047-0210"
 			(at 279.4 892.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12268,7 +12562,7 @@
 			(uuid "70d45fae-aa6c-4687-954e-f16b0b21f553")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "J22")
 					(unit 1)
@@ -12280,13 +12574,17 @@
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 237.49 111.76 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e7eb8b1-6c94-41f8-b8e8-a17b7fc2a61e")
 		(property "Reference" "C106"
 			(at 238.76 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,6 +12594,8 @@
 		)
 		(property "Value" "33pF 50V"
 			(at 241.554 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12305,51 +12605,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 333.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 433.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 			(at 237.49 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 933.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
 			(at 1033.68 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12371,14 +12681,18 @@
 		(lib_id "000MCLib:74269242111")
 		(at 224.79 101.6 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2308fbed-454a-431f-8e70-316dd67b0fdd")
 		(property "Reference" "FB2"
 			(at 224.79 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,6 +12701,8 @@
 		)
 		(property "Value" "110Ohm 1200mA"
 			(at 224.79 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,51 +12711,61 @@
 		)
 		(property "Footprint" "000MCLib:BEADC1005X55N"
 			(at 241.3 196.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
 			(at 241.3 296.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
 			(at 224.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 241.3 796.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "74269242111"
 			(at 241.3 896.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12461,22 +12787,28 @@
 		(lib_id "power:GND")
 		(at 128.27 43.18 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "23e529fe-5f29-4623-80a1-e63cbf589bfc")
 		(property "Reference" "#PWR0188"
 			(at 128.27 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 128.27 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12485,29 +12817,35 @@
 		)
 		(property "Footprint" ""
 			(at 128.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 128.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12526,13 +12864,17 @@
 		(lib_id "000MCLib:GRM155R60J106ME15D")
 		(at 81.28 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "244b4abb-957e-45eb-b78a-8aa08aa22c64")
 		(property "Reference" "C100"
 			(at 77.47 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12541,6 +12883,8 @@
 		)
 		(property "Value" "10uF 6.3V"
 			(at 88.392 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,51 +12893,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 90.17 195.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 90.17 295.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
 			(at 81.28 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 90.17 795.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM155R60J106ME15D"
 			(at 90.17 895.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12603,7 +12957,7 @@
 			(uuid "645f1706-3844-4d7e-83ef-fc075c095152")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "C100")
 					(unit 1)
@@ -12615,22 +12969,28 @@
 		(lib_id "power:GND")
 		(at 130.81 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2af03012-b34c-410d-9e7a-d9183ef743cc")
 		(property "Reference" "#PWR0150"
 			(at 130.81 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 130.81 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,29 +12999,35 @@
 		)
 		(property "Footprint" ""
 			(at 130.81 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 130.81 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 130.81 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12680,13 +13046,17 @@
 		(lib_id "000MCLib:GRM1555C1H100JA01D")
 		(at 128.27 50.8 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3149b36f-c2f6-4980-a852-b493a60f4696")
 		(property "Reference" "C108"
 			(at 129.54 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,6 +13066,8 @@
 		)
 		(property "Value" "10pF 50V"
 			(at 132.08 44.958 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,51 +13077,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 224.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 324.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 10pF, 50V, X5R, 0402"
 			(at 128.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 824.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H100JA01D"
 			(at 924.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12771,14 +13153,18 @@
 		(lib_id "000MCLib:SPKM.15.8.A")
 		(at 262.89 109.22 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c727ca3-ae93-4d66-9f1c-c772192cffa8")
 		(property "Reference" "LS1"
 			(at 267.97 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,6 +13174,8 @@
 		)
 		(property "Value" "SPKM.15.8.A"
 			(at 267.97 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12797,47 +13185,57 @@
 		)
 		(property "Footprint" ""
 			(at 262.89 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 262.636 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Speaker"
 			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Taoglas"
 			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "SPKM.15.8.A"
 			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12847,7 +13245,7 @@
 			(uuid "13bbea2e-9bae-4132-a344-a5937641617b")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "LS1")
 					(unit 1)
@@ -12859,13 +13257,17 @@
 		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 130.81 110.49 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "55fc95b9-8908-42e4-9225-ae9f18b0c849")
 		(property "Reference" "R111"
 			(at 128.016 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,6 +13276,8 @@
 		)
 		(property "Value" "10K"
 			(at 128.016 114.046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,49 +13286,59 @@
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 130.81 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 130.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
 			(at 130.81 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 130.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
 			(at 130.81 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12946,14 +13360,18 @@
 		(lib_id "000MCLib:PAM8302AASCR")
 		(at 144.78 97.79 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf31ddb-315f-49e6-bfb0-158f03ad8b53")
 		(property "Reference" "U100"
 			(at 144.78 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12962,6 +13380,8 @@
 		)
 		(property "Value" "PAM8302AASCR"
 			(at 144.78 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12970,51 +13390,61 @@
 		)
 		(property "Footprint" "000MCLib:SOP65P490X110-8N"
 			(at 166.37 192.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PAM8302A.pdf"
 			(at 166.37 292.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "IC Auido Amplifier  1-Channel (Mono) Class D 8-MSOP"
 			(at 144.78 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
 			(at 166.37 792.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "PAM8302AASCR"
 			(at 166.37 892.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13042,7 +13472,7 @@
 			(uuid "6ede9898-d5fe-4f92-bdb1-9c8e19dd0732")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "U100")
 					(unit 1)
@@ -13054,22 +13484,28 @@
 		(lib_id "power:GND")
 		(at 170.18 69.85 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6966f911-8067-4e7c-bc9b-a1d1c63bb8bc")
 		(property "Reference" "#PWR0177"
 			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 170.18 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13078,29 +13514,35 @@
 		)
 		(property "Footprint" ""
 			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13119,13 +13561,17 @@
 		(lib_id "000MCLib:GRM1555C1H101JA01J")
 		(at 203.2 97.79 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f7c28e1-fcba-442d-afac-a3466caffd66")
 		(property "Reference" "C105"
 			(at 206.756 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13134,6 +13580,8 @@
 		)
 		(property "Value" "100pF 50V"
 			(at 202.438 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,51 +13590,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 212.09 193.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 212.09 293.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 100pF, 50V, X5R, 0402"
 			(at 203.2 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 212.09 793.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H101JA01J"
 			(at 212.09 893.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13196,7 +13654,7 @@
 			(uuid "6e305734-9ae1-475e-9d55-63d20669fda1")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "C105")
 					(unit 1)
@@ -13208,13 +13666,17 @@
 		(lib_id "000MCLib:GRM158R60J226ME01D")
 		(at 167.64 111.76 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "739a54fe-55c1-4835-bc35-26b98d99f202")
 		(property "Reference" "C102"
 			(at 169.164 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,6 +13686,8 @@
 		)
 		(property "Value" "22uF 6.3V"
 			(at 171.45 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13233,51 +13697,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 71.45 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H105KE05-01A.pdf"
 			(at -28.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 22uF, 6.3V, X5R, 0402"
 			(at 167.64 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at -528.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM158R60J226ME01D"
 			(at -628.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13287,7 +13761,7 @@
 			(uuid "3d95df79-bea7-4aa1-b99a-daf793bb9d6f")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "C102")
 					(unit 1)
@@ -13299,13 +13773,17 @@
 		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 118.11 55.88 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "89c910c6-0dd1-47a4-893a-0403f711cd44")
 		(property "Reference" "C65"
 			(at 119.126 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,6 +13793,8 @@
 		)
 		(property "Value" "100nF 10V"
 			(at 113.284 51.562 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,51 +13804,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 127 152.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 127 252.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
 			(at 118.11 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 127 752.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
 			(at 127 852.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13390,13 +13880,17 @@
 		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 128.27 69.85 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a9694ed-019e-4dcf-8d45-cdb915e6650d")
 		(property "Reference" "R102"
 			(at 125.222 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13405,6 +13899,8 @@
 		)
 		(property "Value" "0R"
 			(at 125.222 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,49 +13909,59 @@
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor 0R 1/16W CH0402"
 			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RC0402JR-070RL"
 			(at 128.27 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13477,13 +13983,17 @@
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 212.09 111.76 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cca6602-da2e-4c39-bd90-0b2b09d00e69")
 		(property "Reference" "C104"
 			(at 213.36 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13493,6 +14003,8 @@
 		)
 		(property "Value" "33pF 50V"
 			(at 216.154 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,51 +14014,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 308.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 408.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 			(at 212.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 908.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
 			(at 1008.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13568,13 +14090,17 @@
 		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 170.18 63.5 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4c97c4d-5be5-4417-8e08-20c1697f78cb")
 		(property "Reference" "C109"
 			(at 171.45 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13584,6 +14110,8 @@
 		)
 		(property "Value" "100nF 10V"
 			(at 174.752 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,51 +14121,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 73.99 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at -26.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
 			(at 170.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at -526.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
 			(at -626.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13659,22 +14197,28 @@
 		(lib_id "power:GND")
 		(at 161.29 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1c7c7b-ac12-40c4-848b-b4e177536e3e")
 		(property "Reference" "#PWR0152"
 			(at 161.29 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 161.29 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,29 +14227,35 @@
 		)
 		(property "Footprint" ""
 			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 161.29 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13724,13 +14274,16 @@
 		(lib_id "000MCLib:SE250B4")
 		(at 22.86 129.54 0)
 		(unit 8)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad8abc93-a5f9-495a-bb7d-a4eaa7b11352")
 		(property "Reference" "U5"
 			(at 22.86 46.736 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13741,6 +14294,7 @@
 		)
 		(property "Value" "SE250B4"
 			(at 47.752 131.826 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -13751,49 +14305,59 @@
 		)
 		(property "Footprint" "000MCLib:XCVR_SE250B4-NA"
 			(at 23.114 2.794 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 22.86 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Telit Smart Module QCM2290"
 			(at 23.114 4.064 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Telit"
 			(at 21.082 -45.466 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "SE250B4-EU"
 			(at 23.622 -40.386 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "29"
@@ -15132,7 +15696,7 @@
 			(uuid "c47ba9ec-d748-488b-b974-ca1f1e1388ed")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "U5")
 					(unit 8)
@@ -15144,22 +15708,28 @@
 		(lib_id "power:VDD")
 		(at 180.34 99.06 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0e8b43a-216c-4ab7-ba91-6c4669ccbbe9")
 		(property "Reference" "#PWR0151"
 			(at 176.53 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VPH_PWR"
 			(at 187.452 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15168,29 +15738,35 @@
 		)
 		(property "Footprint" ""
 			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
 			(at 180.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15209,22 +15785,28 @@
 		(lib_id "power:GND")
 		(at 128.27 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd22a21a-3c2a-44b8-a069-c68b12d5907f")
 		(property "Reference" "#PWR0170"
 			(at 128.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 128.27 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15233,29 +15815,35 @@
 		)
 		(property "Footprint" ""
 			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15274,14 +15862,18 @@
 		(lib_id "000MCLib:CMM-3729AT-42316-TR")
 		(at 133.35 57.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca1b55ba-0c4e-44fc-b94c-07047b5db8bb")
 		(property "Reference" "MK1"
 			(at 149.86 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15290,6 +15882,8 @@
 		)
 		(property "Value" "CMM-3729AT-42316-TR"
 			(at 149.86 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15298,51 +15892,61 @@
 		)
 		(property "Footprint" "000MCLib:CMM3729AT42316TR"
 			(at 162.56 152.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf"
 			(at 162.56 252.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "MEMS Microphone, 3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB,"
 			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Same Sky"
 			(at 162.56 752.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "CMM-3729AT-42316-TR"
 			(at 162.56 852.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -15370,14 +15974,18 @@
 		(lib_id "000MCLib:74269242111")
 		(at 223.52 93.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb87c3d-c675-4348-ad34-b6b8e9441a67")
 		(property "Reference" "FB1"
 			(at 223.52 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15386,6 +15994,8 @@
 		)
 		(property "Value" "110Ohm 1200mA"
 			(at 223.52 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15394,51 +16004,61 @@
 		)
 		(property "Footprint" "000MCLib:BEADC1005X55N"
 			(at 240.03 188.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
 			(at 240.03 288.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
 			(at 223.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 240.03 788.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "74269242111"
 			(at 240.03 888.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15448,7 +16068,7 @@
 			(uuid "b75efba6-7c87-455d-a988-4cf43a923e09")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "FB1")
 					(unit 1)
@@ -15460,13 +16080,17 @@
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 246.38 111.76 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2da786a-ba15-42c2-a5f2-bc173f39a0e0")
 		(property "Reference" "C107"
 			(at 247.65 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,6 +16100,8 @@
 		)
 		(property "Value" "33pF 50V"
 			(at 250.444 107.188 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15485,51 +16111,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 342.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 442.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 			(at 246.38 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 942.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
 			(at 1042.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15551,14 +16187,18 @@
 		(lib_id "000MCLib:74269242111")
 		(at 179.07 57.15 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e32c55f6-d126-4678-8b83-414c1aea495b")
 		(property "Reference" "FB3"
 			(at 179.07 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15567,6 +16207,8 @@
 		)
 		(property "Value" "110Ohm 1200mA"
 			(at 179.07 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15575,51 +16217,61 @@
 		)
 		(property "Footprint" "000MCLib:BEADC1005X55N"
 			(at 195.58 152.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
 			(at 195.58 252.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
 			(at 179.07 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
 			(at 195.58 752.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "74269242111"
 			(at 195.58 852.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15641,13 +16293,17 @@
 		(lib_id "000MCLib:GRM155R60J106ME15D")
 		(at 81.28 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e66aece0-1b3f-408b-85f3-a56fbfa71f2a")
 		(property "Reference" "C101"
 			(at 77.47 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15656,6 +16312,8 @@
 		)
 		(property "Value" "10uF 6.3V"
 			(at 88.392 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15664,51 +16322,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 90.17 199.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 90.17 299.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
 			(at 81.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 90.17 799.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM155R60J106ME15D"
 			(at 90.17 899.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15730,13 +16398,17 @@
 		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 109.22 99.06 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1aa560d-ba47-456b-be94-0ec2b513dd9b")
 		(property "Reference" "R109"
 			(at 111.76 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,6 +16417,8 @@
 		)
 		(property "Value" "10K"
 			(at 105.664 96.266 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,49 +16427,59 @@
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 102.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
 			(at 102.87 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
 			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15805,7 +16489,7 @@
 			(uuid "fe38710e-fb4c-4635-8cf2-1decf03558c3")
 		)
 		(instances
-			(project ""
+			(project "SEBoard"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d"
 					(reference "R109")
 					(unit 1)
@@ -15817,13 +16501,17 @@
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 110.49 49.53 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f30bb2bd-3e5a-4583-a361-d7def604b32e")
 		(property "Reference" "C63"
 			(at 112.014 44.196 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,6 +16521,8 @@
 		)
 		(property "Value" "33pF 50V"
 			(at 107.188 45.212 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15842,51 +16532,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 206.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 306.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
 			(at 110.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 806.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
 			(at 906.68 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15908,13 +16608,17 @@
 		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 118.11 59.69 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f66ab773-ae3e-45fa-9835-4ae45a150ee6")
 		(property "Reference" "C99"
 			(at 119.38 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,6 +16628,8 @@
 		)
 		(property "Value" "100nF 10V"
 			(at 113.284 62.738 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15933,51 +16639,61 @@
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
 			(at 127 155.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
 			(at 127 255.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
 			(at 118.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 127 755.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
 			(at 127 855.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15999,13 +16715,17 @@
 		(lib_id "000MCLib:RC0402JR-0710KL")
 		(at 109.22 102.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f878e978-092c-4f28-8ede-4e31bb9176fe")
 		(property "Reference" "R110"
 			(at 112.014 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,6 +16734,8 @@
 		)
 		(property "Value" "10K"
 			(at 106.172 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,49 +16744,59 @@
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
 			(at 102.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 109.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
 			(at 102.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 109.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
 			(at 109.22 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16086,22 +16818,28 @@
 		(lib_id "power:GND")
 		(at 110.49 43.18 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff01f6f2-51ad-44d5-ac36-5de6ee86a9cb")
 		(property "Reference" "#PWR060"
 			(at 110.49 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 110.49 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16110,29 +16848,35 @@
 		)
 		(property "Footprint" ""
 			(at 110.49 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 110.49 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 110.49 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
