@@ -65,8 +65,8 @@
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.3
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -83,30 +83,6 @@
         ],
         [
           "clearance|66807000|112190000|49eea603-3e81-47bb-bb7b-2083460d9bc2|a6f4dd51-5913-403a-a381-547fa9f916a1",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|56050000|4bcf9cba-d769-4b73-8f7c-09256b055360|b5c43199-679c-4d3c-b3e4-149237aad5dc",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|59250000|ae9ed6dc-d63a-403f-84f7-9f805b0056dd|1c95a82b-6232-44ca-a3bb-d41901218ed1",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|62275000|c06c1ef3-4b74-45b4-8aaf-be6a1cb67375|df076895-0d99-474d-b580-1c49e08ba436",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|65475000|97ffa3ba-568a-4fbb-b629-3f8e2e55d985|4798078c-8964-4032-83b1-e297fa1ebac6",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|68550000|a3fecf9b-6743-4cdb-9441-040ce237a9b0|3149dd01-e51d-4304-9b38-b56e41d6612b",
-          ""
-        ],
-        [
-          "hole_clearance|138400000|71750000|42239c67-57ab-4e3b-9846-aea630fa1b50|0350a381-7027-44c7-a4e7-6852c32d477f",
           ""
         ],
         [
@@ -1197,7 +1173,7 @@
         "uuid": "38605b01-fdd9-41de-8a8b-501279ee3e8a"
       }
     ],
-    "used_designators": "C110,#PWR189",
+    "used_designators": "C110,#PWR189,#PWR197-199",
     "variants": []
   },
   "sheets": [
